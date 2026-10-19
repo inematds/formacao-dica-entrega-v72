@@ -1,0 +1,291 @@
+{
+  "slug": "playbook",
+  "num": 2,
+  "menu": "Playbook",
+  "titulo": "O playbook operacional: 7 partes, exemplos resolvidos e saída fixa",
+  "titulo_curto": "O playbook operacional",
+  "minutos": 18,
+  "lead": "O playbook é o documento que transforma o jeito de atender da clínica em instruções que o assistente segue. Sem ele, qualquer ferramenta responde no chute. Com ele, a dona lê, aprova e corrige; e quando o assistente errar, você sabe qual versão ele seguia.",
+  "objetivo": "escrever o playbook da recepção nas 7 partes, com 3 exemplos resolvidos, formato de saída fixo e versão no topo.",
+  "competencias": [
+    "escrever-playbook",
+    "escrever-exemplos-resolvidos",
+    "definir-saida-estruturada",
+    "versionar-instrucoes"
+  ],
+  "aprende": [
+    {
+      "t": "Montar o esqueleto de 7 partes"
+    },
+    {
+      "t": "Escrever em ordem direta, sem \"use o bom senso\""
+    },
+    {
+      "t": "Resolver exemplos: simples, difícil e \"chama uma pessoa\""
+    },
+    {
+      "t": "Fixar a saída e versionar cada mudança"
+    }
+  ],
+  "hero_alt": "Fichário aberto com folhas e abas; uma mão faz uma anotação, com o balcão de uma recepção ao fundo.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "As 7 partes do playbook",
+      "sub": "Cada parte responde a uma pergunta que o assistente faria na hora de agir. Clique em cada uma.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Contexto",
+          "sub": "quem somos",
+          "detalhe": "A clínica, os serviços, o horário, o perfil de quem escreve e o tom. Na Vila Serena (fictícia): fisioterapia e estética, 9 pessoas, tratamento por \"você\", mensagens curtas."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Objetivo",
+          "sub": "o escopo",
+          "detalhe": "Uma frase do que ele faz e a lista do que não faz, copiada da ficha da aula 1. É a parte que segura o escopo."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Entradas",
+          "sub": "o que chega",
+          "detalhe": "Os tipos de mensagem que chegam e como costumam vir: \"tem horário amanhã?\", áudio, foto de pedido médico, \"quanto custa?\"."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Regras",
+          "sub": "se, então",
+          "detalhe": "Passo a passo no formato \"se acontecer isto, faça aquilo\". Nada de \"use o bom senso\": o assistente não tem bom senso, tem padrão."
+        },
+        {
+          "icone": "check",
+          "titulo": "Exemplos",
+          "sub": "resolvidos",
+          "forte": true,
+          "detalhe": "Pares de mensagem e resposta certa: pelo menos um simples, um difícil e um em que o certo é chamar uma pessoa. Mostrar o caso resolvido ensina mais rápido que descrever regra."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Saída",
+          "sub": "formato fixo",
+          "detalhe": "Para pessoa, texto curto. Para planilha ou sistema, campos com nome fixo, sempre os mesmos. Sem formato fixo, a ligação com a planilha quebra."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Limites",
+          "sub": "nunca fazer",
+          "detalhe": "O que ele nunca faz e quando passa para uma pessoa: reclamação, pergunta de saúde, preço fora da tabela, pedido de dado sensível."
+        }
+      ],
+      "legenda": "Versão e data no topo, histórico no pé. Toda mudança vira uma versão nova."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Linguagem que o assistente segue",
+      "sub": "Três trocas que deixam o comportamento previsível.",
+      "passos": [
+        {
+          "titulo": "Ordem direta",
+          "sub": "e não descrição",
+          "texto": [
+            "Troque \"responda de forma simpática e profissional\" por instruções que dá para conferir.",
+            "Cada advérbio vago (\"rapidamente\", \"naturalmente\") vira um critério: \"em até 3 linhas\", \"use o primeiro nome\"."
+          ],
+          "exemplo": {
+            "rot": "Vago × direto",
+            "texto": "Vago: \"resolva da melhor maneira\". Direto: \"Cumprimente pelo nome. Se a dúvida está na lista, responda em até 3 linhas. Se não está, escreva 'vou confirmar com a recepção' e marque para uma pessoa.\""
+          }
+        },
+        {
+          "titulo": "Exemplo",
+          "sub": "e não explicação",
+          "texto": [
+            "Um caso resolvido mostra tom, tamanho e formato de uma vez.",
+            "Peça à dona capturas de conversas reais e troque nome e telefone antes de usar: conversa de paciente é dado pessoal."
+          ]
+        },
+        {
+          "titulo": "Regra escrita",
+          "sub": "e não bom senso",
+          "texto": [
+            "Proíba no playbook as frases \"use o bom senso\", \"seja natural\", \"resolva como puder\" e \"adapte se precisar\".",
+            "Cada uma abre espaço para resposta inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Onde o playbook mora e como muda",
+      "sub": "Ele é da clínica, não seu nem da ferramenta.",
+      "passos": [
+        {
+          "titulo": "Onde",
+          "sub": "um documento",
+          "texto": [
+            "Num documento que a dona abre e comenta, na ferramenta de texto que a clínica já usa.",
+            "Nunca só dentro da ferramenta que roda o assistente, nem em PDF, nem no seu computador: a dona fica refém de você."
+          ]
+        },
+        {
+          "titulo": "Versão",
+          "sub": "no topo",
+          "texto": [
+            "Topo: versão ativa, data, autor e a mudança em uma linha. Pé: o histórico inteiro.",
+            "Ajuste pequeno (tom, exemplo) soma 0.1; mudança de comportamento soma 1.0."
+          ]
+        },
+        {
+          "titulo": "Registro",
+          "sub": "a cada conversa",
+          "texto": [
+            "Se a ferramenta deixar, grave junto de cada atendimento a versão do playbook usada.",
+            "Quando a dona disser \"essa semana respondeu errado\", você encontra a regra exata em minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "O esqueleto, os exemplos e a saída. Dados da Clínica Vila Serena são fictícios.",
+      "blocos": [
+        {
+          "rot": "Playbook · esqueleto",
+          "icone": "arquivo",
+          "conteudo": "# PLAYBOOK — <nome do assistente> · <empresa>\nVersão: 1.0 · Data: <dd/mm/aaaa> · Autores: <consultor> + <dona>\nMudança nesta versão: versão inicial\n\n## 1. CONTEXTO\nQuem somos, serviços, horário, quem escreve para nós, tom.\n\n## 2. OBJETIVO\nFaz: <uma frase>\nNão faz: <lista copiada da ficha da aula 1>\n\n## 3. ENTRADAS\nTipos de mensagem que chegam e como vêm (texto, áudio, foto).\n\n## 4. REGRAS (se → então)\n- Se <situação>, então <ação>.\n- Se não souber, então escreve \"vou confirmar com a recepção\" e marca PARA_PESSOA.\n\n## 5. EXEMPLOS RESOLVIDOS\n(simples, difícil e um que chama uma pessoa)\n\n## 6. FORMATO DE SAÍDA\nTexto para o paciente + campos fixos para a planilha.\n\n## 7. LIMITES\nNunca: <...>. Passa para uma pessoa quando: <...>.\n\n## HISTÓRICO\nv1.0 — <data> — versão inicial"
+        },
+        {
+          "rot": "Exemplos resolvidos · Vila Serena",
+          "icone": "chat",
+          "conteudo": "EX 1 — simples (está na lista de dúvidas)\nEntrada: \"vcs abrem sábado?\"\nSaída: \"Oi! Abrimos aos sábados das 8h às 12h. Quer marcar um horário?\"\n\nEX 2 — marcação\nEntrada: \"queria marcar fisio pra minha mãe\"\nSaída: \"Claro! Me diz o nome dela e o melhor dia e turno. A recepção confirma o horário com você ainda hoje.\"\n\nEX 3 — difícil (fora da lista)\nEntrada: \"aceitam o convênio Alfa pra drenagem?\"\nSaída: \"Boa pergunta! Vou confirmar com a recepção e te respondo até o fim do dia.\"\n[PARA_PESSOA = sim · motivo = convênio fora da lista]\n\nEX 4 — chama uma pessoa (saúde ou reclamação)\nEntrada: \"tô com muita dor depois da sessão, é normal?\"\nSaída: \"Sinto muito. Vou chamar a fisioterapeuta agora para falar com você. Se a dor for forte, procure atendimento de urgência.\"\n[PARA_PESSOA = sim · prioridade = ALTA]"
+        },
+        {
+          "rot": "Saída estruturada",
+          "icone": "lista",
+          "conteudo": "{\n  \"nome\": \"Paciente A\",\n  \"intencao\": \"marcar\",\n  \"servico\": \"fisioterapia\",\n  \"preferencia\": \"terça à tarde\",\n  \"para_pessoa\": false,\n  \"motivo_pessoa\": \"\",\n  \"versao_playbook\": \"1.0\"\n}"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Parta da ficha da aula 1. Se usar conversas reais, troque nomes e telefones antes.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Playbook v1.0 da recepção",
+          "min": "45 min",
+          "texto": "Preencha o esqueleto para o assistente escolhido na aula 1. Escreva as regras no formato \"se … então …\" e proíba as frases vagas.",
+          "pronto": "as 7 partes estão preenchidas, há pelo menos 5 regras \"se … então …\", os limites têm pelo menos 3 itens e o topo tem versão, data e autores."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Exemplos e saída",
+          "min": "30 min",
+          "texto": "Escreva os exemplos resolvidos e a saída estruturada. Leia com a dona (ou com quem atende) e anote o que ela mudaria.",
+          "pronto": "há pelo menos 3 exemplos (um simples, um difícil e um que chama uma pessoa), todos com a saída nos mesmos campos, e a leitura com a dona virou a versão 1.1 com a mudança registrada no histórico."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {
+          "p": "Qual instrução deixa o comportamento do assistente mais previsível?",
+          "opcoes": [
+            "\"Atenda com simpatia e resolva da melhor maneira possível para o paciente.\"",
+            "\"Se a dúvida está na lista, responda em até 3 linhas; se não está, marque para uma pessoa.\"",
+            "\"Use o bom senso e adapte a resposta conforme o paciente e a situação.\"",
+            "\"Seja natural e humano, como a nossa recepcionista seria no dia a dia.\""
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Instrução previsível dá para conferir: tem condição e ação. Simpatia, bom senso e naturalidade são impressões que cada um lê de um jeito."
+        },
+        {
+          "p": "Por que o playbook precisa de um exemplo em que o certo é chamar uma pessoa?",
+          "opcoes": [
+            "Porque a política do WhatsApp exige pelo menos quatro exemplos no documento.",
+            "Para o assistente parecer mais humilde e menos robótico nas respostas.",
+            "Para preencher a parte 5 com o número mínimo de exemplos combinado.",
+            "Para mostrar onde termina o escopo e como ele passa adiante sem inventar."
+          ],
+          "certa": 3,
+          "ref": "diagrama",
+          "explica": "O exemplo de \"chama uma pessoa\" ensina o limite. Sem ele, o assistente tenta responder o que não sabe, como uma pergunta de saúde."
+        },
+        {
+          "p": "Onde o playbook da Vila Serena deve morar?",
+          "opcoes": [
+            "Num documento que a dona abre e comenta, com versão no topo e histórico no pé.",
+            "Dentro da ferramenta que roda o assistente, onde só o consultor tem acesso e controle.",
+            "Num PDF assinado, para ninguém mudar o texto depois da entrega.",
+            "No computador do consultor, que é quem entende das instruções."
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "O playbook é da clínica. Se ela não consegue ler e pedir mudança, fica dependente de você e ninguém sabe qual versão está valendo."
+        },
+        {
+          "p": "A dona pediu para o assistente deixar de responder sobre convênio. O que acontece com o playbook?",
+          "opcoes": [
+            "Nada: é uma mudança pequena e não precisa de registro.",
+            "Você reescreve o documento todo do zero, para ficar coerente com o pedido dela.",
+            "Vira versão nova, com data, autor e a mudança em uma linha no histórico.",
+            "A dona muda direto na ferramenta, sem passar pelo documento."
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "Toda mudança é uma versão. É o histórico que permite saber, depois, por que o assistente respondeu de um jeito numa semana e de outro na seguinte."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {
+          "t": "7 partes",
+          "texto": "Contexto, objetivo, entradas, regras, exemplos, saída e limites. Faltou uma, o assistente improvisa."
+        },
+        {
+          "t": "Ordem direta",
+          "texto": "Regra \"se … então …\", exemplo resolvido e nenhuma frase vaga."
+        },
+        {
+          "t": "Saída fixa",
+          "texto": "Texto curto para pessoa, campos com nome fixo para planilha ou sistema."
+        },
+        {
+          "t": "É da clínica",
+          "texto": "Mora num documento que a dona abre, com versão no topo e histórico no pé."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "Gestão de IA · Agentes: o cargo digital e a constituição do agente",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "robo"
+        },
+        {
+          "t": "Profissional 2030 · Auditor: dados e fornecedores (LGPD)",
+          "href": "https://inematds.github.io/prof2030-auditor/",
+          "icone": "escudo"
+        },
+        {
+          "t": "DICA 1 · Diagnóstico: de caso a regra",
+          "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

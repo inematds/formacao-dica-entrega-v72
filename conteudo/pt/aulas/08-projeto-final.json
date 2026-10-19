@@ -1,0 +1,139 @@
+{
+  "slug": "projeto-final",
+  "num": 8,
+  "menu": "Projeto",
+  "titulo": "Projeto final: DICA de ponta a ponta na Clínica Vila Serena",
+  "titulo_curto": "Projeto final e plano",
+  "minutos": 20,
+  "lead": "Hora de juntar tudo num dossiê só: o diagnóstico do DICA 1 e as peças das aulas 1 a 7, aplicados à Clínica Vila Serena, uma clínica fictícia. Você avalia o dossiê por uma rubrica antes de dar por pronto e sai com um plano de 90 dias com datas. Caso real é opcional e só com autorização escrita.",
+  "objetivo": "montar o dossiê DICA da Clínica Vila Serena, avaliar pela rubrica e gerar o plano de 90 dias com datas.",
+  "competencias": ["montar-dossie-dica", "avaliar-por-rubrica", "planejar-noventa-dias"],
+  "aprende": [
+    {"t": "O que vai no dossiê e em que ordem"},
+    {"t": "Avaliar o próprio trabalho por rubrica"},
+    {"t": "Usar um caso real com autorização"},
+    {"t": "Gerar o plano de 90 dias com datas"}
+  ],
+  "hero_alt": "Mesa perto de uma janela com um dossiê encadernado, um caderno aberto e uma xícara de café; ao fundo, a sala de espera de uma clínica.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "O dossiê DICA",
+      "sub": "Seis peças, na ordem do método. Clique em cada uma.",
+      "nos": [
+        {"icone": "lupa", "titulo": "Diagnóstico", "sub": "DICA 1", "detalhe": "O relatório de uma página do DICA 1, com o mapa de oportunidades e a recomendação. Se você não fez o DICA 1, faça a versão curta: as 5 áreas e uma recomendação com motivo."},
+        {"icone": "alvo", "titulo": "Ficha", "sub": "aula 1", "detalhe": "A ficha do primeiro assistente: faz, não faz, canal oficial, caminho para uma pessoa, métrica com o número de antes e plano de desligar."},
+        {"icone": "arquivo", "titulo": "Playbook", "sub": "aulas 2 e 3", "detalhe": "O playbook com versão, a tabela do importante e o quadro das 3 fases com a regra combinada de subir e voltar."},
+        {"icone": "check", "titulo": "Testes", "sub": "aula 4", "forte": true, "detalhe": "A decisão de construção e a bateria de 15 casos da última rodada, sem limite violado."},
+        {"icone": "usuario", "titulo": "Treino", "sub": "aula 5", "detalhe": "Folha de papéis, roteiro do treino de 90 minutos, manual de uma página e registro de dúvidas."},
+        {"icone": "grafico", "titulo": "Check-ins", "sub": "aulas 6 e 7", "detalhe": "Quatro relatórios semanais contra a linha de base, o escopo de manutenção, o mapa de 12 meses e o checklist pré-entrega."}
+      ],
+      "legenda": "Uma página de capa na frente; as seis peças atrás. A capa você escreve por último."
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Índice do dossiê, rubrica e autorização para caso real.",
+      "blocos": [
+        {"rot": "Índice do dossiê", "icone": "lista", "conteudo": "DOSSIÊ DICA · <empresa> (<fictícia | real com autorização>) · <data>\n\nCAPA (1 página, escrita por último)\n- a dor, com o número de antes\n- o assistente escolhido e o que ele não faz\n- onde ele está hoje (fase) e o que mudou contra a linha de base\n- o que vem a seguir (manutenção, próxima área ou parar)\n\nPEÇAS\n1. Diagnóstico (DICA 1) ........ relatório de 1 página\n2. Ficha do primeiro assistente  aula 1\n3. Playbook + tabela + fases .... aulas 2 e 3\n4. Decisão + bateria de 15 ...... aula 4\n5. Papéis + treino + manual ..... aula 5\n6. Relatórios + escopo + mapa ... aulas 6 e 7\n7. Checklist pré-entrega ........ aula 7\n8. Rubrica preenchida"},
+        {"rot": "Rubrica (0 a 4 por critério)", "icone": "check", "conteudo": "RUBRICA · DOSSIÊ DICA · nota de 0 a 4 em cada critério\nPronto quando: todos os critérios com 3 ou mais.\n\n1. DOR COM NÚMERO\n   0 sem número · 2 número sem jeito de medir · 4 linha de base com data, quem mediu e como\n\n2. ESCOPO FECHADO\n   0 \"assistente completo\" · 2 faz descrito, não faz vago · 4 uma área, \"não faz\" com 3+ itens\n\n3. SEGURANÇA\n   0 sem fases · 2 fases sem regra escrita · 4 risco alto na fase 1, caminho para pessoa\n     testado, canal oficial, dado pessoal com finalidade e prazo\n\n4. A CLÍNICA USA SEM VOCÊ\n   0 só o consultor opera · 2 campeã sem manual · 4 campeã aprova e ajusta sozinha,\n     manual no balcão, registro de dúvidas em uso\n\n5. ACOMPANHAMENTO\n   0 sem relatório · 2 relatórios sem linha de base · 4 quatro relatórios contra a linha\n     de base, escopo de manutenção e próximo passo combinado (inclusive parar)\n\nNotas: 1 <_> · 2 <_> · 3 <_> · 4 <_> · 5 <_>   Avaliado por: <você | colega>"},
+        {"rot": "Autorização para caso real (opcional)", "icone": "cadeado", "conteudo": "AUTORIZAÇÃO · uso do caso como projeto de estudo\n\nEu, <nome da dona>, responsável por <empresa>, autorizo <consultor> a usar\no trabalho feito em <período> como projeto final de estudo, nestas condições:\n\n- uso: <só para estudo | também como caso publicado>\n- o que aparece: <só números agregados | nome da empresa>\n- o que nunca aparece: nome, telefone e conversa de cliente; dados de saúde\n- prints e gravações: só anonimizados e aprovados por mim antes\n- posso retirar esta autorização a qualquer momento, por mensagem\n\nData: <dd/mm/aaaa> · Assinatura ou mensagem \"de acordo\": <...>"}
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "O mapa do curso",
+      "sub": "Quatro entregas até o assistente andar sozinho. Clique num exercício para ver o \"pronto quando\".",
+      "degraus": [
+        {"aula": "primeiro-assistente", "icone": "alvo", "quando": "Semana 1", "titulo": "Escolher", "sub": "ficha e matriz", "saida": "Primeiro assistente escolhido, com o que não faz e plano de desligar.", "passo": "Parte do mapa de oportunidades do DICA 1. Três filtros, a regra dos 3 nãos e as regras do WhatsApp conferidas na data."},
+        {"aula": "tres-fases", "icone": "portao", "quando": "Semanas 2 e 3", "titulo": "Ligar", "sub": "playbook e fases", "saida": "Playbook com versão, testado em 15 casos e ligado na fase 1.", "passo": "Requer a ficha. Playbook da aula 2, decisão e testes da aula 4, e a escada de aprovação combinada com a dona."},
+        {"aula": "capacitar", "icone": "usuario", "quando": "Semana 4", "titulo": "Ensinar", "sub": "campeã e manual", "saida": "Campeã treinada, manual no balcão e registro de dúvidas aberto.", "passo": "Requer o assistente ligado. O treino de 90 minutos acontece no sistema que a clínica vai usar."},
+        {"aula": "acompanhar", "icone": "grafico", "quando": "Semanas 5 a 12", "titulo": "Acompanhar", "sub": "check-ins", "saida": "Relatórios contra a linha de base, escopo de manutenção e mapa de 12 meses.", "passo": "Requer a campeã treinada. Check-in semanal que afrouxa com a maturidade; a manutenção da aula 7 começa aqui."}
+      ],
+      "resultado": {"titulo": "Ao final do curso", "texto": "Um assistente que a clínica usa sem você, com fases, números e um combinado para o que vem depois.", "total": "15 exercícios"},
+      "rolagem_fim": {"titulo": "O ciclo inteiro", "texto": "Escolher, ligar, ensinar e acompanhar, depois do diagnóstico do DICA 1. Só suba quando o \"pronto quando\" do degrau anterior for verdade."},
+      "legenda": "Ordem obrigatória: cada degrau usa o que o anterior montou."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Gere o seu plano de 90 dias",
+      "sub": "Escolha a data de início e quanto tempo você tem por semana. O plano inclui os exercícios das 8 aulas.",
+      "curso": "DICA 2 · Implantar, Capacitar e Acompanhar",
+      "horas_padrao": 4,
+      "degraus": [
+        {"titulo": "Aula 1 · Primeiro assistente", "aula": "primeiro-assistente"},
+        {"titulo": "Aula 2 · Playbook", "aula": "playbook"},
+        {"titulo": "Aula 3 · Três fases", "aula": "tres-fases"},
+        {"titulo": "Aula 4 · Construir e testar", "aula": "construir"},
+        {"titulo": "Aula 5 · Capacitar", "aula": "capacitar"},
+        {"titulo": "Aula 6 · Acompanhar", "aula": "acompanhar"},
+        {"titulo": "Aula 7 · Manter", "aula": "manter"},
+        {"titulo": "Aula 8 · Dossiê", "aula": "projeto-final"}
+      ],
+      "txt": {
+        "titulo": "Plano — DICA 2 · Implantar, Capacitar e Acompanhar",
+        "inicio": "Início",
+        "ritmo": "Ritmo",
+        "termino": "Término previsto",
+        "ate": "até",
+        "pronto": "pronto quando",
+        "semanas": "semanas",
+        "travou": "## O que travou e a regra que criei",
+        "h": "h por semana",
+        "exs": "exercícios"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Projeto final",
+      "sub": "Junte o que você fez nas aulas 1 a 7. Onde faltar, faça agora. Caso real só com a autorização assinada.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Dossiê DICA avaliado pela rubrica", "min": "3 h", "dias": 3, "texto": "Monte o dossiê da Clínica Vila Serena (fictícia) ou de um negócio real com autorização escrita, escreva a capa por último e avalie com a rubrica. Se puder, peça a um colega que avalie também.", "pronto": "o dossiê tem a capa e as 6 peças, a rubrica está preenchida com nota 3 ou mais nos 5 critérios, e, se o caso for real, a autorização assinada está anexada."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste final",
+      "sub": "5 perguntas sobre o curso inteiro. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Qual é a ordem das entregas depois do diagnóstico?", "opcoes": ["Ligar, escolher, acompanhar e ensinar.", "Escolher, ligar, ensinar e acompanhar.", "Ensinar, escolher, ligar e acompanhar.", "Acompanhar, ensinar, escolher e ligar."], "certa": 1, "cert": true, "ref": "mapa", "explica": "Escolher o primeiro assistente, ligar em fases com playbook testado, ensinar a campeã e acompanhar. Cada degrau usa o que o anterior montou."},
+        {"p": "Você não tem cliente real. O projeto final vale?", "opcoes": ["Não: o projeto só vale com cliente pagante e contrato assinado.", "Só vale se você inventar números parecidos com os de clínicas reais.", "Só vale se a dona de uma clínica real assinar como testemunha.", "Sim: a Vila Serena é fictícia e rotulada; o caso real é opcional, com autorização."], "certa": 3, "ref": "codigo", "explica": "O método é o mesmo com a empresa fictícia. Caso real é bem-vindo, mas só com autorização escrita e sem dado de paciente."},
+        {"p": "Na rubrica, o critério \"a clínica usa sem você\" tem nota 2. O dossiê está pronto?", "opcoes": ["Não: todos os critérios precisam de 3 ou mais.", "Sim, porque a média dos 5 critérios passou de 3.", "Sim, se os outros quatro critérios tiverem nota 4.", "Depende de quanto a clínica ficou satisfeita com o trabalho."], "certa": 0, "cert": true, "ref": "codigo", "explica": "A rubrica não faz média: cada critério precisa de 3. Nota 2 aqui quer dizer campeã sem manual, e o assistente fica órfão quando você sai."},
+        {"p": "O que nunca sai da fase 1, em nenhum momento do projeto?", "opcoes": ["A saudação e as respostas da lista de dúvidas.", "O pedido de marcação sem valor envolvido.", "O que mexe em dinheiro, contrato ou saúde.", "As mensagens recebidas fora do horário."], "certa": 2, "cert": true, "ref": "mapa", "explica": "Risco alto fica com aprovação humana para sempre, mesmo sem erro. O resto sobe de fase com registro e com a dona decidindo."},
+        {"p": "O que faz a dona confiar no projeto, segundo a visão do curso?", "opcoes": ["O modelo de IA mais avançado e mais caro disponível.", "Diagnóstico, fases com porta de volta, ensino e acompanhamento com número.", "Construir rápido o maior número possível de assistentes.", "Um contrato longo com multa para quem quiser sair."], "certa": 1, "ref": "mapa", "explica": "Construir ficou fácil; confiar no que foi construído, não. Confiança vem do método: diagnóstico, escada com volta, ensino e número contra a linha de base."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "O curso em quatro frases",
+      "itens": [
+        {"t": "Escolher pequeno", "texto": "Alta dor, baixo risco, escopo claro, canal oficial e um plano de desligar."},
+        {"t": "Ligar em escada", "texto": "Playbook com versão, 15 casos testados e 3 fases com porta de volta."},
+        {"t": "Ensinar quem fica", "texto": "Campeã com nome, treino de 90 minutos e manual de uma página."},
+        {"t": "Acompanhar com número", "texto": "Check-in de 20 minutos, 5 indicadores contra a linha de base e cadência que diminui."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "O que mudou em relação à versão anterior (out/2026)",
+      "itens": [
+        {"t": "WhatsApp", "texto": "Canal oficial com caminho para uma pessoa; chatbot de uso geral proibido na plataforma oficial desde 15/01/2026; cobrança por mensagem, com 1.000 mensagens de serviço grátis por número por mês desde 01/10/2026. Conferido em 19/10/2026."},
+        {"t": "Sem preço, sem estatística", "texto": "Valores em reais e percentuais sem fonte saíram. Critério de fase virou regra combinada com a dona; preço está na Vendas com IA."},
+        {"t": "Kit aberto", "texto": "Os \"pacotes prontos\" viraram diagnóstico + kit aberto do INEMA + acompanhamento, com 15 casos testados antes de ligar."},
+        {"t": "LGPD e projeto", "texto": "Gravação, prints e dados de paciente só com finalidade, prazo e autorização. O projeto final usa empresa fictícia; caso real é opcional."}
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Continue por aqui",
+      "links": [
+        {"t": "DICA 1 · Diagnóstico: o Mapa do Cliente (curso anterior)", "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/", "icone": "seta"},
+        {"t": "Versão anterior: Mapa do Cliente (2026, só PT)", "href": "https://inematds.github.io/mapacliente/", "icone": "voltar"},
+        {"t": "Profissional 2030 · Consultor: o projeto final da Horizonte", "href": "https://inematds.github.io/prof2030-consultor/", "icone": "alvo"},
+        {"t": "Área Consultoria de IA", "href": "https://eventos.inema.pro/consultoria-ia/", "icone": "camadas"},
+        {"t": "Profissional 2030: os quatro papéis", "href": "https://eventos.inema.pro/prof2030/", "icone": "usuario"},
+        {"t": "Cursos abertos no INEMA.CLUB", "href": "https://inema.club/", "icone": "seta"}
+      ]
+    }
+  ]
+}

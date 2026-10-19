@@ -1,0 +1,224 @@
+{
+  "id": "formacao-dica-entrega-v72",
+  "lang": "pt-BR",
+  "url": "https://inematds.github.io/formacao-dica-entrega-v72/",
+  "nome": "DICA 2 · Implantar, Capacitar e Acompanhar",
+  "sub": "Formação DICA · curso 2 de 2",
+  "volta": {
+    "t": "Área Consultoria de IA",
+    "href": "https://eventos.inema.pro/consultoria-ia/"
+  },
+  "lado_card": {
+    "rot": "Formação DICA",
+    "t": "Curso 2 de 2",
+    "texto": "Este curso começa onde o DICA 1 termina: com o mapa de oportunidades da Clínica Vila Serena (fictícia) e uma recomendação escolhida.",
+    "link": "Ir para o DICA 1 · Diagnóstico",
+    "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/"
+  },
+  "rodape": "INEMA.CLUB · conteúdo aberto e gratuito · formato INEMA Learning v7.2 · <a href=\"https://eventos.inema.pro/consultoria-ia/\">eventos.inema.pro/consultoria-ia</a> · <a href=\"https://eventos.inema.pro/prof2030/\">Profissional 2030</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "videos": {
+    "consultoria-ia-na-pratica": {
+      "titulo": "Consultoria de IA na prática",
+      "duracao": "4 min 29 s",
+      "mp4": "https://github.com/inematds/consultoria-ia-na-pratica/releases/download/video-v2.0.0/consultoria-ia-na-pratica-completo-16x9.mp4",
+      "vtt": "assets/vtt/consultoria-ia-na-pratica.vtt",
+      "poster": "assets/img/consultoria-ia-na-pratica.jpg",
+      "pagina": "https://inematds.github.io/consultoria-ia-na-pratica/videos/",
+      "idiomas": {
+        "en": {
+          "mp4": "https://github.com/inematds/consultoria-ia-na-pratica/releases/download/video-v2.0.0/consultoria-ia-na-pratica-completo-16x9-en.mp4",
+          "vtt": "assets/vtt/consultoria-ia-na-pratica-en.vtt",
+          "duracao": "3 min 18 s",
+          "pagina": "https://inematds.github.io/consultoria-ia-na-pratica/videos/en/"
+        },
+        "es": {
+          "mp4": "https://github.com/inematds/consultoria-ia-na-pratica/releases/download/video-v2.0.0/consultoria-ia-na-pratica-completo-16x9-es.mp4",
+          "vtt": "assets/vtt/consultoria-ia-na-pratica-es.vtt",
+          "duracao": "3 min 38 s",
+          "pagina": "https://inematds.github.io/consultoria-ia-na-pratica/videos/es/"
+        }
+      }
+    },
+    "consultor-ia-2027": {
+      "titulo": "De construtor a consultor",
+      "duracao": "5 min 1 s",
+      "mp4": "https://github.com/inematds/consultor-ia-2027/releases/download/video-v2.0.0/consultor-ia-2027-completo-16x9.mp4",
+      "vtt": "assets/vtt/consultor-ia-2027.vtt",
+      "poster": "assets/img/consultor-ia-2027.jpg",
+      "pagina": "https://inematds.github.io/consultor-ia-2027/videos/",
+      "idiomas": {
+        "en": {
+          "mp4": "https://github.com/inematds/consultor-ia-2027/releases/download/video-v2.0.0/consultor-ia-2027-completo-16x9-en.mp4",
+          "vtt": "assets/vtt/consultor-ia-2027-en.vtt",
+          "duracao": "3 min 41 s",
+          "pagina": "https://inematds.github.io/consultor-ia-2027/videos/en/"
+        },
+        "es": {
+          "mp4": "https://github.com/inematds/consultor-ia-2027/releases/download/video-v2.0.0/consultor-ia-2027-completo-16x9-es.mp4",
+          "vtt": "assets/vtt/consultor-ia-2027-es.vtt",
+          "duracao": "4 min 3 s",
+          "pagina": "https://inematds.github.io/consultor-ia-2027/videos/es/"
+        }
+      }
+    }
+  },
+  "inicio": {
+    "kicker": "Formação DICA · curso 2 de 2 · 8 aulas",
+    "titulo": "Implantar, capacitar e acompanhar: do mapa ao assistente que anda sozinho",
+    "lead": "O diagnóstico está pronto e a dona escolheu por onde começar. Agora é escolher o primeiro assistente, escrever o playbook dele, ligar com aprovação em fases, ensinar a dona e a equipe e acompanhar até ele andar sozinho. Tudo na Clínica Vila Serena, uma clínica fictícia com 9 pessoas e a recepção no WhatsApp.",
+    "cta": "Começar pela aula 1",
+    "cta2": {
+      "t": "Ver o DICA 1 · Diagnóstico",
+      "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/"
+    },
+    "capa_alt": "Recepção de uma pequena clínica ao entardecer, com caderno aberto e celular sobre o balcão.",
+    "numeros": [
+      {"v": "8", "t": "aulas curtas"},
+      {"v": "15", "t": "exercícios com \"pronto quando\""},
+      {"v": "1", "t": "conversa simulada"},
+      {"v": "2", "t": "vídeos"}
+    ],
+    "aulas_titulo": "As aulas",
+    "aulas_sub": "Na ordem de uma entrega: escolher, escrever o playbook, ligar em fases, decidir como construir, ensinar, acompanhar, manter e fechar o dossiê.",
+    "blocos": [
+      {
+        "t": "Para quem é",
+        "itens": [
+          "Dono de pequeno negócio (clínica, imobiliária, padaria, oficina, loja) que quer pôr IA no próprio negócio com método, sem TI e sem susto.",
+          "Consultor iniciante que atende pequenos negócios e já sabe vender o diagnóstico: aqui aprende a entregar.",
+          "Quem fez o <a href=\"https://inematds.github.io/formacao-dica-diagnostico-v72/\">DICA 1 · Diagnóstico</a> e saiu com um mapa de oportunidades."
+        ]
+      },
+      {
+        "t": "O que você sai fazendo",
+        "itens": [
+          "Escolher o primeiro assistente pelos 3 critérios e escrever o que ele <b>não</b> faz.",
+          "Escrever o playbook em 7 partes e ligar o assistente em 3 fases de aprovação.",
+          "Treinar a dona e o campeão interno em 90 minutos e deixar um manual de 1 página.",
+          "Acompanhar com check-in de 20 minutos, 5 indicadores e 3 alertas, até a cadência ficar mensal."
+        ]
+      },
+      {
+        "t": "Onde entra no Profissional 2030",
+        "itens": [
+          "O <a href=\"https://eventos.inema.pro/prof2030/\">Profissional 2030</a> tem quatro papéis que vendem confiança, não construção. A Formação DICA é o papel <b>Consultor</b> no recorte pequeno negócio.",
+          "Construir é parte do serviço; o que fica é o diagnóstico, o ensino e o acompanhamento.",
+          "Curso anterior: <a href=\"https://inematds.github.io/formacao-dica-diagnostico-v72/\">DICA 1 · Diagnóstico</a>."
+        ]
+      },
+      {
+        "t": "O que ficou em outros cursos",
+        "itens": [
+          "Preço, proposta e venda do acompanhamento: <a href=\"https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/\">Vendas com IA 4</a> e <a href=\"https://inematds.github.io/formacao-vendas-ia-masterclass-v72/\">Vendas com IA 5</a>.",
+          "Alçada e confiança progressiva do agente: <a href=\"https://inematds.github.io/gestao-ia-agentes-v72/\">Gestão de IA · Agentes</a>.",
+          "Testar antes de ligar: <a href=\"https://inematds.github.io/prof2030-mentor/\">Profissional 2030 · Mentor</a>. Medir 30/60/90: <a href=\"https://inematds.github.io/prof2030-consultor/\">Profissional 2030 · Consultor</a>.",
+          "LGPD a fundo: <a href=\"https://inematds.github.io/prof2030-auditor/\">Profissional 2030 · Auditor</a>."
+        ]
+      }
+    ]
+  },
+  "ui": {
+    "pular": "Pular para o conteúdo",
+    "aulas": "Aulas",
+    "concluido": "concluído",
+    "aula": "Aula",
+    "nesta_aula": "Nesta aula, você vai aprender:",
+    "objetivo": "Objetivo:",
+    "proxima_aula": "Próxima aula",
+    "aula_anterior": "Aula anterior",
+    "voltar_inicio": "Voltar ao início do curso",
+    "marcar_concluida": "Marcar aula como concluída",
+    "dg_dica": "Clique em cada bloco do diagrama para ver o que ele faz.",
+    "copiar": "Copiar",
+    "copiado": "Copiado",
+    "selo_simulacao": "Simulação: exemplo ilustrativo",
+    "selo_real": "Exemplo do repositório",
+    "pronto_quando": "Pronto quando:",
+    "fiz": "Fiz este exercício",
+    "video_pagina": "Página do vídeo com roteiro",
+    "pergunta": "Pergunta",
+    "de": "de",
+    "cert_tag": "competência",
+    "correto": "Correto",
+    "errado": "Não é essa",
+    "quiz_aguarda": "Escolha uma alternativa. A explicação aparece depois da sua tentativa.",
+    "proxima_pergunta": "Próxima pergunta",
+    "quiz_ver": "Ver resultado",
+    "quiz_fim": "Teste concluído",
+    "quiz_total": "Você acertou {a} de {n}. Acertando todas, a aula é marcada como concluída.",
+    "aparencia": "Aparência",
+    "tamanho_texto": "Tamanho do texto",
+    "tema": "Tema",
+    "tema_escuro": "Escuro",
+    "tema_papel": "Papel claro",
+    "role_dica": "Role a página: cada etapa abaixo acende a sua parte do diagrama.",
+    "pre_requisito": "requer",
+    "ver_aula": "Ver a aula",
+    "mapa_dica": "Clique num exercício para ver o que fazer e o \"pronto quando\".",
+    "etapas": "Etapas",
+    "exercicios": "exercícios",
+    "rever": "Rever:",
+    "revisar_erradas": "Revisar as erradas",
+    "refazer": "Refazer o teste",
+    "h_semana": "h por semana",
+    "data_inicio": "Data de início",
+    "ritmo": "Tempo disponível",
+    "gerar_plano": "Gerar meu plano",
+    "baixar_md": "Baixar plano.md",
+    "baixar_ics": "Baixar para o calendário (.ics)",
+    "ind_estudo": "Estudo (aulas)",
+    "ind_pratica": "Prática declarada",
+    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovação vem na prova da certificação.",
+    "estudo": {
+      "titulo": "Seu estudo",
+      "continuar": "Continuar de onde parei",
+      "comecar": "Começar pela aula 1",
+      "cta_continuar": "Continuar a aula {n}",
+      "hoje": "hoje",
+      "ontem": "ontem",
+      "ha_dias": "há {n} dias",
+      "desempenho": "Desempenho nos testes",
+      "notas": "Minhas anotações",
+      "dados": "Copiar meus dados",
+      "sem_testes": "Nenhum teste feito ainda. O teste fica no fim de cada aula.",
+      "nao_fez": "teste ainda não feito",
+      "ultimo": "Último",
+      "melhor": "Melhor",
+      "tentativas": "tentativas",
+      "tentativa": "tentativa",
+      "tudo_certo": "Acertou tudo no último teste.",
+      "rever": "Para rever",
+      "resposta": "Resposta certa:",
+      "ir_teste": "Refazer o teste",
+      "sem_notas": "Nenhuma anotação ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
+      "so_marcado": "(só marcado)",
+      "marcar": "Marcar",
+      "anotar": "Anotar",
+      "salvar": "Salvar",
+      "apagar": "Apagar marca",
+      "fechar": "Fechar",
+      "nota_ph": "Escreva sua anotação sobre este trecho…",
+      "um_bloco": "Marque dentro de um parágrafo só.",
+      "nao_marca": "Este trecho não pode ser marcado.",
+      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e não apaga nada.",
+      "exportar": "Baixar cópia",
+      "importar": "Carregar cópia",
+      "import_ok": "Cópia carregada ({n} itens). Atualizando a página…",
+      "import_erro": "Arquivo não reconhecido. Nada foi alterado.",
+      "import_outro": "Esta cópia é de outro curso. Nada foi alterado.",
+      "export_ok": "Cópia baixada."
+    },
+    "conv_dica": "Escolha a sua resposta. O comentário aparece logo depois e a conversa segue conforme a escolha.",
+    "conv_voce": "Você",
+    "conv_escolha": "Sua resposta",
+    "conv_boa": "Boa escolha",
+    "conv_meio": "Dá para melhorar",
+    "conv_ruim": "Escolha fraca",
+    "conv_fim": "Fim da conversa",
+    "conv_placar": "Você fez {p} de {m} pontos possíveis.",
+    "conv_licao": "Lição:",
+    "conv_recomecar": "Recomeçar a conversa",
+    "conv_feita": "Seu melhor placar: {p} de {m} pontos."
+  },
+  "icone": "camadas"
+}

@@ -1,0 +1,408 @@
+{
+  "slug": "tres-fases",
+  "num": 3,
+  "menu": "Fases",
+  "titulo": "Aprovação em 3 fases no pequeno negócio",
+  "titulo_curto": "Aprovação em 3 fases",
+  "minutos": 20,
+  "lead": "No pequeno negócio, o assistente não chega soltando mensagem sozinho. Ele sobe uma escada: primeiro a dona aprova tudo, depois só o importante, por fim só as exceções. Cada degrau tira controle dela apenas onde o registro mostra que pode, e sempre com uma porta de volta.",
+  "objetivo": "ligar o assistente na fase 1, escrever com a dona o que é \"importante\" e combinar por escrito quando sobe e quando volta de fase.",
+  "competencias": [
+    "ligar-em-fases",
+    "classificar-risco",
+    "combinar-criterio-de-fase",
+    "conduzir-conversa-de-mudanca"
+  ],
+  "aprende": [
+    {
+      "t": "O que muda em cada uma das 3 fases"
+    },
+    {
+      "t": "Escrever a tabela do \"importante\" com a dona"
+    },
+    {
+      "t": "Classificar cada ação em risco baixo, médio ou alto"
+    },
+    {
+      "t": "Treinar a conversa em que a dona quer pular etapas"
+    }
+  ],
+  "hero_alt": "Balcão de recepção com três bandejas de documentos em degraus; uma mão coloca uma folha na bandeja do meio.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "A escada da aprovação",
+      "sub": "Sobe um degrau por vez, com o registro na mão. Clique em cada fase.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "cadeado",
+          "titulo": "Fase 1",
+          "sub": "aprova tudo",
+          "detalhe": "O assistente prepara a resposta e nada sai sem a dona (ou a recepção) aprovar. Parece trabalhoso, mas é onde nasce a confiança e onde você junta o registro que vai justificar subir."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Fase 2",
+          "sub": "o importante",
+          "forte": true,
+          "detalhe": "Saudação, dúvida da lista e pedido de marcação saem direto. O que está na tabela do \"importante\" (preço, reclamação, saúde, cliente antigo) continua indo para a fila de aprovação."
+        },
+        {
+          "icone": "fila",
+          "titulo": "Fase 3",
+          "sub": "só exceção",
+          "detalhe": "O assistente roda e a dona só é chamada na exceção: o que está fora do escopo, o que ele não entendeu duas vezes, o que é risco alto. O resto vira registro para olhar no check-in."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Risco alto",
+          "sub": "sempre fase 1",
+          "detalhe": "O que mexe em dinheiro, contrato ou saúde nunca sai da fase 1, nem depois de um ano sem erro. Na Vila Serena (fictícia): preço de pacote, desconto, remarcação com multa e pergunta sobre dor."
+        }
+      ],
+      "volta": "Erro grave ou a dona insegura? Volta uma fase no mesmo dia, sem culpa.",
+      "legenda": "Quem decide subir é a dona. Você traz o registro e propõe."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "O que é \"importante\" é da clínica",
+      "sub": "Não existe lista universal. Faça com a dona antes de ligar a fase 2.",
+      "passos": [
+        {
+          "titulo": "Mostre",
+          "sub": "20 mensagens reais",
+          "texto": [
+            "Separe umas 20 mensagens recentes do registro da fase 1, sem nome nem telefone.",
+            "Peça para a dona marcar cada uma: \"eu queria ver\" ou \"podia ter ido sozinha\"."
+          ]
+        },
+        {
+          "titulo": "Tire o padrão",
+          "sub": "palavras e casos",
+          "texto": [
+            "Veja o que as marcadas como \"queria ver\" têm em comum: palavra (\"desconto\", \"cancelar\"), tipo de paciente, horário, áudio longo.",
+            "Cada padrão vira uma linha da tabela."
+          ]
+        },
+        {
+          "titulo": "Escreva junto",
+          "sub": "e ela aprova",
+          "texto": [
+            "A tabela vai para o playbook, na parte de limites, com a data.",
+            "A dona aprova por escrito: uma mensagem dizendo \"de acordo\" já serve como registro."
+          ]
+        },
+        {
+          "titulo": "Revise",
+          "sub": "a cada fase",
+          "texto": [
+            "A cada mudança de fase e, como regra prática, a cada mês, olhe o que foi para a fila sem precisar e o que passou direto e não devia.",
+            "Se quase tudo vira \"importante\", a dona não descansa; se quase nada vira, ela perde o controle."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Três níveis de risco",
+      "sub": "Cada ação do assistente leva uma etiqueta no playbook. Mais níveis que isso vira teoria.",
+      "passos": [
+        {
+          "titulo": "Baixo",
+          "sub": "erro custa minutos",
+          "texto": [
+            "Saudação, dúvida da lista, horário de funcionamento, aviso de fora do horário.",
+            "Pode chegar à fase 3."
+          ]
+        },
+        {
+          "titulo": "Médio",
+          "sub": "erro custa horas",
+          "texto": [
+            "Pedido de marcação, confirmação de consulta, resposta a paciente que já é da clínica.",
+            "Sobe até a fase 2 ou 3 com olhada semanal numa amostra."
+          ]
+        },
+        {
+          "titulo": "Alto",
+          "sub": "mexe em dinheiro ou saúde",
+          "texto": [
+            "Preço de pacote, desconto, cancelamento com cobrança, pergunta sobre dor ou remédio.",
+            "Fica sempre na fase 1: uma pessoa aprova antes de sair."
+          ],
+          "exemplo": {
+            "rot": "Ligação com a gestão de agentes",
+            "texto": "É a mesma ideia da alçada verde, amarela e vermelha do curso de Gestão de IA · Agentes, em versão de balcão."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "O critério de subir é uma regra combinada, não uma estatística: os números ficam em branco até você e a dona decidirem.",
+      "blocos": [
+        {
+          "rot": "Quadro das 3 fases",
+          "icone": "camadas",
+          "conteudo": "FASES DO ASSISTENTE · <empresa> · combinado em <data>\n\nFASE 1 · aprova tudo\nComeçou em: <data> · quem aprova: <nome> · onde: <fila numa tela só>\n\nFASE 2 · aprova só o importante\nSai direto: <saudação, dúvida da lista, pedido de marcação>\nVai para a fila: ver a tabela do importante\n\nFASE 3 · só exceção\nChama uma pessoa quando: <fora do escopo, não entendeu 2 vezes, risco alto>\n\nNUNCA SAI DA FASE 1 (risco alto): <preço, desconto, saúde, cancelamento com cobrança>\n\nREGRA DO CONSULTOR (combinada, não é estatística)\nSobe de fase quando: em <número combinado> mensagens seguidas a dona aprovou\n  sem editar pelo menos <número combinado> E não houve erro grave em <n> dias\n  E a dona diz que quer subir.\nVolta de fase quando: <erro grave> OU <reclamação de paciente> OU a dona pedir.\nQuem decide: <nome da dona>. Volta em: <mesmo dia>."
+        },
+        {
+          "rot": "Tabela do importante · Vila Serena",
+          "icone": "lista",
+          "conteudo": "TABELA DO IMPORTANTE · Clínica Vila Serena (fictícia) · v1 · <data>\n\n| Regra                                             | Vai para a fila? |\n|---------------------------------------------------|------------------|\n| fala de preço, pacote, desconto ou parcelamento   | sim              |\n| reclamação, \"cancelar\", \"reembolso\", \"advogado\"   | sim (prioridade) |\n| pergunta sobre dor, remédio ou resultado          | sim (pessoa já)  |\n| paciente que pediu para falar com a dona          | sim              |\n| áudio longo ou foto de pedido médico              | sim              |\n| mensagem fora do horário com palavra \"urgente\"    | sim              |\n| dúvida da lista, horário, endereço, estacionamento| não              |\n| pedido de marcação sem valor envolvido            | não              |\n\nAprovado pela dona em <data> (mensagem \"de acordo\")."
+        },
+        {
+          "rot": "Roteiro da conversa de subir fase",
+          "icone": "chat",
+          "conteudo": "CONVERSA DE MUDANÇA DE FASE · 30 min · <data>\n\n1. REGISTRO (10 min)\n\"Nas últimas <n> semanas entraram <n> mensagens. Você aprovou <n> sem mexer\n e editou <n>. As editadas foram sobre <padrão>.\"\n\n2. PROPOSTA (5 min)\n\"Proponho passar para a fase 2. Muda: <o que sai direto>.\n Continua com você: <tabela do importante>.\"\n\n3. PORTA DE VOLTA (5 min)\n\"Se em uma semana você não estiver tranquila, voltamos para a fase 1\n no mesmo dia, sem renegociar nada.\"\n\n4. COMBINADO (10 min)\n\"Ligo a fase 2 na <dia> às <hora> e te aviso quando ligar.\"\nRegistro: a dona respondeu \"de acordo\" em <data>."
+        }
+      ]
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Conversa simulada: a dona quer pular para a fase 3",
+      "sub": "Conversa fictícia para treinar, na semana 2 da fase 1. Escolha a resposta que você daria; o comentário aparece logo depois.",
+      "personagem": {
+        "nome": "Dona da Clínica Vila Serena",
+        "papel": "personagem fictícia · decide sozinha"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Olha, o assistente está ótimo, eu aprovo quase tudo sem mexer. Vamos soltar de vez? Quero que ele responda sozinho, até orçamento de pacote.",
+          "opcoes": [
+            {
+              "t": "Combinado! Ligo hoje à tarde para ele responder tudo sozinho.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "Você pulou a fase 2 e ainda soltou preço, que é risco alto e nunca sai da fase 1. A primeira resposta errada sobre valor vai custar a confiança que levou duas semanas para nascer."
+            },
+            {
+              "t": "Que bom! Antes, vamos olhar juntas o que você aprovou e o que editou nessas duas semanas?",
+              "vai": "dados",
+              "nota": 2,
+              "comenta": "Boa: você levou a conversa para o registro. A decisão continua sendo dela, mas com dado na mesa em vez de impressão."
+            },
+            {
+              "t": "Melhor não. Deixa na fase 1 até eu achar que está seguro.",
+              "vai": "dados",
+              "nota": 1,
+              "comenta": "A cautela é certa, mas o critério ficou na sua cabeça. A dona não sabe o que falta para subir e a fase 1 vira um peso sem fim."
+            }
+          ]
+        },
+        "dados": {
+          "cliente": "Tá bom. Pelo registro, entraram umas 140 mensagens, eu aprovei a maioria sem mexer e editei poucas, quase todas sobre preço de pacote. Teve também uma paciente reclamando do horário.",
+          "opcoes": [
+            {
+              "t": "Ótimo, quase tudo aprovado. Dá para ir direto para a fase 3.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "O registro diz o contrário: o que você editou é justamente preço e reclamação. Pular para a fase 3 solta exatamente o que precisa de você."
+            },
+            {
+              "t": "Então saudação, dúvida da lista e pedido de marcação podem sair direto. Preço e reclamação continuam com você. Isso é a fase 2.",
+              "vai": "importante",
+              "nota": 2,
+              "comenta": "Você leu o registro com ela e propôs um degrau só, tirando o controle apenas onde ela não precisou mexer."
+            },
+            {
+              "t": "Vamos esperar mais algumas semanas, para ter certeza.",
+              "vai": "fim-espera",
+              "nota": 1,
+              "comenta": "Esperar sem dizer o que se espera não dá segurança: só adia. O registro já mostrava o que pode subir e o que não pode."
+            }
+          ]
+        },
+        "importante": {
+          "cliente": "Faz sentido. Mas como ele vai saber o que é importante para mim?",
+          "opcoes": [
+            {
+              "t": "O próprio assistente aprende com o tempo o que é importante para você.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "Promessa que ninguém controla. O \"importante\" tem que estar escrito, aprovado por ela e no playbook, senão o assistente acerta no comum e erra justo no caso que dói."
+            },
+            {
+              "t": "Eu tenho uma lista padrão de palavras que uso com todas as clínicas.",
+              "vai": "volta",
+              "nota": 1,
+              "comenta": "Uma lista de partida ajuda, mas o importante é da clínica dela. Sem passar pelas mensagens com a dona, faltam os casos que só ela conhece."
+            },
+            {
+              "t": "Você escolhe: te mostro umas 20 mensagens reais, você marca o que queria ver, e a gente escreve a tabela juntas.",
+              "vai": "volta",
+              "nota": 2,
+              "comenta": "A tabela sai das mensagens dela e com a marcação dela. É ela quem aprova, por escrito, e é isso que deixa a fase 2 segura."
+            }
+          ]
+        },
+        "volta": {
+          "cliente": "E se der errado na fase 2? Aí já soltei, né?",
+          "opcoes": [
+            {
+              "t": "Não. Se em uma semana você não estiver tranquila, voltamos para a fase 1 no mesmo dia. E preço e reclamação nunca saem da sua mão.",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "Porta de volta dita com prazo, mais o lembrete do que nunca sobe. Quem sabe que pode voltar aceita avançar."
+            },
+            {
+              "t": "Não vai dar errado: os números estão ótimos.",
+              "vai": "fim-promessa",
+              "nota": 0,
+              "comenta": "Ninguém pode prometer isso. A dona ouve a promessa e, no primeiro erro, perde a confiança em você e no assistente."
+            },
+            {
+              "t": "Se der errado, a gente vê na hora o que fazer.",
+              "vai": "fim-vago",
+              "nota": 1,
+              "comenta": "Ela queria um caminho, e você deu um talvez. Diga como volta, em quanto tempo e quem decide."
+            }
+          ]
+        },
+        "fim-pressa": {
+          "fim": true,
+          "titulo": "Autonomia sem escada",
+          "texto": "O assistente passou a responder sozinho coisas que ainda precisavam da dona. A escada existe para isso: cada degrau só tira controle onde o registro mostra que pode, e o que é risco alto nunca sobe. Recomece e leve a conversa para o registro."
+        },
+        "fim-espera": {
+          "fim": true,
+          "titulo": "Parado sem critério",
+          "texto": "A clínica ficou mais semanas aprovando tudo, sem saber o que faltava. A dona cansa da fila e começa a aprovar sem ler, o que é pior do que subir de fase com cuidado. Diga o que precisa acontecer para subir."
+        },
+        "fim-promessa": {
+          "fim": true,
+          "titulo": "Promessa no lugar de porta",
+          "texto": "A fase 2 foi ligada, mas a dona ficou com uma garantia que você não controla. Quando o primeiro erro aparecer, a conversa vira cobrança. Troque a promessa pela porta de volta."
+        },
+        "fim-vago": {
+          "fim": true,
+          "titulo": "Quase lá",
+          "texto": "Fase 2 ligada, tabela feita com a dona, mas a volta ficou no ar. Escreva no quadro das fases como e quando volta, e quem decide."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Um degrau, com porta de volta",
+          "texto": "A fase 2 foi ligada com o registro na mesa, a tabela do importante feita pela dona e a volta combinada. Preço e reclamação continuam com ela. É assim que a confiança sobe sem susto."
+        }
+      },
+      "licao": "Fase sobe com registro e com a dona decidindo; risco alto nunca sai da fase 1; e a porta de volta, com prazo, é o que faz ela aceitar subir."
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Use o assistente e o playbook das aulas 1 e 2.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Quadro das 3 fases e etiquetas de risco",
+          "min": "30 min",
+          "texto": "Preencha o quadro das fases e etiquete cada ação do assistente como risco baixo, médio ou alto no playbook.",
+          "pronto": "o quadro tem as 3 fases com o que sai direto em cada uma, toda ação do playbook tem etiqueta de risco, e as ações de risco alto estão na linha \"nunca sai da fase 1\"."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Tabela do importante e regra de fase",
+          "min": "30 min",
+          "texto": "Monte a tabela do importante a partir de mensagens (reais e sem nome, ou as da Vila Serena) e escreva a regra de subir e de voltar de fase, com os números que você e a dona combinarem.",
+          "pronto": "a tabela tem pelo menos 6 linhas com \"vai para a fila: sim/não\", a regra de fase está marcada como \"regra do consultor, combinada\" e tem a condição de volta e quem decide."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {
+          "p": "Na Vila Serena, em que fase fica a resposta sobre preço de pacote, depois de seis meses sem nenhum erro?",
+          "opcoes": [
+            "Na fase 1: risco alto nunca sai da aprovação humana, mesmo sem erro.",
+            "Na fase 3, porque o assistente já provou que acerta preço há muito tempo.",
+            "Na fase 2, porque seis meses sem erro é tempo suficiente para soltar.",
+            "Depende do volume de mensagens que a clínica recebe por mês."
+          ],
+          "certa": 0,
+          "ref": "diagrama",
+          "explica": "O que mexe em dinheiro, contrato ou saúde fica na fase 1 para sempre. Tempo sem erro não muda o tamanho do estrago de um erro."
+        },
+        {
+          "p": "Quem define o que é \"importante\" na tabela da fase 2?",
+          "opcoes": [
+            "O consultor, com a lista padrão de palavras que ele usa em todas as clínicas que atende.",
+            "O próprio assistente, que aprende com as mensagens do registro.",
+            "A dona, marcando mensagens reais, e aprovando a tabela por escrito.",
+            "A recepcionista, porque é quem lê as mensagens todos os dias."
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "Uma lista de partida ajuda, mas o importante é da clínica. A dona marca as mensagens, vocês tiram o padrão juntos e ela aprova."
+        },
+        {
+          "p": "O quadro diz \"sobe quando a dona aprovou sem editar [número combinado] mensagens seguidas\". Por que o número fica em branco no modelo?",
+          "opcoes": [
+            "Porque cada ferramenta conta as mensagens aprovadas de um jeito diferente.",
+            "Porque é uma regra combinada entre você e a dona, não uma estatística que vale para todos.",
+            "Porque a política do WhatsApp define esse número para cada país.",
+            "Porque o número só aparece depois da fase 3 estar ligada."
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Não há estudo que diga o número certo para toda clínica. O critério é declarado como regra do consultor e combinado por escrito: o valor está no combinado, não no número."
+        },
+        {
+          "p": "Na fase 2, o assistente respondeu errado a uma paciente com reclamação. O que fazer?",
+          "opcoes": [
+            "Desligar o assistente de vez e voltar a responder tudo à mão.",
+            "Manter a fase 2 e esperar para ver se o erro se repete ao longo da semana seguinte.",
+            "Subir para a fase 3, porque a exceção já chegaria à dona de qualquer jeito.",
+            "Voltar para a fase 1 no mesmo dia, ver no registro qual regra falhou e corrigir o playbook."
+          ],
+          "certa": 3,
+          "ref": "diagrama",
+          "explica": "Voltar uma fase é parte do método, não derrota. O registro mostra a regra que falhou; a correção vira versão nova do playbook."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {
+          "t": "Começa na fase 1",
+          "texto": "Tudo passa pela dona até o registro mostrar onde ela não precisa mexer."
+        },
+        {
+          "t": "Importante é dela",
+          "texto": "Tabela feita com mensagens reais, marcada e aprovada pela dona."
+        },
+        {
+          "t": "Risco alto fica",
+          "texto": "Dinheiro, contrato e saúde nunca saem da aprovação humana."
+        },
+        {
+          "t": "Combinado escrito",
+          "texto": "Critério de subir e de voltar como regra do consultor, com porta de volta no mesmo dia."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {
+          "t": "Gestão de IA · Agentes: alçada (aula 4) e confiança progressiva (aula 5)",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "portao"
+        },
+        {
+          "t": "Gestão de IA · Governança: promover e reverter",
+          "href": "https://inematds.github.io/gestao-ia-governanca-v72/",
+          "icone": "escudo"
+        }
+      ]
+    }
+  ]
+}
