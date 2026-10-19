@@ -172,7 +172,7 @@
           "sub": "solo con autorización",
           "texto": [
             "Grabar la pantalla o guardar capturas de conversaciones reales para entrenar a otras personas solo con autorización escrita de la dueña y con nombre, teléfono y marca ocultos.",
-            "La conversación de un paciente es un dato personal y, en la clínica, puede ser un dato de salud (LGPD (la ley de protección de datos de Brasil))."
+            "La conversación de un paciente es un dato personal y, en la clínica, puede ser un dato de salud (LGPD, la ley de protección de datos de Brasil)."
           ]
         }
       ]
@@ -312,7 +312,7 @@
           "icone": "usuario"
         },
         {
-          "t": "Profesional 2030 · Auditor: datos y proveedores (LGPD (la ley de protección de datos de Brasil))",
+          "t": "Profesional 2030 · Auditor: datos y proveedores (LGPD, la ley de protección de datos de Brasil)",
           "href": "https://inematds.github.io/prof2030-auditor/",
           "icone": "escudo"
         },

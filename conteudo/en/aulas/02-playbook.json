@@ -159,12 +159,12 @@
         {
           "rot": "Worked examples · Vila Serena",
           "icone": "chat",
-          "conteudo": "EX 1 — simple (it's on the list of questions)\nInput: \"are you open on saturday?\"\nOutput: \"Hi! We're open on Saturdays from 8 a.m. to noon. Would you like to book a time?\"\n\nEX 2 — booking\nInput: \"i'd like to book physio for my mom\"\nOutput: \"Sure! Tell me her name and the best day and time of day. The front desk will confirm the time with you today.\"\n\nEX 3 — hard (not on the list)\nInput: \"do you take the Alfa health plan for lymphatic drainage?\"\nOutput: \"Good question! I'll check with the front desk and get back to you by the end of the day.\"\n[PARA_PESSOA = sim · motivo = convênio fora da lista]\n\nEX 4 — calls a person (health or complaint)\nInput: \"i'm in a lot of pain after the session, is that normal?\"\nOutput: \"I'm sorry. I'm calling the physical therapist to talk to you right now. If the pain is severe, seek urgent care.\"\n[PARA_PESSOA = sim · prioridade = ALTA]"
+          "conteudo": "EX 1 — simple (it's on the list of questions)\nInput: \"are you open on saturday?\"\nOutput: \"Hi! We're open on Saturdays from 8 a.m. to noon. Would you like to book a time?\"\n\nEX 2 — booking\nInput: \"i'd like to book physio for my mom\"\nOutput: \"Sure! Tell me her name and the best day and time of day. The front desk will confirm the time with you today.\"\n\nEX 3 — hard (not on the list)\nInput: \"do you take the Alfa health plan for lymphatic drainage?\"\nOutput: \"Good question! I'll check with the front desk and get back to you by the end of the day.\"\n[PARA_PESSOA = yes · reason = Alfa plan not on the list]\n\nEX 4 — calls a person (health or complaint)\nInput: \"i'm in a lot of pain after the session, is that normal?\"\nOutput: \"I'm sorry. I'm calling the physical therapist to talk to you right now. If the pain is severe, seek urgent care.\"\n[PARA_PESSOA = yes · priority = HIGH]"
         },
         {
           "rot": "Structured output",
           "icone": "lista",
-          "conteudo": "{\n  \"nome\": \"Paciente A\",\n  \"intencao\": \"marcar\",\n  \"servico\": \"fisioterapia\",\n  \"preferencia\": \"terça à tarde\",\n  \"para_pessoa\": false,\n  \"motivo_pessoa\": \"\",\n  \"versao_playbook\": \"1.0\"\n}"
+          "conteudo": "{\n  \"nome\": \"Paciente A\",\n  \"intencao\": \"book\",\n  \"servico\": \"fisioterapia\",\n  \"preferencia\": \"Tuesday afternoon\",\n  \"para_pessoa\": false,\n  \"motivo_pessoa\": \"\",\n  \"versao_playbook\": \"1.0\"\n}"
         }
       ]
     },
@@ -276,7 +276,7 @@
           "icone": "robo"
         },
         {
-          "t": "Professional 2030 · Auditor: data and vendors (LGPD (Brazil's data protection law))",
+          "t": "Professional 2030 · Auditor: data and vendors (LGPD, Brazil's data protection law)",
           "href": "https://inematds.github.io/prof2030-auditor/",
           "icone": "escudo"
         },

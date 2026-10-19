@@ -172,7 +172,7 @@
           "sub": "only with permission",
           "texto": [
             "Record the screen or keep screenshots of real conversations to train other people only with the owner's written permission and with names, phone numbers, and brand hidden.",
-            "A patient's conversation is personal data and, at a clinic, it can be health data (LGPD (Brazil's data protection law))."
+            "A patient's conversation is personal data and, at a clinic, it can be health data (LGPD, Brazil's data protection law)."
           ]
         }
       ]
@@ -312,7 +312,7 @@
           "icone": "usuario"
         },
         {
-          "t": "Professional 2030 · Auditor: data and vendors (LGPD (Brazil's data protection law))",
+          "t": "Professional 2030 · Auditor: data and vendors (LGPD, Brazil's data protection law)",
           "href": "https://inematds.github.io/prof2030-auditor/",
           "icone": "escudo"
         },

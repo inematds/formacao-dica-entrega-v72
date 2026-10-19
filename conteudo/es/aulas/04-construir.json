@@ -77,7 +77,7 @@
           "titulo": "Kit abierto",
           "sub": "atende-clinica y hermanos",
           "texto": [
-            "Conversación por reglas, agenda, lista de dudas, cola humana, palabras de emergencia que llaman a una persona, campaña solo para quien dio su consentimiento y exportación de los datos del paciente (LGPD (la ley de protección de datos de Brasil)).",
+            "Conversación por reglas, agenda, lista de dudas, cola humana, palabras de emergencia que llaman a una persona, campaña solo para quien dio su consentimiento y exportación de los datos del paciente (LGPD, la ley de protección de datos de Brasil).",
             "Atención: el kit conecta WhatsApp por un conector que NO es el canal oficial (imita la aplicación). No uses esa parte con clientes: prueba por el chat del sitio o por la bandeja de salida simulada, y conectar el WhatsApp de la clínica por la plataforma oficial es un trabajo aparte."
           ]
         },

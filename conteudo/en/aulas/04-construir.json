@@ -77,7 +77,7 @@
           "titulo": "Open kit",
           "sub": "atende-clinica and its siblings",
           "texto": [
-            "Rule-based conversation, scheduling, a list of common questions, a human queue, emergency words that call a person, campaigns only for people who gave consent, and export of patient data (LGPD (Brazil's data protection law)).",
+            "Rule-based conversation, scheduling, a list of common questions, a human queue, emergency words that call a person, campaigns only for people who gave consent, and export of patient data (LGPD, Brazil's data protection law).",
             "Heads up: the kit connects WhatsApp through a connector that is NOT the official channel (it imitates the app). Don't use that part with customers: test through the website chat or the simulated outbox, and connecting the clinic's WhatsApp through the official platform is separate work."
           ]
         },

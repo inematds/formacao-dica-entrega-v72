@@ -130,7 +130,7 @@
           "sub": "sin respuesta",
           "texto": [
             "Canceló dos check-ins seguidos, dejó de llenar el registro o no responde mensajes, aunque diga que todo está bien.",
-            "Muchas veces es sobrecarga o salida inminente: vuelve a la hoja de papeles."
+            "Muchas veces es sobrecarga o salida inminente: vuelve a la hoja de roles."
           ]
         },
         {
@@ -164,7 +164,7 @@
           "titulo": "Inicio",
           "sub": "semanal",
           "texto": [
-            "En las primeras semanas, check-in toda la semana: la clínica todavía está insegura y el playbook todavía está cambiando."
+            "En las primeras semanas, check-in cada semana: la clínica todavía está insegura y el playbook todavía está cambiando."
           ]
         },
         {
@@ -263,7 +263,7 @@
           "p": "La campeona canceló los dos últimos check-ins, pero dice que todo está bien. ¿Qué hacer?",
           "opcoes": [
             "Esperar una semana más, ya que ella dijo que todo está bien.",
-            "Mandar el reporte por e-mail y no agendar más reuniones.",
+            "Mandar el informe por e-mail y no agendar más reuniones.",
             "Ofrecer un descuento en la próxima mensualidad para retener a la clínica.",
             "Tratarlo como alerta roja y agendar una visita para escuchar."
           ],
@@ -286,7 +286,7 @@
         {
           "p": "La clínica está estable desde hace meses y la campeona está segura. ¿Cuál es la cadencia?",
           "opcoes": [
-            "Mensual, con reporte mensual en lugar del semanal.",
+            "Mensual, con informe mensual en lugar del semanal.",
             "Semanal para siempre, para que la clínica no pierda el hábito.",
             "Ninguna: el proyecto terminó con la entrega.",
             "Diaria, para detectar cualquier error el mismo día."

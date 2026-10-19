@@ -159,12 +159,12 @@
         {
           "rot": "Ejemplos resueltos · Vila Serena",
           "icone": "chat",
-          "conteudo": "EJ 1 — simple (está en la lista de dudas)\nEntrada: \"¿abren los sábados?\"\nSalida: \"¡Hola! Abrimos los sábados de 8 a 12 h. ¿Quieres agendar un horario?\"\n\nEJ 2 — cita\nEntrada: \"quería agendar fisio para mi mamá\"\nSalida: \"¡Claro! Dime su nombre y el mejor día y turno. La recepción te confirma el horario hoy mismo.\"\n\nEJ 3 — difícil (fuera de la lista)\nEntrada: \"¿aceptan el seguro Alfa para drenaje?\"\nSalida: \"¡Buena pregunta! Voy a confirmar con la recepción y te respondo antes de que termine el día.\"\n[PARA_PESSOA = sim · motivo = convênio fora da lista]\n\nEJ 4 — llama a una persona (salud o reclamo)\nEntrada: \"tengo mucho dolor después de la sesión, ¿es normal?\"\nSalida: \"Lo siento. Voy a llamar ahora a la fisioterapeuta para que hable contigo. Si el dolor es fuerte, busca atención de urgencia.\"\n[PARA_PESSOA = sim · prioridade = ALTA]"
+          "conteudo": "EJ 1 — simple (está en la lista de dudas)\nEntrada: \"¿abren los sábados?\"\nSalida: \"¡Hola! Abrimos los sábados de 8 a 12 h. ¿Quieres agendar un horario?\"\n\nEJ 2 — cita\nEntrada: \"quería agendar fisio para mi mamá\"\nSalida: \"¡Claro! Dime su nombre y el mejor día y turno. La recepción te confirma el horario hoy mismo.\"\n\nEJ 3 — difícil (fuera de la lista)\nEntrada: \"¿aceptan el seguro Alfa para drenaje?\"\nSalida: \"¡Buena pregunta! Voy a confirmar con la recepción y te respondo antes de que termine el día.\"\n[PARA_PESSOA = sí · motivo = seguro Alfa fuera de la lista]\n\nEJ 4 — llama a una persona (salud o reclamo)\nEntrada: \"tengo mucho dolor después de la sesión, ¿es normal?\"\nSalida: \"Lo siento. Voy a llamar ahora a la fisioterapeuta para que hable contigo. Si el dolor es fuerte, busca atención de urgencia.\"\n[PARA_PESSOA = sí · prioridad = ALTA]"
         },
         {
           "rot": "Salida estructurada",
           "icone": "lista",
-          "conteudo": "{\n  \"nome\": \"Paciente A\",\n  \"intencao\": \"marcar\",\n  \"servico\": \"fisioterapia\",\n  \"preferencia\": \"terça à tarde\",\n  \"para_pessoa\": false,\n  \"motivo_pessoa\": \"\",\n  \"versao_playbook\": \"1.0\"\n}"
+          "conteudo": "{\n  \"nome\": \"Paciente A\",\n  \"intencao\": \"agendar\",\n  \"servico\": \"fisioterapia\",\n  \"preferencia\": \"martes por la tarde\",\n  \"para_pessoa\": false,\n  \"motivo_pessoa\": \"\",\n  \"versao_playbook\": \"1.0\"\n}"
         }
       ]
     },
@@ -276,7 +276,7 @@
           "icone": "robo"
         },
         {
-          "t": "Profesional 2030 · Auditor: datos y proveedores (LGPD (la ley de protección de datos de Brasil))",
+          "t": "Profesional 2030 · Auditor: datos y proveedores (LGPD, la ley de protección de datos de Brasil)",
           "href": "https://inematds.github.io/prof2030-auditor/",
           "icone": "escudo"
         },

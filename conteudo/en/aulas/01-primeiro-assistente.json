@@ -151,7 +151,7 @@
           "sub": "who can receive",
           "texto": [
             "After the patient writes, the clinic can reply freely for 24 hours. Outside that window, only messages from a template approved by Meta can go out.",
-            "Reminders and campaigns only for people who agreed to receive them, with an easy way to opt out. The patient's number and conversation are personal data (LGPD (Brazil's data protection law)): say what you use it for and how long you keep it."
+            "Reminders and campaigns only for people who agreed to receive them, with an easy way to opt out. The patient's number and conversation are personal data (LGPD, Brazil's data protection law): say what you use it for and how long you keep it."
           ]
         }
       ]
