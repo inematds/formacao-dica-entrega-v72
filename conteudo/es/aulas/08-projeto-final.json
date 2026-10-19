@@ -1,0 +1,370 @@
+{
+  "slug": "projeto-final",
+  "num": 8,
+  "menu": "Proyecto",
+  "titulo": "Proyecto final: DICA de punta a punta en la Clínica Vila Serena",
+  "titulo_curto": "Proyecto final y plan",
+  "minutos": 20,
+  "lead": "Es hora de juntar todo en un solo dossier: el diagnóstico del DICA 1 y las piezas de las clases 1 a 7, aplicados a la Clínica Vila Serena, una clínica ficticia. Evalúas el dossier con una rúbrica antes de darlo por listo y sales con un plan de 90 días con fechas. El caso real es opcional y solo con autorización escrita.",
+  "objetivo": "armar el dossier DICA de la Clínica Vila Serena, evaluarlo con la rúbrica y generar el plan de 90 días con fechas.",
+  "competencias": [
+    "montar-dossie-dica",
+    "avaliar-por-rubrica",
+    "planejar-noventa-dias"
+  ],
+  "aprende": [
+    {
+      "t": "Qué va en el dossier y en qué orden"
+    },
+    {
+      "t": "Evaluar tu propio trabajo con una rúbrica"
+    },
+    {
+      "t": "Usar un caso real con autorización"
+    },
+    {
+      "t": "Generar el plan de 90 días con fechas"
+    }
+  ],
+  "hero_alt": "Mesa junto a una ventana con un dossier encuadernado, un cuaderno abierto y una taza de café; al fondo, la sala de espera de una clínica.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El dossier DICA",
+      "sub": "Seis piezas, en el orden del método. Haz clic en cada una.",
+      "nos": [
+        {
+          "icone": "lupa",
+          "titulo": "Diagnóstico",
+          "sub": "DICA 1",
+          "detalhe": "El informe de una página del DICA 1, con el mapa de oportunidades y la recomendación. Si no hiciste el DICA 1, haz la versión corta: las 5 áreas y una recomendación con su motivo."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Ficha",
+          "sub": "clase 1",
+          "detalhe": "La ficha del primer asistente: qué hace, qué no hace, canal oficial, camino hacia una persona, métrica con el número de antes y plan de apagado."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Playbook",
+          "sub": "clases 2 y 3",
+          "detalhe": "El playbook con versión, la tabla de lo importante y el cuadro de las 3 fases con la regla acordada para subir y volver."
+        },
+        {
+          "icone": "check",
+          "titulo": "Pruebas",
+          "sub": "clase 4",
+          "forte": true,
+          "detalhe": "La decisión de construcción y la batería de 15 casos de la última ronda, sin ningún límite violado."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Entrenamiento",
+          "sub": "clase 5",
+          "detalhe": "Hoja de roles, guion del entrenamiento de 90 minutos, manual de una página y registro de dudas."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Check-ins",
+          "sub": "clases 6 y 7",
+          "detalhe": "Cuatro informes semanales contra la línea base, el alcance de mantenimiento, el mapa de 12 meses y el checklist previo a la entrega."
+        }
+      ],
+      "legenda": "Una página de portada al frente; las seis piezas detrás. La portada la escribes al final."
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Índice del dossier, rúbrica y autorización para un caso real.",
+      "blocos": [
+        {
+          "rot": "Índice del dossier",
+          "icone": "lista",
+          "conteudo": "DOSSIER DICA · <empresa> (<ficticia | real con autorización>) · <fecha>\n\nPORTADA (1 página, escrita al final)\n- el dolor, con el número de antes\n- el asistente elegido y lo que no hace\n- dónde está hoy (fase) y qué cambió contra la línea base\n- lo que viene después (mantenimiento, próxima área o parar)\n\nPIEZAS\n1. Diagnóstico (DICA 1) ........ informe de 1 página\n2. Ficha del primer asistente    clase 1\n3. Playbook + tabla + fases .... clases 2 y 3\n4. Decisión + batería de 15 .... clase 4\n5. Roles + entrenamiento + manual ..... clase 5\n6. Informes + alcance + mapa ... clases 6 y 7\n7. Checklist previo a la entrega ........ clase 7\n8. Rúbrica completada"
+        },
+        {
+          "rot": "Rúbrica (0 a 4 por criterio)",
+          "icone": "check",
+          "conteudo": "RÚBRICA · DOSSIER DICA · nota de 0 a 4 en cada criterio\nListo cuando: todos los criterios con 3 o más.\n\n1. DOLOR CON NÚMERO\n   0 sin número · 2 número sin forma de medir · 4 línea base con fecha, quién midió y cómo\n\n2. ALCANCE CERRADO\n   0 \"asistente completo\" · 2 lo que hace descrito, lo que no hace vago · 4 una área, \"no hace\" con 3+ ítems\n\n3. SEGURIDAD\n   0 sin fases · 2 fases sin regla escrita · 4 riesgo alto en la fase 1, camino hacia una persona\n     probado, canal oficial, dato personal con finalidad y plazo\n\n4. LA CLÍNICA LO USA SIN TI\n   0 solo el consultor opera · 2 campeona sin manual · 4 la campeona aprueba y ajusta sola,\n     manual en el mostrador, registro de dudas en uso\n\n5. ACOMPAÑAMIENTO\n   0 sin informe · 2 informes sin línea base · 4 cuatro informes contra la línea\n     base, alcance de mantenimiento y próximo paso acordado (incluso parar)\n\nNotas: 1 <_> · 2 <_> · 3 <_> · 4 <_> · 5 <_>   Evaluado por: <tú | colega>"
+        },
+        {
+          "rot": "Autorización para un caso real (opcional)",
+          "icone": "cadeado",
+          "conteudo": "AUTORIZACIÓN · uso del caso como proyecto de estudio\n\nYo, <nombre de la dueña>, responsable de <empresa>, autorizo a <consultor> a usar\nel trabajo realizado en <período> como proyecto final de estudio, bajo estas condiciones:\n\n- uso: <solo para estudio | también como caso publicado>\n- lo que aparece: <solo números agregados | nombre de la empresa>\n- lo que nunca aparece: nombre, teléfono y conversación de clientes; datos de salud\n- capturas y grabaciones: solo anonimizadas y aprobadas por mí antes\n- puedo retirar esta autorización en cualquier momento, por mensaje\n\nFecha: <dd/mm/aaaa> · Firma o mensaje \"de acuerdo\": <...>"
+        }
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "El mapa del curso",
+      "sub": "Cuatro entregas hasta que el asistente ande solo. Haz clic en un ejercicio para ver el \"listo cuando\".",
+      "degraus": [
+        {
+          "aula": "primeiro-assistente",
+          "icone": "alvo",
+          "quando": "Semana 1",
+          "titulo": "Elegir",
+          "sub": "ficha y matriz",
+          "saida": "Primer asistente elegido, con lo que no hace y plan de apagado.",
+          "passo": "Parte del mapa de oportunidades del DICA 1. Tres filtros, la regla de los 3 noes y las reglas de WhatsApp verificadas a la fecha."
+        },
+        {
+          "aula": "tres-fases",
+          "icone": "portao",
+          "quando": "Semanas 2 y 3",
+          "titulo": "Encender",
+          "sub": "playbook y fases",
+          "saida": "Playbook con versión, probado en 15 casos y conectado en la fase 1.",
+          "passo": "Requiere la ficha. Playbook de la clase 2, decisión y pruebas de la clase 4, y la escalera de aprobación acordada con la dueña."
+        },
+        {
+          "aula": "capacitar",
+          "icone": "usuario",
+          "quando": "Semana 4",
+          "titulo": "Enseñar",
+          "sub": "campeona y manual",
+          "saida": "Campeona capacitada, manual en el mostrador y registro de dudas abierto.",
+          "passo": "Requiere el asistente encendido. La capacitación de 90 minutos ocurre en el sistema que la clínica va a usar."
+        },
+        {
+          "aula": "acompanhar",
+          "icone": "grafico",
+          "quando": "Semanas 5 a 12",
+          "titulo": "Acompañar",
+          "sub": "check-ins",
+          "saida": "Informes contra la línea base, alcance de mantenimiento y mapa de 12 meses.",
+          "passo": "Requiere la campeona capacitada. Check-in semanal que se va aflojando con la madurez; el mantenimiento de la clase 7 empieza aquí."
+        }
+      ],
+      "resultado": {
+        "titulo": "Al final del curso",
+        "texto": "Un asistente que la clínica usa sin ti, con fases, números y un acuerdo para lo que viene después.",
+        "total": "15 ejercicios"
+      },
+      "rolagem_fim": {
+        "titulo": "El ciclo completo",
+        "texto": "Elegir, encender, enseñar y acompañar, después del diagnóstico del DICA 1. Solo sube cuando el \"listo cuando\" del nivel anterior sea verdad."
+      },
+      "legenda": "Orden obligatorio: cada nivel usa lo que montó el anterior."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Genera tu plan de 90 días",
+      "sub": "Elige la fecha de inicio y cuánto tiempo tienes por semana. El plan incluye los ejercicios de las 8 clases.",
+      "curso": "DICA 2 · Implantar, Capacitar y Acompañar",
+      "horas_padrao": 4,
+      "degraus": [
+        {
+          "titulo": "Clase 1 · Primer asistente",
+          "aula": "primeiro-assistente"
+        },
+        {
+          "titulo": "Clase 2 · Playbook",
+          "aula": "playbook"
+        },
+        {
+          "titulo": "Clase 3 · Tres fases",
+          "aula": "tres-fases"
+        },
+        {
+          "titulo": "Clase 4 · Construir y probar",
+          "aula": "construir"
+        },
+        {
+          "titulo": "Clase 5 · Capacitar",
+          "aula": "capacitar"
+        },
+        {
+          "titulo": "Clase 6 · Acompañar",
+          "aula": "acompanhar"
+        },
+        {
+          "titulo": "Clase 7 · Mantener",
+          "aula": "manter"
+        },
+        {
+          "titulo": "Clase 8 · Dossier",
+          "aula": "projeto-final"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — DICA 2 · Implantar, Capacitar y Acompañar",
+        "inicio": "Inicio",
+        "ritmo": "Ritmo",
+        "termino": "Término previsto",
+        "ate": "hasta",
+        "pronto": "listo cuando",
+        "semanas": "semanas",
+        "travou": "## Qué se trabó y la regla que creé",
+        "h": "h por semana",
+        "exs": "ejercicios"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Proyecto final",
+      "sub": "Reúne lo que hiciste en las clases 1 a 7. Donde falte, hazlo ahora. Caso real solo con la autorización firmada.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Dossier DICA evaluado con la rúbrica",
+          "min": "3 h",
+          "dias": 3,
+          "texto": "Arma el dossier de la Clínica Vila Serena (ficticia) o de un negocio real con autorización por escrito, escribe la portada al final y evalúa con la rúbrica. Si puedes, pide a un colega que evalúe también.",
+          "pronto": "el dossier tiene la portada y las 6 piezas, la rúbrica está completa con nota 3 o más en los 5 criterios y, si el caso es real, la autorización firmada está adjunta."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba final",
+      "sub": "5 preguntas sobre todo el curso. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Cuál es el orden de las entregas después del diagnóstico?",
+          "opcoes": [
+            "Conectar, elegir, acompañar y enseñar.",
+            "Elegir, conectar, enseñar y acompañar.",
+            "Enseñar, elegir, conectar y acompañar.",
+            "Acompañar, enseñar, elegir y conectar."
+          ],
+          "certa": 1,
+          "cert": true,
+          "ref": "mapa",
+          "explica": "Elegir el primer asistente, conectar en fases con un playbook probado, enseñar a la campeona y acompañar. Cada nivel usa lo que armó el anterior."
+        },
+        {
+          "p": "No tienes un cliente real. ¿Vale el proyecto final?",
+          "opcoes": [
+            "No: el proyecto solo vale con un cliente que pague y un contrato firmado.",
+            "Solo vale si inventas números parecidos a los de clínicas reales.",
+            "Solo vale si la dueña de una clínica real firma como testigo.",
+            "Sí: la Vila Serena es ficticia y está rotulada así; el caso real es opcional, con autorización."
+          ],
+          "certa": 3,
+          "ref": "codigo",
+          "explica": "El método es el mismo con la empresa ficticia. Un caso real es bienvenido, pero solo con autorización por escrito y sin datos de pacientes."
+        },
+        {
+          "p": "En la rúbrica, el criterio \"la clínica lo usa sin ti\" tiene nota 2. ¿El dossier está listo?",
+          "opcoes": [
+            "No: todos los criterios necesitan 3 o más.",
+            "Sí, porque el promedio de los 5 criterios pasó de 3.",
+            "Sí, si los otros cuatro criterios tienen nota 4.",
+            "Depende de qué tan satisfecha quedó la clínica con el trabajo."
+          ],
+          "certa": 0,
+          "cert": true,
+          "ref": "codigo",
+          "explica": "La rúbrica no saca promedio: cada criterio necesita 3. Un 2 aquí significa campeona sin manual, y el asistente queda huérfano cuando tú te vas."
+        },
+        {
+          "p": "¿Qué nunca sale de la fase 1, en ningún momento del proyecto?",
+          "opcoes": [
+            "El saludo y las respuestas de la lista de dudas.",
+            "El pedido de cita sin dinero de por medio.",
+            "Lo que toca dinero, contrato o salud.",
+            "Los mensajes recibidos fuera de horario."
+          ],
+          "certa": 2,
+          "cert": true,
+          "ref": "mapa",
+          "explica": "El riesgo alto queda con aprobación humana para siempre, aunque no haya errores. Lo demás sube de fase con registro y con la dueña decidiendo."
+        },
+        {
+          "p": "Según la visión del curso, ¿qué hace que la dueña confíe en el proyecto?",
+          "opcoes": [
+            "El modelo de IA más avanzado y más caro disponible.",
+            "Diagnóstico, fases con puerta de regreso, enseñanza y acompañamiento con números.",
+            "Construir rápido la mayor cantidad posible de asistentes.",
+            "Un contrato largo con multa para quien quiera salir."
+          ],
+          "certa": 1,
+          "ref": "mapa",
+          "explica": "Construir se volvió fácil; confiar en lo construido, no. La confianza viene del método: diagnóstico, escalera con regreso, enseñanza y números contra la línea base."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "El curso en cuatro frases",
+      "itens": [
+        {
+          "t": "Elegir pequeño",
+          "texto": "Alto dolor, bajo riesgo, alcance claro, canal oficial y un plan de apagado."
+        },
+        {
+          "t": "Conectar en escalera",
+          "texto": "Playbook con versión, 15 casos probados y 3 fases con puerta de regreso."
+        },
+        {
+          "t": "Enseñar a quien se queda",
+          "texto": "Campeona con nombre, entrenamiento de 90 minutos y manual de una página."
+        },
+        {
+          "t": "Acompañar con números",
+          "texto": "Check-in de 20 minutos, 5 indicadores contra la línea base y una cadencia que disminuye."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Qué cambió respecto al Mapa del Cliente (actualización de oct/2026)",
+      "itens": [
+        {
+          "t": "WhatsApp",
+          "texto": "Canal oficial con camino hacia una persona; chatbot de uso general prohibido en la plataforma oficial desde el 15/01/2026; cobro por mensaje entregado desde el 01/07/2025, con 1.000 mensajes de servicio gratis por número al mes desde el 01/10/2026. Verificado el 19/10/2026."
+        },
+        {
+          "t": "Sin precio, sin estadística",
+          "texto": "Se quitaron los valores en reales y los porcentajes sin fuente. El criterio de fase pasó a ser una regla acordada con la dueña; el precio está en Ventas con IA."
+        },
+        {
+          "t": "Kit abierto",
+          "texto": "Los \"paquetes listos\" pasaron a ser diagnóstico + kit abierto de INEMA + acompañamiento, con 15 casos probados antes de encender."
+        },
+        {
+          "t": "LGPD (la ley de protección de datos de Brasil) y proyecto",
+          "texto": "Grabación, capturas de pantalla y datos de pacientes solo con finalidad, plazo y autorización. El proyecto final usa una empresa ficticia; un caso real es opcional."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Sigue por aquí",
+      "links": [
+        {
+          "t": "DICA 1 · Diagnóstico: el Mapa del Cliente (curso anterior)",
+          "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/es/",
+          "icone": "seta"
+        },
+        {
+          "t": "Versión anterior: Mapa del Cliente (2026, solo PT)",
+          "href": "https://inematds.github.io/mapacliente/",
+          "icone": "voltar"
+        },
+        {
+          "t": "Profesional 2030 · Consultor: el proyecto final de Horizonte",
+          "href": "https://inematds.github.io/prof2030-consultor/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Área Consultoría de IA",
+          "href": "https://eventos.inema.pro/consultoria-ia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Profesional 2030: los cuatro roles",
+          "href": "https://eventos.inema.pro/prof2030/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Cursos abiertos en INEMA.CLUB",
+          "href": "https://inema.club/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

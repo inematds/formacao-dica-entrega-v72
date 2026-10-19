@@ -1,0 +1,319 @@
+{
+  "slug": "primeiro-assistente",
+  "num": 1,
+  "menu": "Choose",
+  "titulo": "The first assistant: 3 criteria and what not to choose",
+  "titulo_curto": "The first assistant",
+  "minutos": 16,
+  "lead": "The first assistant decides whether the owner trusts the second. Its job is not to solve the clinic's biggest problem: it is to prove, in a small, visible piece, that applied AI works in that operation. That is why the choice comes before any tool and ends in a one-page sheet, with what it does not do and how to shut it down.",
+  "objetivo": "choose the first assistant using the 3 criteria, write down what it does not do, and agree on the 30-day metric and the shutdown plan.",
+  "competencias": [
+    "escolher-primeiro-caso",
+    "delimitar-escopo",
+    "checar-regras-do-canal",
+    "planejar-saida"
+  ],
+  "aprende": [
+    {
+      "t": "Run the candidates from the map through the 3 criteria"
+    },
+    {
+      "t": "Recognize what should never be first"
+    },
+    {
+      "t": "Check the WhatsApp rules in 2026"
+    },
+    {
+      "t": "Write the sheet with the metric and the shutdown plan"
+    }
+  ],
+  "hero_alt": "A small clinic's desk with five paper cards; a hand separates one of them from the rest.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From the map to the first assistant",
+      "sub": "Three filters in order, no skipping, and one channel check. Click each step.",
+      "nos": [
+        {
+          "icone": "lista",
+          "titulo": "Candidates",
+          "sub": "from the map",
+          "detalhe": "They come from the opportunity map in DICA 1. At Clínica Vila Serena (fictional): answering questions and sending people to book on WhatsApp, appointment reminders, quotes for aesthetic packages, collecting overdue payments, and the week's posts."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "High pain",
+          "sub": "the owner mentions it",
+          "detalhe": "The owner talks about the pain without being reminded, and it costs time or patients in a way you can see. If you have to convince the owner that it hurts, it's not the first one."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Low risk",
+          "sub": "reversible mistake",
+          "detalhe": "If the assistant gets it wrong, the fix takes minutes and nobody loses money, a contract, or sensitive data. Collections and discounts stay out of the first one."
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Clear scope",
+          "sub": "one sentence",
+          "detalhe": "Input and output fit in one sentence: \"a new message comes in, an answer from the FAQ list or a booking request goes out.\" If the sentence needs \"and also,\" the scope is still open."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Channel",
+          "sub": "official?",
+          "detalhe": "If it goes through WhatsApp: official channel, a path to a person always visible, and no \"general chat\" assistant. The 2026 rules are right below."
+        },
+        {
+          "icone": "check",
+          "titulo": "Chosen",
+          "sub": "one-pager",
+          "forte": true,
+          "detalhe": "The winner becomes a one-page sheet: what it does, what it doesn't do, the 30-day metric with the \"before\" number, and the shutdown plan."
+        }
+      ],
+      "legenda": "A filter that fails drops the candidate. Don't negotiate: the first case isn't the most exciting one, it's the one that gives a visible, safe win."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "What is never the first one",
+      "sub": "First projects tend to die in the same places. A consultant's rule of thumb.",
+      "passos": [
+        {
+          "titulo": "Big system",
+          "sub": "integration in month 1",
+          "texto": [
+            "Connecting the assistant to the clinic's management system depends on third parties and takes weeks.",
+            "Any failure on their side becomes your fault, before the owner sees any gain."
+          ]
+        },
+        {
+          "titulo": "Touches money",
+          "sub": "collections, discounts",
+          "texto": [
+            "Invoices, automatic discounts, and collecting overdue payments come later.",
+            "A wrong amount costs the trust that the first assistant was supposed to build."
+          ]
+        },
+        {
+          "titulo": "Does everything",
+          "sub": "open scope",
+          "texto": [
+            "\"I want a complete assistant\" is the most common request and the most dangerous.",
+            "An open scope can't succeed and can't be measured."
+          ]
+        },
+        {
+          "titulo": "No owner",
+          "sub": "no sponsorship",
+          "texto": [
+            "The excited employee asks for it, the owner doesn't follow along.",
+            "If the owner doesn't feel the gain day to day, the project doesn't make it past the first month."
+          ],
+          "exemplo": {
+            "rot": "The rule of 3 no's",
+            "texto": "No sponsorship from the owner, no start. No organized data (FAQ list, schedule), no start. No reversible mistake, no start."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "WhatsApp rules in 2026",
+      "sub": "Checked on the official pages on 10/19/2026. Platform rules change: check the date before each project.",
+      "passos": [
+        {
+          "titulo": "Official channel",
+          "sub": "and a human path",
+          "texto": [
+            "Use the WhatsApp Business app or Meta's official platform, through a recognized provider. Connectors that imitate the app are not an official channel and put the clinic's number at risk of being blocked.",
+            "Meta's policy allows automation within the 24-hour window as long as there is a quick, clear path to a person: transfer within the chat, phone, email, or an in-person visit."
+          ]
+        },
+        {
+          "titulo": "Since 01/15/2026",
+          "sub": "no general chatbot",
+          "texto": [
+            "The official platform's terms ban general-purpose AI chatbots as the main function, the \"talk about anything\" kind.",
+            "An assistant that answers questions, books appointments, confirms visits, and serves the customers of your own business is still allowed. Meta decides what counts as \"main.\""
+          ]
+        },
+        {
+          "titulo": "Billing",
+          "sub": "per message",
+          "texto": [
+            "Since 07/01/2025, Meta charges per delivered message (before, it was per conversation), with a rate by category (marketing, utility, authentication and service) and by country.",
+            "Since 10/01/2026, each number gets 1,000 free service messages per month; from the 1,001st on, Meta charges, and without a payment method on file it stops delivering. The course gives no prices: open the official table on the day."
+          ]
+        },
+        {
+          "titulo": "24 h and consent",
+          "sub": "who can receive",
+          "texto": [
+            "After the patient writes, the clinic can reply freely for 24 hours. Outside that window, only messages from a template approved by Meta can go out.",
+            "Reminders and campaigns only for people who agreed to receive them, with an easy way to opt out. The patient's number and conversation are personal data (LGPD (Brazil's data protection law)): say what you use it for and how long you keep it."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The matrix decides; the sheet becomes the agreement with the owner. The tab next to it shows the one for Clínica Vila Serena (fictional).",
+      "blocos": [
+        {
+          "rot": "Choice matrix",
+          "icone": "grafico",
+          "conteudo": "FIRST ASSISTANT MATRIX · <company> · <date>\nScores from 1 to 5. Points = Pain + Readiness − Risk (consultant's rule of thumb).\n\n| Candidate | Pain | Risk | Readiness | Points | Scope in one sentence? | Needs AI? | 3 nos? |\n|-----------|------|------|-----------|--------|------------------------|-----------|--------|\n| <candidate 1> |  |  |  |  | <yes/no> | <yes/no> | <passes?> |\n| <candidate 2> |  |  |  |  |  |  |  |\n| <candidate 3> |  |  |  |  |  |  |  |\n| <candidate 4> |  |  |  |  |  |  |  |\n| <candidate 5> |  |  |  |  |  |  |  |\n\nChosen: <the one with the most points with Readiness >= 3, Risk <= 3, scope in one sentence, and that needs AI>\nWhat doesn't need AI becomes simple automation, separately.\nReason in one sentence: <...>"
+        },
+        {
+          "rot": "First assistant sheet",
+          "icone": "arquivo",
+          "conteudo": "FIRST ASSISTANT · <company> · version 1 · <date>\n\n1. WHAT IT DOES (one sentence: what goes in → what comes out)\n<...>\n\n2. WHAT IT DOES NOT DO (at least 3 items)\n- <e.g.: does not talk about package prices>\n- <e.g.: does not reschedule on its own>\n- <e.g.: does not answer complaints>\n\n3. CHANNEL\n<WhatsApp Business app | official platform via provider | website chat>\n\n4. WAY TO REACH A PERSON (always visible)\n<word or button that calls the front desk + hours + phone>\n\n5. PERSONAL DATA THAT PASSES THROUGH\n<name, phone, reason for the visit...> · what for: <...> · kept for: <period>\n\n6. 30-DAY METRIC (observable)\nIndicator: <e.g.: unanswered messages at the end of the day>\nValue before: <number, measured on <date>, by <who>>\nHow to measure after: <where the number comes from>\n\n7. SPONSOR\n<name of the owner or partner who decides>\n\n8. SHUTDOWN PLAN\nHow to go back to the old way: <...>\nIn how long: <e.g.: the same day>\nWho does it and who tells the team: <...>\nWhere the conversations are kept and what gets deleted: <...>"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Vila Serena matrix (fictional)",
+            "html": "<pre>| Candidate                    | Pain | Risk | Ready | Pts | Sentence? | AI? |\n| Questions and booking request |  5  |   2   |   4    |  7  |  yes   | yes |\n| Appointment reminder         |  4  |   1   |   5    |  8  |  yes   | no  |\n| Aesthetics package quote     |  3  |   2   |   3    |  4  |  no    | yes |\n| Collecting overdue payments  |  4  |   5   |   2    |  1  |  yes   | no  |\n| Posts of the week            |  2  |   2   |   4    |  4  |  yes   | yes |\n\nThe reminder has more points, but it doesn't need AI:\nit goes out through the calendar, separately (the DICA 1 map already said so).\nCollections: fails on low risk (it touches money).\nChosen for AI: questions and booking request.</pre>"
+          },
+          {
+            "rot": "Sheet (excerpt)",
+            "html": "<pre>1. DOES: new message on the front desk's WhatsApp →\n   answer from the list of 15 questions or booking\n   request noted for the front desk to confirm.\n2. DOES NOT: package prices, rescheduling on its own,\n   complaints, health questions.\n4. PERSON: \"talk to the front desk\" at any time;\n   outside hours, it says when the front desk is back.\n6. METRIC: unanswered messages at the end of the day.\n   Before: counted for 1 week by the front desk.\n8. SHUTDOWN: the front desk goes back to answering from\n   the phone the same day; the owner tells the team.</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Use Clínica Vila Serena (fictional) or the small business you serve, with the owner's permission.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Matrix of candidates",
+          "min": "20 min",
+          "texto": "List 5 candidates for the first assistant (from the DICA 1 map or from the pains the owner mentions) and fill in the matrix with the three scores. Run the highest-scoring one through the 3 nos rule.",
+          "pronto": "the 5 candidates have all three scores, the points, and the columns \"scope in one sentence?\" and \"needs AI?\", and the chosen one has written down why it passes the 3 nos; the one that touches money, if there is one, is marked \"later\"."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · One-page sheet",
+          "min": "30 min",
+          "texto": "Fill in the first assistant sheet for the chosen candidate. Check the channel against the WhatsApp rules from this lesson.",
+          "pronto": "the sheet fits on one page, all 8 fields are filled in, \"does not do\" has at least 3 items, the metric has the before number and where it comes from, and the shutdown plan says who does it and in how long."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The owner of Vila Serena wants to start with automatic collection of overdue payments, \"because that's what hurts the most.\" What do you answer?",
+          "opcoes": [
+            "That you start with it, because the pain is the biggest and the owner asked for it.",
+            "That you do it along with customer service, to show more results and take advantage of the owner's enthusiasm in the first month.",
+            "That collections involve money and fail on low risk: it waits until after a first safe case.",
+            "That collections should not be done with AI in any case."
+          ],
+          "certa": 2,
+          "ref": "diagrama",
+          "explica": "High pain is not enough: the three filters work together. Collections go wrong with money and cost the trust that the first assistant was meant to build. It can come back later, with human approval."
+        },
+        {
+          "p": "Which of these is an observable metric for the 30 days?",
+          "opcoes": [
+            "Unanswered messages at the end of the day, counted the same way as before.",
+            "Patients more satisfied with the clinic.",
+            "A more modern and organized front desk.",
+            "Increase in aesthetics package sales in the month right after the assistant was delivered."
+          ],
+          "certa": 0,
+          "ref": "codigo",
+          "explica": "\"Observable\" means something two people would describe the same way before and after. Satisfaction and \"modern\" are impressions; sales depend on a lot more than the assistant."
+        },
+        {
+          "p": "What changed on WhatsApp on 01/15/2026?",
+          "opcoes": [
+            "The WhatsApp Business app stopped accepting any automatic reply, even inside the 24-hour window.",
+            "Every service message started being charged from the very first one.",
+            "Any use of AI in customer service became banned.",
+            "The official platform began banning general-purpose AI chatbots as a main function."
+          ],
+          "certa": 3,
+          "ref": "passos",
+          "explica": "The rule targets \"general conversation\" assistants. Customer service, scheduling, and questions about the business itself are still allowed. Charging for service messages is a different change, from 10/01/2026, and it includes 1,000 free per month."
+        },
+        {
+          "p": "What is the shutdown plan on the sheet for?",
+          "opcoes": [
+            "To charge a fee if the owner wants to stop.",
+            "So the clinic can go back to the old way the same day if something goes wrong, with no one left lost.",
+            "To prove the assistant will never fail.",
+            "So the consultant can disappear after delivery."
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Knowing you can go back is what lets the owner agree to start. The plan says who turns it off, how fast, and who tells the team."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Three filters",
+          "texto": "High pain, low risk, clear scope, in that order. If one fails, drop the candidate."
+        },
+        {
+          "t": "Never first",
+          "texto": "Big system, money, \"does everything,\" and a project without the owner."
+        },
+        {
+          "t": "Channel up to date",
+          "texto": "Official, with a path to a person, no general chatbot, with per-message charges checked against the date."
+        },
+        {
+          "t": "Sheet",
+          "texto": "One page with what it doesn't do, the metric with the \"before\" number, and the shutdown plan."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "DICA 1 · Diagnosis: the opportunity map (previous course)",
+          "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/en/",
+          "icone": "seta"
+        },
+        {
+          "t": "Professional 2030 · Consultant: 30-day pilot",
+          "href": "https://inematds.github.io/prof2030-consultor/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Meta: WhatsApp Business Platform pricing",
+          "href": "https://developers.facebook.com/docs/whatsapp/pricing",
+          "icone": "grafico"
+        },
+        {
+          "t": "WhatsApp Business Messaging Policy",
+          "href": "https://business.whatsapp.com/policy",
+          "icone": "escudo"
+        },
+        {
+          "t": "respond.io: the ban on general-purpose chatbots (2026)",
+          "href": "https://respond.io/blog/whatsapp-general-purpose-chatbots-ban",
+          "icone": "arquivo"
+        }
+      ]
+    }
+  ]
+}

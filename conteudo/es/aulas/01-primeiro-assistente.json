@@ -1,0 +1,319 @@
+{
+  "slug": "primeiro-assistente",
+  "num": 1,
+  "menu": "Elegir",
+  "titulo": "El primer asistente: 3 criterios y qué no elegir",
+  "titulo_curto": "El primer asistente",
+  "minutos": 16,
+  "lead": "El primer asistente decide si la dueña confía en el segundo. Su función no es resolver el mayor problema de la clínica: es probar, en un pedazo pequeño y visible, que la IA aplicada funciona en esa operación. Por eso la elección viene antes de cualquier herramienta y termina en una ficha de una página, con lo que él no hace y cómo apagarlo.",
+  "objetivo": "elegir el primer asistente según los 3 criterios, escribir lo que no hace y acordar la métrica de 30 días y el plan de apagado.",
+  "competencias": [
+    "escolher-primeiro-caso",
+    "delimitar-escopo",
+    "checar-regras-do-canal",
+    "planejar-saida"
+  ],
+  "aprende": [
+    {
+      "t": "Pasar las candidatas del mapa por los 3 criterios"
+    },
+    {
+      "t": "Reconocer lo que nunca debe ser el primero"
+    },
+    {
+      "t": "Revisar las reglas de WhatsApp en 2026"
+    },
+    {
+      "t": "Escribir la ficha con métrica y plan de apagado"
+    }
+  ],
+  "hero_alt": "Mesa de una pequeña clínica con cinco tarjetas de papel; una mano separa una de las otras.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Del mapa al primer asistente",
+      "sub": "Tres filtros en orden, sin saltarse ninguno, y una revisión del canal. Haz clic en cada etapa.",
+      "nos": [
+        {
+          "icone": "lista",
+          "titulo": "Candidatas",
+          "sub": "del mapa",
+          "detalhe": "Salen del mapa de oportunidades del DICA 1. En la Clínica Vila Serena (ficticia): resolver dudas y encaminar la reserva de cita por WhatsApp, recordatorio de consulta, presupuesto de paquete de estética, cobro de atrasados y posts de la semana."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Alto dolor",
+          "sub": "la dueña lo menciona",
+          "detalhe": "La dueña habla del dolor sin que se lo recuerdes, y le cuesta tiempo o pacientes de una forma que se nota. Si tienes que convencer a la dueña de que eso duele, no es el primero."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Bajo riesgo",
+          "sub": "error reversible",
+          "detalhe": "Si el asistente se equivoca, corregirlo toma minutos y nadie pierde dinero, contrato ni datos sensibles. El cobro y los descuentos quedan fuera del primero."
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Alcance claro",
+          "sub": "una frase",
+          "detalhe": "La entrada y la salida caben en una frase: \"entra un mensaje nuevo, sale la respuesta de la lista de dudas o la solicitud de cita\". Si la frase necesita un \"y también\", el alcance sigue abierto."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Canal",
+          "sub": "¿oficial?",
+          "detalhe": "Si pasa por WhatsApp: canal oficial, camino hacia una persona siempre visible y nada de asistente \"de conversación general\". Las reglas de 2026 están justo debajo."
+        },
+        {
+          "icone": "check",
+          "titulo": "Elegido",
+          "sub": "ficha",
+          "forte": true,
+          "detalhe": "El ganador se convierte en una ficha de una página: qué hace, qué no hace, la métrica de 30 días con el número de antes y el plan de apagado."
+        }
+      ],
+      "legenda": "Un filtro que falla descarta a la candidata. No negocies: el primer caso no es el más emocionante, es el que da una victoria visible y segura."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Lo que nunca es el primero",
+      "sub": "Los proyectos de estreno suelen morir en los mismos lugares. Regla práctica del consultor.",
+      "passos": [
+        {
+          "titulo": "Sistema grande",
+          "sub": "integración en el 1.er mes",
+          "texto": [
+            "Conectar el asistente al sistema de gestión de la clínica depende de terceros y toma semanas.",
+            "Cualquier falla de ahí se vuelve culpa tuya, antes de que la dueña vea alguna ganancia."
+          ]
+        },
+        {
+          "titulo": "Toca dinero",
+          "sub": "cobro, descuento",
+          "texto": [
+            "Boleto, descuento automático y cobro de atrasados quedan para después.",
+            "Un valor equivocado cuesta la confianza que el primer asistente debía construir."
+          ]
+        },
+        {
+          "titulo": "Hace todo",
+          "sub": "alcance abierto",
+          "texto": [
+            "\"Quiero un asistente completo\" es el pedido más común y el más peligroso.",
+            "Un alcance abierto no tiene cómo salir bien ni cómo medirse."
+          ]
+        },
+        {
+          "titulo": "Sin la dueña",
+          "sub": "sin patrocinio",
+          "texto": [
+            "La empleada entusiasmada lo pide, la dueña no le da seguimiento.",
+            "Si la dueña no siente la ganancia en el día a día, el proyecto no pasa del primer mes."
+          ],
+          "exemplo": {
+            "rot": "Regla de los 3 noes",
+            "texto": "Sin patrocinio de la dueña, no empieza. Sin datos organizados (lista de dudas, agenda), no empieza. Sin error reversible, no empieza."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Las reglas de WhatsApp en 2026",
+      "sub": "Verificado en las páginas oficiales el 19/10/2026. Las reglas de las plataformas cambian: revisa la fecha antes de cada proyecto.",
+      "passos": [
+        {
+          "titulo": "Canal oficial",
+          "sub": "y camino humano",
+          "texto": [
+            "Usa la app WhatsApp Business o la plataforma oficial de Meta, a través de un proveedor reconocido. Los conectores que imitan la aplicación no son canal oficial y ponen el número de la clínica en riesgo de bloqueo.",
+            "La política de Meta permite la automatización dentro de la ventana de 24 horas siempre que exista un camino rápido y claro hacia una persona: transferir en la conversación, teléfono, correo electrónico o visita."
+          ]
+        },
+        {
+          "titulo": "Desde el 15/01/2026",
+          "sub": "sin chatbot general",
+          "texto": [
+            "Los términos de la plataforma oficial prohíben el chatbot de IA de uso general como función principal, del tipo \"conversa sobre cualquier cosa\".",
+            "Un asistente que resuelve dudas, agenda horarios, confirma citas y atiende a los clientes del propio negocio sigue permitido. Quien decide qué es \"principal\" es Meta."
+          ]
+        },
+        {
+          "titulo": "Cobro",
+          "sub": "por mensaje",
+          "texto": [
+            "Desde el 01/07/2025 Meta cobra por mensaje entregado (antes era por conversación), con tarifa por categoría (marketing, utilidad, autenticación y servicio) y por país.",
+            "Desde el 01/10/2026 cada número tiene 1.000 mensajes de servicio gratis al mes; a partir del 1.001.º Meta cobra, y sin una forma de pago registrada deja de entregar. El curso no da precios: abre la tabla oficial en la fecha."
+          ]
+        },
+        {
+          "titulo": "24 h y consentimiento",
+          "sub": "quién puede recibir",
+          "texto": [
+            "Después de que el paciente escribe, la clínica responde libremente durante 24 horas. Fuera de esa ventana, solo salen mensajes mediante una plantilla aprobada por Meta.",
+            "Recordatorios y campañas solo para quien aceptó recibirlos, y con una forma fácil de darse de baja. El número y la conversación del paciente son datos personales (LGPD (la ley de protección de datos de Brasil)): explica para qué los usas y por cuánto tiempo los guardas."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "La matriz decide; la ficha se vuelve el acuerdo con la dueña. La pestaña de al lado muestra la de la Clínica Vila Serena (ficticia).",
+      "blocos": [
+        {
+          "rot": "Matriz de elección",
+          "icone": "grafico",
+          "conteudo": "MATRIZ DEL PRIMER ASISTENTE · <empresa> · <fecha>\nNotas de 1 a 5. Puntos = Dolor + Preparación − Riesgo (regla práctica del consultor).\n\n| Candidata | Dolor | Riesgo | Preparación | Puntos | ¿Alcance en una frase? | ¿Necesita IA? | ¿3 noes? |\n|-----------|-------|--------|-------------|--------|------------------------|---------------|----------|\n| <candidata 1> |  |  |  |  | <sí/no> | <sí/no> | <¿pasa?> |\n| <candidata 2> |  |  |  |  |  |  |  |\n| <candidata 3> |  |  |  |  |  |  |  |\n| <candidata 4> |  |  |  |  |  |  |  |\n| <candidata 5> |  |  |  |  |  |  |  |\n\nElegida: <la de más puntos con Preparación >= 3, Riesgo <= 3, alcance en una frase y que necesita IA>\nLo que no necesita IA se vuelve una automatización simple, aparte.\nMotivo en una frase: <...>"
+        },
+        {
+          "rot": "Ficha del primer asistente",
+          "icone": "arquivo",
+          "conteudo": "PRIMER ASISTENTE · <empresa> · versión 1 · <fecha>\n\n1. QUÉ HACE (una frase: qué entra → qué sale)\n<...>\n\n2. QUÉ NO HACE (mínimo 3 ítems)\n- <ej.: no habla del precio de paquetes>\n- <ej.: no reagenda por su cuenta>\n- <ej.: no responde reclamos>\n\n3. CANAL\n<app WhatsApp Business | plataforma oficial vía proveedor | chat del sitio>\n\n4. CAMINO HACIA UNA PERSONA (siempre visible)\n<palabra o botón que llama a la recepción + horario + teléfono>\n\n5. DATO PERSONAL QUE PASA\n<nombre, teléfono, motivo de la consulta...> · para qué: <...> · guardado por: <plazo>\n\n6. MÉTRICA DE 30 DÍAS (observable)\nIndicador: <ej.: mensajes sin respuesta al final del día>\nValor de antes: <número, medido el <fecha>, por <quién>>\nCómo medir después: <de dónde sale el número>\n\n7. QUIÉN PATROCINA\n<nombre de la dueña o del socio que decide>\n\n8. PLAN DE APAGADO\nCómo se vuelve a la forma anterior: <...>\nEn cuánto tiempo: <ej.: el mismo día>\nQuién lo hace y quién avisa al equipo: <...>\nDónde quedan las conversaciones y qué se borra: <...>"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Matriz de Vila Serena (ficticia)",
+            "html": "<pre>| Candidata                    | Dolor | Riesgo | Prep. | Pts | ¿Frase? | ¿IA? |\n| Dudas y pedido de cita       |   5   |   2    |   4   |  7  |   sí    |  sí  |\n| Recordatorio de consulta     |   4   |   1    |   5   |  8  |   sí    |  no  |\n| Presupuesto de paquete estético |  3  |   2    |   3   |  4  |   no    |  sí  |\n| Cobro de atrasados           |   4   |   5    |   2   |  1  |   sí    |  no  |\n| Posts de la semana           |   2   |   2    |   4   |  4  |   sí    |  sí  |\n\nEl recordatorio tiene más puntos, pero no necesita IA:\nsale por la agenda, aparte (el mapa del DICA 1 ya lo decía).\nCobro: falla en el riesgo bajo (toca dinero).\nElegida para IA: dudas y pedido de cita.</pre>"
+          },
+          {
+            "rot": "Ficha (fragmento)",
+            "html": "<pre>1. HACE: mensaje nuevo en el WhatsApp de la recepción →\n   respuesta de la lista de 15 dudas o pedido de\n   cita anotado para que la recepción lo confirme.\n2. NO HACE: precio de paquetes, reagendar por su cuenta,\n   reclamos, preguntas de salud.\n4. PERSONA: \"hablar con la recepción\" a cualquier hora;\n   fuera de horario, avisa cuándo vuelve la recepción.\n6. MÉTRICA: mensajes sin respuesta al final del día.\n   Antes: contados durante 1 semana por la recepción.\n8. APAGAR: la recepción vuelve a responder desde el\n   celular el mismo día; la dueña avisa al equipo.</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Usa la Clínica Vila Serena (ficticia) o el pequeño negocio que atiendes, con la autorización de la dueña.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Matriz de las candidatas",
+          "min": "20 min",
+          "texto": "Lista 5 candidatas a primer asistente (del mapa del DICA 1 o de los dolores que menciona la dueña) y completa la matriz con las tres notas. Pasa a la de más puntos por la regla de los 3 noes.",
+          "pronto": "las 5 candidatas tienen las tres notas, los puntos y las columnas \"¿alcance en una frase?\" y \"¿necesita IA?\", y la elegida tiene escrito por qué pasa los 3 noes; la que toca dinero, si la hay, está marcada como \"después\"."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Ficha de una página",
+          "min": "30 min",
+          "texto": "Completa la ficha del primer asistente para la candidata elegida. Revisa el canal contra las reglas de WhatsApp de esta clase.",
+          "pronto": "la ficha cabe en una página, los 8 campos están completos, \"no hace\" tiene al menos 3 ítems, la métrica tiene el número de antes y de dónde sale, y el plan de apagado dice quién lo hace y en cuánto tiempo."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "La dueña de Vila Serena quiere empezar por el cobro automático de los atrasados, \"porque es lo que más duele\". ¿Qué le respondes?",
+          "opcoes": [
+            "Que empieza por ahí, porque el dolor es el mayor y la dueña lo pidió.",
+            "Que lo hace junto con la atención, para mostrar más resultados y aprovechar el entusiasmo de la dueña en el primer mes.",
+            "Que el cobro toca dinero y falla en el bajo riesgo: queda para después de un primer caso seguro.",
+            "Que el cobro no se hace con IA en ningún caso."
+          ],
+          "certa": 2,
+          "ref": "diagrama",
+          "explica": "Un dolor alto no basta: los tres filtros valen juntos. El cobro se equivoca con dinero y cuesta la confianza que el primer asistente debía crear. Puede volver después, con aprobación humana."
+        },
+        {
+          "p": "¿Cuál de estas es una métrica observable para los 30 días?",
+          "opcoes": [
+            "Mensajes sin respuesta al final del día, contados como antes.",
+            "Pacientes más satisfechos con la clínica.",
+            "Recepción más moderna y organizada.",
+            "Aumento de las ventas de paquetes de estética en el mes siguiente a la entrega."
+          ],
+          "certa": 0,
+          "ref": "codigo",
+          "explica": "Observable es lo que alguien cuenta de la misma forma antes y después. La satisfacción y la modernidad son impresiones; la venta depende de muchas cosas además del asistente."
+        },
+        {
+          "p": "¿Qué cambió en WhatsApp el 15/01/2026?",
+          "opcoes": [
+            "La app WhatsApp Business dejó de aceptar cualquier respuesta automática, incluso dentro de la ventana de 24 horas.",
+            "Todo mensaje de servicio pasó a cobrarse desde el primero.",
+            "Quedó prohibido cualquier uso de IA en la atención al cliente.",
+            "La plataforma oficial pasó a prohibir los chatbots de IA de uso general como función principal."
+          ],
+          "certa": 3,
+          "ref": "passos",
+          "explica": "La regla apunta a asistentes \"de conversación general\". La atención, las reservas y las dudas del propio negocio siguen permitidas. El cobro de los mensajes de servicio es otro cambio, del 01/10/2026, y incluye 1.000 gratis al mes."
+        },
+        {
+          "p": "¿Para qué sirve el plan de apagado en la ficha?",
+          "opcoes": [
+            "Para cobrar una tarifa si la dueña quiere parar.",
+            "Para que la clínica vuelva a la forma anterior el mismo día si algo sale mal, sin que nadie quede perdido.",
+            "Para probar que el asistente nunca va a fallar.",
+            "Para que el consultor pueda desaparecer después de la entrega."
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Saber que se puede volver atrás es lo que hace que la dueña acepte empezar. El plan dice quién apaga, en cuánto tiempo y quién avisa al equipo."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Tres filtros",
+          "texto": "Alto dolor, bajo riesgo, alcance claro, en ese orden. Si una falla, se descarta la candidata."
+        },
+        {
+          "t": "Nunca primero",
+          "texto": "Sistema grande, dinero, \"hace todo\" y proyecto sin la dueña."
+        },
+        {
+          "t": "Canal al día",
+          "texto": "Oficial, con camino hacia una persona, sin chatbot general, con el cobro por mensaje verificado en la fecha."
+        },
+        {
+          "t": "Ficha",
+          "texto": "Una página con lo que no hace, la métrica con el número de antes y el plan de apagado."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "DICA 1 · Diagnóstico: el mapa de oportunidades (curso anterior)",
+          "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/es/",
+          "icone": "seta"
+        },
+        {
+          "t": "Profesional 2030 · Consultor: piloto de 30 días",
+          "href": "https://inematds.github.io/prof2030-consultor/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Meta: precios de la plataforma WhatsApp Business",
+          "href": "https://developers.facebook.com/docs/whatsapp/pricing",
+          "icone": "grafico"
+        },
+        {
+          "t": "Política de Mensajes de WhatsApp Business",
+          "href": "https://business.whatsapp.com/policy",
+          "icone": "escudo"
+        },
+        {
+          "t": "respond.io: la prohibición de los chatbots de uso general (2026)",
+          "href": "https://respond.io/blog/whatsapp-general-purpose-chatbots-ban",
+          "icone": "arquivo"
+        }
+      ]
+    }
+  ]
+}

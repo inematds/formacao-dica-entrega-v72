@@ -1,0 +1,370 @@
+{
+  "slug": "projeto-final",
+  "num": 8,
+  "menu": "Project",
+  "titulo": "Final project: DICA from start to finish at Clínica Vila Serena",
+  "titulo_curto": "Final project and plan",
+  "minutos": 20,
+  "lead": "Time to bring it all together in a single dossier: the diagnosis from DICA 1 and the pieces from lessons 1 to 7, applied to Clínica Vila Serena, a fictional clinic. You assess the dossier against a rubric before calling it done, and you leave with a 90-day plan with dates. A real case is optional and only with written authorization.",
+  "objetivo": "build the DICA dossier for Clínica Vila Serena, assess it against the rubric, and generate the 90-day plan with dates.",
+  "competencias": [
+    "montar-dossie-dica",
+    "avaliar-por-rubrica",
+    "planejar-noventa-dias"
+  ],
+  "aprende": [
+    {
+      "t": "What goes in the dossier and in what order"
+    },
+    {
+      "t": "Assess your own work against a rubric"
+    },
+    {
+      "t": "Use a real case with authorization"
+    },
+    {
+      "t": "Generate the 90-day plan with dates"
+    }
+  ],
+  "hero_alt": "A desk by a window with a bound dossier, an open notebook, and a cup of coffee; in the background, a clinic waiting room.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The DICA dossier",
+      "sub": "Six pieces, in the order of the method. Click each one.",
+      "nos": [
+        {
+          "icone": "lupa",
+          "titulo": "Diagnosis",
+          "sub": "DICA 1",
+          "detalhe": "The one-page report from DICA 1, with the opportunity map and the recommendation. If you haven't done DICA 1, do the short version: the 5 areas and a recommendation with a reason."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Sheet",
+          "sub": "lesson 1",
+          "detalhe": "The first assistant's sheet: what it does, what it doesn't do, official channel, path to a person, metric with the \"before\" number, and shutdown plan."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Playbook",
+          "sub": "lessons 2 and 3",
+          "detalhe": "The playbook with a version, the \"important\" table, and the 3-phase chart with the agreed rule for moving up and going back."
+        },
+        {
+          "icone": "check",
+          "titulo": "Tests",
+          "sub": "lesson 4",
+          "forte": true,
+          "detalhe": "The build decision and the 15-case test set from the last round, with no limit violated."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Training",
+          "sub": "lesson 5",
+          "detalhe": "Roles sheet, script for the 90-minute training, one-page manual, and questions log."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Check-ins",
+          "sub": "lessons 6 and 7",
+          "detalhe": "Four weekly reports against the baseline, the maintenance scope, the 12-month map, and the pre-delivery checklist."
+        }
+      ],
+      "legenda": "A cover page in front; the six pieces behind it. You write the cover last."
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "Dossier index, rubric, and authorization for a real case.",
+      "blocos": [
+        {
+          "rot": "Dossier index",
+          "icone": "lista",
+          "conteudo": "DOSSIÊ DICA · <company> (<fictional | real with authorization>) · <date>\n\nCOVER (1 page, written last)\n- the pain, with the \"before\" number\n- the chosen assistant and what it does not do\n- where it stands today (phase) and what changed against the baseline\n- what comes next (maintenance, next area, or stop)\n\nPIECES\n1. Diagnosis (DICA 1) ........ 1-page report\n2. First assistant sheet  lesson 1\n3. Playbook + table + phases .... lessons 2 and 3\n4. Decision + 15-case set ...... lesson 4\n5. Roles + training + manual ..... lesson 5\n6. Reports + scope + map ... lessons 6 and 7\n7. Pre-delivery checklist ........ lesson 7\n8. Completed rubric"
+        },
+        {
+          "rot": "Rubric (0 to 4 per criterion)",
+          "icone": "check",
+          "conteudo": "RUBRIC · DICA DOSSIER · score from 0 to 4 on each criterion\nDone when: all criteria at 3 or higher.\n\n1. PAIN WITH A NUMBER\n   0 no number · 2 number with no way to measure it · 4 baseline with date, who measured, and how\n\n2. CLOSED SCOPE\n   0 \"complete assistant\" · 2 does is described, does-not is vague · 4 one area, \"does not\" with 3+ items\n\n3. SAFETY\n   0 no phases · 2 phases without a written rule · 4 high risk in phase 1, path to a person\n     tested, official channel, personal data with purpose and deadline\n\n4. THE CLINIC USES IT WITHOUT YOU\n   0 only the consultant operates it · 2 champion without a manual · 4 champion approves and adjusts on her own,\n     manual at the front desk, questions log in use\n\n5. FOLLOW-UP\n   0 no report · 2 reports without a baseline · 4 four reports against the\n     baseline, maintenance scope, and next step agreed (including stopping)\n\nScores: 1 <_> · 2 <_> · 3 <_> · 4 <_> · 5 <_>   Assessed by: <you | colleague>"
+        },
+        {
+          "rot": "Authorization for a real case (optional)",
+          "icone": "cadeado",
+          "conteudo": "AUTHORIZATION · use of the case as a study project\n\nI, <owner's name>, responsible for <company>, authorize <consultant> to use\nthe work done in <period> as a final study project, under these conditions:\n\n- use: <for study only | also as a published case>\n- what appears: <aggregate numbers only | company name>\n- what never appears: client names, phone numbers, and conversations; health data\n- screenshots and recordings: only anonymized and approved by me beforehand\n- I may withdraw this authorization at any time, by message\n\nDate: <dd/mm/yyyy> · Signature or \"agreed\" message: <...>"
+        }
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "The course map",
+      "sub": "Four deliverables until the assistant runs on its own. Click an exercise to see the \"done when\".",
+      "degraus": [
+        {
+          "aula": "primeiro-assistente",
+          "icone": "alvo",
+          "quando": "Week 1",
+          "titulo": "Choose",
+          "sub": "worksheet and matrix",
+          "saida": "First assistant chosen, with what it does not do and a shutdown plan.",
+          "passo": "Part of the DICA 1 opportunity map. Three filters, the rule of 3 nos, and the WhatsApp rules checked on the date."
+        },
+        {
+          "aula": "tres-fases",
+          "icone": "portao",
+          "quando": "Weeks 2 and 3",
+          "titulo": "Turn on",
+          "sub": "playbook and phases",
+          "saida": "Playbook with a version, tested on 15 cases and turned on in phase 1.",
+          "passo": "Requires the worksheet. Playbook from lesson 2, decision and tests from lesson 4, and the approval ladder agreed with the owner."
+        },
+        {
+          "aula": "capacitar",
+          "icone": "usuario",
+          "quando": "Week 4",
+          "titulo": "Teach",
+          "sub": "champion and manual",
+          "saida": "Champion trained, manual at the front desk, and a question log open.",
+          "passo": "Requires the assistant turned on. The 90-minute training takes place in the system the clinic will use."
+        },
+        {
+          "aula": "acompanhar",
+          "icone": "grafico",
+          "quando": "Weeks 5 to 12",
+          "titulo": "Follow up",
+          "sub": "check-ins",
+          "saida": "Reports against the baseline, maintenance scope, and a 12-month map.",
+          "passo": "Requires the trained champion. A weekly check-in that loosens as the team matures; the lesson 7 maintenance starts here."
+        }
+      ],
+      "resultado": {
+        "titulo": "By the end of the course",
+        "texto": "An assistant the clinic uses without you, with phases, numbers, and an agreement for what comes next.",
+        "total": "15 exercises"
+      },
+      "rolagem_fim": {
+        "titulo": "The whole cycle",
+        "texto": "Choose, turn on, teach, and follow up, after the DICA 1 diagnosis. Only move up when the \"done when\" of the previous step is true."
+      },
+      "legenda": "Required order: each step uses what the previous one built."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Generate your 90-day plan",
+      "sub": "Pick the start date and how much time you have per week. The plan includes the exercises from all 8 lessons.",
+      "curso": "DICA 2 · Deploy, Train, and Follow Up",
+      "horas_padrao": 4,
+      "degraus": [
+        {
+          "titulo": "Lesson 1 · First assistant",
+          "aula": "primeiro-assistente"
+        },
+        {
+          "titulo": "Lesson 2 · Playbook",
+          "aula": "playbook"
+        },
+        {
+          "titulo": "Lesson 3 · Three phases",
+          "aula": "tres-fases"
+        },
+        {
+          "titulo": "Lesson 4 · Build and test",
+          "aula": "construir"
+        },
+        {
+          "titulo": "Lesson 5 · Enable the team",
+          "aula": "capacitar"
+        },
+        {
+          "titulo": "Lesson 6 · Follow up",
+          "aula": "acompanhar"
+        },
+        {
+          "titulo": "Lesson 7 · Maintain",
+          "aula": "manter"
+        },
+        {
+          "titulo": "Lesson 8 · Dossier",
+          "aula": "projeto-final"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — DICA 2 · Implement, Train, and Follow Up",
+        "inicio": "Start",
+        "ritmo": "Pace",
+        "termino": "Expected end",
+        "ate": "by",
+        "pronto": "done when",
+        "semanas": "weeks",
+        "travou": "## What got stuck and the rule I created",
+        "h": "h per week",
+        "exs": "exercises"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Final project",
+      "sub": "Gather what you did in lessons 1 to 7. Where something is missing, do it now. Real case only with the signed authorization.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · DICA dossier graded by the rubric",
+          "min": "3 h",
+          "dias": 3,
+          "texto": "Build the dossier for Clínica Vila Serena (fictional) or for a real business with written authorization, write the cover last, and score it with the rubric. If you can, ask a colleague to score it too.",
+          "pronto": "the dossier has the cover and the 6 pieces, the rubric is filled in with a score of 3 or higher on all 5 criteria, and, if the case is real, the signed authorization is attached."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Final test",
+      "sub": "5 questions about the whole course. The explanation appears after you answer.",
+      "perguntas": [
+        {
+          "p": "What is the order of the deliverables after the diagnosis?",
+          "opcoes": [
+            "Turn on, choose, follow up, and teach.",
+            "Choose, turn on, teach, and follow up.",
+            "Teach, choose, turn on, and follow up.",
+            "Follow up, teach, choose, and turn on."
+          ],
+          "certa": 1,
+          "cert": true,
+          "ref": "mapa",
+          "explica": "Choose the first assistant, turn it on in phases with a tested playbook, teach the champion, and follow up. Each step uses what the previous one built."
+        },
+        {
+          "p": "You don't have a real client. Does the final project still count?",
+          "opcoes": [
+            "No: the project only counts with a paying client and a signed contract.",
+            "Only if you make up numbers similar to those of real clinics.",
+            "Only if the owner of a real clinic signs as a witness.",
+            "Yes: Vila Serena is fictional and labeled as such; a real case is optional, with authorization."
+          ],
+          "certa": 3,
+          "ref": "codigo",
+          "explica": "The method is the same with the fictional company. A real case is welcome, but only with written authorization and no patient data."
+        },
+        {
+          "p": "On the rubric, the criterion \"the clinic uses it without you\" scores a 2. Is the dossier ready?",
+          "opcoes": [
+            "No: every criterion needs a 3 or higher.",
+            "Yes, because the average of the 5 criteria is above 3.",
+            "Yes, if the other four criteria score a 4.",
+            "It depends on how satisfied the clinic was with the work."
+          ],
+          "certa": 0,
+          "cert": true,
+          "ref": "codigo",
+          "explica": "The rubric doesn't average: every criterion needs a 3. A 2 here means a champion without a manual, and the assistant is left orphaned when you leave."
+        },
+        {
+          "p": "What never leaves phase 1, at any point in the project?",
+          "opcoes": [
+            "The greeting and the answers from the list of common questions.",
+            "The scheduling request with no money involved.",
+            "Anything that touches money, contracts, or health.",
+            "Messages received outside business hours."
+          ],
+          "certa": 2,
+          "cert": true,
+          "ref": "mapa",
+          "explica": "High-risk items stay under human approval forever, even with no errors. The rest moves up a phase with a record and with the owner deciding."
+        },
+        {
+          "p": "According to the course's view, what makes the owner trust the project?",
+          "opcoes": [
+            "The most advanced and most expensive AI model available.",
+            "Diagnosis, phases with a way back, teaching, and follow-up with numbers.",
+            "Quickly building as many assistants as possible.",
+            "A long contract with a penalty for anyone who wants to leave."
+          ],
+          "certa": 1,
+          "ref": "mapa",
+          "explica": "Building got easy; trusting what was built did not. Trust comes from the method: diagnosis, a ladder with a way back, teaching, and numbers against the baseline."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "The course in four sentences",
+      "itens": [
+        {
+          "t": "Choose small",
+          "texto": "High pain, low risk, clear scope, an official channel, and a shutdown plan."
+        },
+        {
+          "t": "Turn on in a ladder",
+          "texto": "A versioned playbook, 15 tested cases, and 3 phases with a way back."
+        },
+        {
+          "t": "Teach whoever stays",
+          "texto": "A named champion, a 90-minute training, and a one-page manual."
+        },
+        {
+          "t": "Follow up with numbers",
+          "texto": "A 20-minute check-in, 5 indicators against the baseline, and a cadence that tapers off."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "What changed compared to the Customer Map (October 2026 update)",
+      "itens": [
+        {
+          "t": "WhatsApp",
+          "texto": "Official channel with a path to a person; general-purpose chatbot banned on the official platform since 01/15/2026; charging per delivered message since 07/01/2025, with 1,000 free service messages per number per month since 10/01/2026. Checked on 10/19/2026."
+        },
+        {
+          "t": "No prices, no statistics",
+          "texto": "Amounts in reais and percentages without a source were removed. The phase criterion became a rule agreed with the owner; pricing is in Selling with AI."
+        },
+        {
+          "t": "Open kit",
+          "texto": "The \"ready-made packages\" became diagnosis + INEMA open kit + follow-up, with 15 cases tested before going live."
+        },
+        {
+          "t": "LGPD (Brazil's data protection law) and the project",
+          "texto": "Recordings, screenshots, and patient data only with a stated purpose, a time limit, and authorization. The final project uses a fictional company; a real case is optional."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Keep going from here",
+      "links": [
+        {
+          "t": "DICA 1 · Diagnosis: the Customer Map (previous course)",
+          "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/en/",
+          "icone": "seta"
+        },
+        {
+          "t": "Previous version: Customer Map (2026, PT only)",
+          "href": "https://inematds.github.io/mapacliente/",
+          "icone": "voltar"
+        },
+        {
+          "t": "Professional 2030 · Consultant: Horizonte's final project",
+          "href": "https://inematds.github.io/prof2030-consultor/",
+          "icone": "alvo"
+        },
+        {
+          "t": "AI Consulting Area",
+          "href": "https://eventos.inema.pro/consultoria-ia/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Professional 2030: the four roles",
+          "href": "https://eventos.inema.pro/prof2030/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Open courses on INEMA.CLUB",
+          "href": "https://inema.club/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

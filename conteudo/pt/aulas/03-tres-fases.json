@@ -46,7 +46,7 @@
           "titulo": "Fase 2",
           "sub": "o importante",
           "forte": true,
-          "detalhe": "Saudação, dúvida da lista e pedido de marcação saem direto. O que está na tabela do \"importante\" (preço, reclamação, saúde, cliente antigo) continua indo para a fila de aprovação."
+          "detalhe": "Saudação, dúvida da lista e pedido de marcação saem direto. O que está na tabela do \"importante\" (preço, reclamação, saúde, quem pediu para falar com a dona) continua indo para a fila de aprovação."
         },
         {
           "icone": "fila",
@@ -58,7 +58,7 @@
           "icone": "escudo",
           "titulo": "Risco alto",
           "sub": "sempre fase 1",
-          "detalhe": "O que mexe em dinheiro, contrato ou saúde nunca sai da fase 1, nem depois de um ano sem erro. Na Vila Serena (fictícia): preço de pacote, desconto, remarcação com multa e pergunta sobre dor."
+          "detalhe": "O que mexe em dinheiro, contrato ou saúde, e a reclamação, nunca sai da fase 1, nem depois de um ano sem erro. Na Vila Serena (fictícia): preço de pacote, desconto, remarcação com multa, reclamação e pergunta sobre dor."
         }
       ],
       "volta": "Erro grave ou a dona insegura? Volta uma fase no mesmo dia, sem culpa.",
@@ -120,15 +120,15 @@
           "titulo": "Médio",
           "sub": "erro custa horas",
           "texto": [
-            "Pedido de marcação, confirmação de consulta, resposta a paciente que já é da clínica.",
+            "Pedido de marcação, confirmação de consulta já marcada, remarcação sem custo.",
             "Sobe até a fase 2 ou 3 com olhada semanal numa amostra."
           ]
         },
         {
           "titulo": "Alto",
-          "sub": "mexe em dinheiro ou saúde",
+          "sub": "dinheiro, saúde, queixa",
           "texto": [
-            "Preço de pacote, desconto, cancelamento com cobrança, pergunta sobre dor ou remédio.",
+            "Preço de pacote, desconto, cancelamento com cobrança, reclamação, pergunta sobre dor ou remédio.",
             "Fica sempre na fase 1: uma pessoa aprova antes de sair."
           ],
           "exemplo": {
@@ -194,7 +194,7 @@
           ]
         },
         "dados": {
-          "cliente": "Tá bom. Pelo registro, entraram umas 140 mensagens, eu aprovei a maioria sem mexer e editei poucas, quase todas sobre preço de pacote. Teve também uma paciente reclamando do horário.",
+          "cliente": "Olha o registro: entraram umas 140 mensagens, eu aprovei a maioria sem mexer e editei poucas, quase todas sobre preço de pacote. Teve também uma paciente reclamando do horário.",
           "opcoes": [
             {
               "t": "Ótimo, quase tudo aprovado. Dá para ir direto para a fase 3.",
@@ -265,7 +265,7 @@
         "fim-pressa": {
           "fim": true,
           "titulo": "Autonomia sem escada",
-          "texto": "O assistente passou a responder sozinho coisas que ainda precisavam da dona. A escada existe para isso: cada degrau só tira controle onde o registro mostra que pode, e o que é risco alto nunca sobe. Recomece e leve a conversa para o registro."
+          "texto": "O assistente passou a responder sozinho coisas que ainda precisavam da dona. A escada existe para isso: cada degrau só tira controle onde o registro mostra que pode, e o que é risco alto nunca sobe. Recomece: suba um degrau por vez e escreva o que fica com a dona."
         },
         "fim-espera": {
           "fim": true,
@@ -280,12 +280,12 @@
         "fim-vago": {
           "fim": true,
           "titulo": "Quase lá",
-          "texto": "Fase 2 ligada, tabela feita com a dona, mas a volta ficou no ar. Escreva no quadro das fases como e quando volta, e quem decide."
+          "texto": "Fase 2 ligada com o registro na mesa, mas a volta ficou no ar. Escreva no quadro das fases como e quando volta, e quem decide."
         },
         "fim-bom": {
           "fim": true,
           "titulo": "Um degrau, com porta de volta",
-          "texto": "A fase 2 foi ligada com o registro na mesa, a tabela do importante feita pela dona e a volta combinada. Preço e reclamação continuam com ela. É assim que a confiança sobe sem susto."
+          "texto": "A fase 2 foi ligada com o registro na mesa e a volta combinada com prazo. Preço e reclamação continuam com ela. Se a tabela do importante saiu das mensagens e da marcação da dona, a confiança sobe sem susto."
         }
       },
       "licao": "Fase sobe com registro e com a dona decidindo; risco alto nunca sai da fase 1; e a porta de volta, com prazo, é o que faz ela aceitar subir."

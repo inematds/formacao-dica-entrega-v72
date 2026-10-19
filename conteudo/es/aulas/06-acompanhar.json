@@ -1,0 +1,344 @@
+{
+  "slug": "acompanhar",
+  "num": 6,
+  "menu": "Acompañar",
+  "titulo": "Acompañar: check-in de 20 minutos, 5 indicadores, 3 alertas",
+  "titulo_curto": "Acompañar cada semana",
+  "minutos": 17,
+  "lead": "Sin números, en una semana mala la impresión de la dueña se vuelve \"no está funcionando\". Con números, muestras lo que cambió desde la línea base. El acompañamiento es un ritual corto y fijo: 20 minutos a la misma hora, cinco números, un ajuste y una página de informe. Y tres señales que piden visita, no descuento.",
+  "objetivo": "conducir el check-in de 20 minutos, medir 5 indicadores contra la línea base y reaccionar a las 3 alertas.",
+  "competencias": [
+    "conduzir-check-in",
+    "medir-contra-linha-de-base",
+    "escrever-relatorio-semanal",
+    "detectar-cliente-em-risco"
+  ],
+  "aprende": [
+    {
+      "t": "La pauta fija de 20 minutos"
+    },
+    {
+      "t": "Cinco indicadores con el número de antes"
+    },
+    {
+      "t": "El informe de una página, siempre igual"
+    },
+    {
+      "t": "Las 3 alertas y la cadencia que disminuye"
+    }
+  ],
+  "hero_alt": "Reunión corta en una mesa pequeña de clínica: tres personas miran una hoja con un gráfico de barras simple.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El ciclo de la semana",
+      "sub": "Misma hora, misma pauta, cada semana. Haz clic en cada etapa.",
+      "nos": [
+        {
+          "icone": "caneta",
+          "titulo": "Registro",
+          "sub": "la semana",
+          "detalhe": "El registro de dudas de la campeona y el registro del asistente (lo que entró, lo que salió, lo que se editó). Es la materia prima del check-in."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "5 números",
+          "sub": "y el de antes",
+          "detalhe": "Cinco indicadores, siempre junto a la línea base medida antes de encender. La tendencia importa más que el número de la semana."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Check-in",
+          "sub": "20 minutos",
+          "forte": true,
+          "detalhe": "5 minutos de números, 10 de dudas y ajustes hechos en el momento, 5 para acordar la semana siguiente. Día y hora fijos: \"cuando se pueda\" se vuelve nunca."
+        },
+        {
+          "icone": "check",
+          "titulo": "1 ajuste",
+          "sub": "por semana",
+          "detalhe": "Un cambio a la vez en el playbook o en el manual, con versión nueva. Si haces dos cambios juntos, nadie sabe cuál funcionó."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Informe",
+          "sub": "1 página",
+          "detalhe": "El mismo formato cada semana, enviado a la dueña aunque al principio no lo lea. Sumadas, las páginas cuentan la historia del proyecto."
+        }
+      ],
+      "volta": "A la semana siguiente, el ciclo vuelve a empezar el mismo día y a la misma hora.",
+      "legenda": "Un ritual corto y fijo sostiene a la clínica mejor que una reunión larga cuando algo se rompe."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Los 5 indicadores de la recepción",
+      "sub": "Cinco, no treinta. La campeona los reúne en pocos minutos y tú los revisas. Sin meta preestablecida: la comparación es con el número de antes.",
+      "passos": [
+        {
+          "titulo": "Respuestas",
+          "sub": "por día",
+          "texto": [
+            "Cuántos mensajes preparó o respondió el asistente. Muestra si se está usando.",
+            "Solo, engaña: mucho volumen con mucha edición no es una ganancia."
+          ]
+        },
+        {
+          "titulo": "Tiempo",
+          "sub": "hasta responder",
+          "texto": [
+            "Tiempo entre el mensaje del paciente y la primera respuesta, en el horario de atención.",
+            "En la fase 1 incluye el tiempo de aprobación: es el que muestra si la cola está pesando."
+          ]
+        },
+        {
+          "titulo": "Sin respuesta",
+          "sub": "al final del día",
+          "texto": [
+            "Contactos que terminaron el día sin ninguna respuesta. Es la métrica de la ficha de la clase 1 en la Vila Serena (ficticia).",
+            "Es el número que muestra al paciente perdido por demora."
+          ]
+        },
+        {
+          "titulo": "Citas",
+          "sub": "del asistente",
+          "texto": [
+            "Horarios agendados que comenzaron en una conversación con el asistente, verificados en la agenda.",
+            "Muestra si la conversación se convierte en atención, no solo en respuesta."
+          ]
+        },
+        {
+          "titulo": "Horas",
+          "sub": "de la recepción",
+          "texto": [
+            "Estimación de la campeona de cuánto tiempo de la recepción quedó libre en la semana, dicha como estimación.",
+            "Es el número que la dueña siente; por eso va con la forma de contarlo escrita."
+          ],
+          "exemplo": {
+            "rot": "Línea base",
+            "texto": "Cada indicador necesita el valor de antes, medido de la misma manera y en el mismo tipo de semana. Sin él, el informe muestra movimiento, no resultado. Para medir 30/60/90 a fondo: Profesional 2030 · Consultor, clase 6."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Las 3 alertas rojas",
+      "sub": "Cualquiera pide una visita, regla práctica del consultor: de preferencia presencial, en un máximo de dos días, gratuita.",
+      "passos": [
+        {
+          "titulo": "La campeona desapareció",
+          "sub": "sin respuesta",
+          "texto": [
+            "Canceló dos check-ins seguidos, dejó de llenar el registro o no responde mensajes, aunque diga que todo está bien.",
+            "Muchas veces es sobrecarga o salida inminente: vuelve a la hoja de papeles."
+          ]
+        },
+        {
+          "titulo": "Número cayó",
+          "sub": "sin explicación",
+          "texto": [
+            "Un indicador se desplomó cerca de la línea base o por debajo de ella sin motivo (feriado, vacaciones, cambio en la agenda).",
+            "Un uso que cae en silencio suele venir antes del abandono."
+          ]
+        },
+        {
+          "titulo": "\"Lo voy a pensar\"",
+          "sub": "de la dueña",
+          "texto": [
+            "\"Estoy evaluando si continúo\", \"está pesando en la caja\", \"voy a verlo con el equipo\".",
+            "Cuando aparece esa frase, la conversación tiene que ser de frente y pronto."
+          ],
+          "exemplo": {
+            "rot": "Reacción",
+            "texto": "Escuchar antes de defender el sistema, preguntar directo \"¿hay algo que te incomoda y que yo no estoy viendo?\" y salir con un plan de dos semanas. Un descuento de entrada no resuelve el motivo."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "La cadencia que disminuye",
+      "sub": "El acompañamiento se afloja cuando la clínica madura. Plazos como regla práctica, ajustados a cada caso.",
+      "passos": [
+        {
+          "titulo": "Inicio",
+          "sub": "semanal",
+          "texto": [
+            "En las primeras semanas, check-in toda la semana: la clínica todavía está insegura y el playbook todavía está cambiando."
+          ]
+        },
+        {
+          "titulo": "Rutina",
+          "sub": "quincenal",
+          "texto": [
+            "Con la fase 2 estable y pocas dudas nuevas, cada 15 días, con un mensaje corto en la semana sin reunión."
+          ]
+        },
+        {
+          "titulo": "Estable",
+          "sub": "mensual",
+          "texto": [
+            "Fase estable y campeona segura: una conversación por mes y un informe mensual en lugar del semanal. Aquí es donde el acompañamiento se vuelve mantenimiento (clase 7)."
+          ]
+        },
+        {
+          "titulo": "Crisis",
+          "sub": "vuelve a semanal",
+          "texto": [
+            "Empleado nuevo, cambio de servicio, alerta roja: vuelve a semanal hasta estabilizar de nuevo."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Pauta, planilla e informe. La pestaña de al lado muestra 4 semanas simuladas de Vila Serena, con números inventados para el ejercicio.",
+      "blocos": [
+        {
+          "rot": "Pauta del check-in de 20 min",
+          "icone": "relogio",
+          "conteudo": "CHECK-IN · <empresa> · <día> a las <hora> (fijo) · semana <n>\n\n0–5 · NÚMEROS\nLos 5 indicadores junto a la línea base. Yo leo, la campeona confirma.\n\n5–15 · DUDAS Y AJUSTES\nRegistro de dudas de la semana. Ajuste hecho en el momento, con la pantalla abierta.\nCambio en el playbook: v<de> → v<para> · motivo: <...>\n\n15–20 · PRÓXIMA SEMANA\n1 mejora propuesta: <...>\n1 riesgo para mirar: <...>\n¿Alerta roja? <no | cuál y reacción>\nPróximo check-in: <fecha y hora>\n\nDespués: resumen en 3 líneas para la dueña."
+        },
+        {
+          "rot": "Planilla de los 5 indicadores",
+          "icone": "grafico",
+          "conteudo": "INDICADORES · <empresa>\nLínea base medida en <período>, por <quién>, así: <cómo contó>\n\n| Indicador                     | Antes | Sem 1 | Sem 2 | Sem 3 | Sem 4 | Cómo medir           |\n|-------------------------------|-------|-------|-------|-------|-------|----------------------|\n| Respuestas por día (promedio) |       |       |       |       |       | registro del asistente|\n| Tiempo hasta 1ª respuesta (min)|      |       |       |       |       | registro del asistente|\n| Contactos sin respuesta en el día|    |       |       |       |       | conteo de la campeona |\n| Citas venidas del asistente   |       |       |       |       |       | agenda + registro     |\n| Horas de recepción liberadas  |       |       |       |       |       | estimación de la campeona|"
+        },
+        {
+          "rot": "Informe semanal de 1 página",
+          "icone": "arquivo",
+          "conteudo": "INFORME SEMANAL · <empresa> · semana <n> · <fecha>\n\nNÚMEROS (antes → esta semana)\n- Respuestas por día: <a> → <b>\n- Tiempo hasta 1ª respuesta: <a> → <b> min\n- Contactos sin respuesta en el día: <a> → <b>\n- Citas venidas del asistente: <b>\n- Horas de recepción liberadas (estimación): <b>\n\nHECHO ESTA SEMANA\n- <ajuste> (playbook v<n>)\n\nPRÓXIMA SEMANA\n- <1 mejora> · <1 riesgo para mirar>\n\nFASE: <1 | 2 | 3> · alerta roja: <no | cuál>"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Vila Serena · 4 semanas (ficticio)",
+            "html": "<pre>Números inventados para el ejercicio.\n\n                         Antes  S1   S2   S3   S4\nContactos sin respuesta/día  12    9    7    8    5\nTiempo hasta 1ª resp. (min)  95   60   40   45   30\nCitas del asistente           -    6   11    9   14\n\nCuenta a la vista (S4 contra la línea base):\nsin respuesta: 12 − 5 = 7 menos por día\ntiempo: 95 − 30 = 65 min más rápido\n\nS3: subió de 7 a 8 sin respuesta → visto en el\ncheck-in: feriado local fuera de la lista de dudas\n→ ajuste en el playbook v1.3. No es alerta: tiene\nexplicación y volvió a bajar en S4.</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Usa los números inventados de Vila Serena o los del negocio que atiendes.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Pauta y línea base",
+          "min": "30 min",
+          "texto": "Adapta la pauta de 20 minutos y completa la columna \"Antes\" de la planilla con los 5 indicadores y la forma de medir cada uno.",
+          "pronto": "la pauta tiene los 3 bloques con minutos y día y hora fijos, y los 5 indicadores tienen valor de antes, quién mide y cómo mide."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Cuatro informes simulados",
+          "min": "40 min",
+          "texto": "Escribe 4 informes semanales de una página, uno por semana simulada. En una de las semanas, pon una de las 3 alertas y escribe la reacción.",
+          "pronto": "los 4 informes tienen el mismo formato, los 5 números junto a la línea base, 1 cosa hecha y 1 próxima; en la semana con alerta, la reacción está escrita (visita, escucha, plan de 2 semanas) y ningún informe ofrece descuento."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Por qué cada indicador necesita el valor de antes?",
+          "opcoes": [
+            "Porque la herramienta del asistente no funciona sin un valor inicial.",
+            "Porque, sin él, el informe muestra movimiento y no resultado.",
+            "Porque la LGPD (la ley de protección de datos de Brasil) exige registrar los números anteriores del negocio.",
+            "Porque la dueña solo acepta números que ella misma midió antes."
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La línea base es el número de antes, medido de la misma manera. Es contra ella que se dice si el asistente cambió algo."
+        },
+        {
+          "p": "La campeona canceló los dos últimos check-ins, pero dice que todo está bien. ¿Qué hacer?",
+          "opcoes": [
+            "Esperar una semana más, ya que ella dijo que todo está bien.",
+            "Mandar el reporte por e-mail y no agendar más reuniones.",
+            "Ofrecer un descuento en la próxima mensualidad para retener a la clínica.",
+            "Tratarlo como alerta roja y agendar una visita para escuchar."
+          ],
+          "certa": 3,
+          "ref": "passos",
+          "explica": "Una campeona desaparecida es una de las 3 alertas, aunque diga \"todo bien\". La reacción es ir allá y escuchar; el descuento no resuelve el motivo."
+        },
+        {
+          "p": "En la semana 3, los contactos sin respuesta subieron de 7 a 8. ¿Es alerta roja?",
+          "opcoes": [
+            "Sí: cualquier subida en cualquier indicador pide una visita de inmediato.",
+            "Sí, y el asistente debe volver a la fase 1 de inmediato.",
+            "No, si tiene explicación y sigue mucho mejor que la línea base; se vuelve un ajuste en el check-in.",
+            "No, porque los números de una semana nunca importan en el seguimiento."
+          ],
+          "certa": 2,
+          "ref": "codigo",
+          "explica": "Alerta es una caída fuerte y sin explicación. Una oscilación pequeña, con causa encontrada (el feriado que quedó fuera de la lista), se vuelve un ajuste en el playbook."
+        },
+        {
+          "p": "La clínica está estable desde hace meses y la campeona está segura. ¿Cuál es la cadencia?",
+          "opcoes": [
+            "Mensual, con reporte mensual en lugar del semanal.",
+            "Semanal para siempre, para que la clínica no pierda el hábito.",
+            "Ninguna: el proyecto terminó con la entrega.",
+            "Diaria, para detectar cualquier error el mismo día."
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "La cadencia disminuye con la madurez: semanal, quincenal, mensual. Si llega una crisis, vuelve a semanal."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Ritual fijo",
+          "texto": "20 minutos, mismo día y hora: números, dudas y ajustes, próxima semana."
+        },
+        {
+          "t": "5 números",
+          "texto": "Siempre junto a la línea base; la tendencia importa más que el número de la semana."
+        },
+        {
+          "t": "3 alertas",
+          "texto": "Campeona desaparecida, número cayendo sin explicación y \"voy a pensarlo\": visita y escucha, no descuento."
+        },
+        {
+          "t": "Cadencia",
+          "texto": "Semanal, quincenal, mensual; en crisis, vuelve a semanal."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Profesional 2030 · Consultor: medir de verdad a los 30, 60 y 90 días",
+          "href": "https://inematds.github.io/prof2030-consultor/",
+          "icone": "grafico"
+        },
+        {
+          "t": "Gestión de IA · Gobernanza: los indicadores del agente",
+          "href": "https://inematds.github.io/gestao-ia-governanca-v72/es/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Ventas con IA 4: entregar, dar seguimiento y el plan de 30 días",
+          "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/es/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

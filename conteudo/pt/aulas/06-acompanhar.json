@@ -276,7 +276,7 @@
           "opcoes": [
             "Sim: qualquer subida em qualquer indicador pede visita na hora.",
             "Sim, e o assistente deve voltar para a fase 1 imediatamente.",
-            "Não se tem explicação e segue bem melhor que a linha de base; vira ajuste no check-in.",
+            "Não, se tem explicação e segue bem melhor que a linha de base; vira ajuste no check-in.",
             "Não, porque números de uma semana nunca importam no acompanhamento."
           ],
           "certa": 2,

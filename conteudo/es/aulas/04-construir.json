@@ -1,0 +1,255 @@
+{
+  "slug": "construir",
+  "num": 4,
+  "menu": "Construir",
+  "titulo": "Construir sin volverte fábrica: kit abierto, no-code o nada",
+  "titulo_curto": "Kit abierto, no-code o nada",
+  "minutos": 18,
+  "lead": "Construir se volvió fácil; lo que la dueña compra es saber que lo construido funciona. Por eso esta clase no enseña herramienta: enseña a decidir. A veces no hace falta construir nada, a veces un kit abierto lo resuelve, a veces vale la pena un flujo propio. En todos los casos, 15 casos probados antes de activar.",
+  "objetivo": "decidir entre kit abierto, flujo no-code o nada para el asistente elegido y probar 15 casos antes de activar.",
+  "competencias": [
+    "decidir-como-construir",
+    "avaliar-kit-aberto",
+    "montar-bateria-de-testes",
+    "separar-custos-do-cliente"
+  ],
+  "aprende": [
+    {
+      "t": "Preguntar primero si se puede no construir"
+    },
+    {
+      "t": "Ver si un kit abierto del INEMA ya sirve"
+    },
+    {
+      "t": "Lo mínimo de un flujo propio que no te deja atado"
+    },
+    {
+      "t": "Probar 15 casos antes de activar"
+    }
+  ],
+  "hero_alt": "Consultor y dueña de clínica frente a una pared con notas adhesivas en tres columnas; él señala una de ellas.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "La decisión, de lo más simple a lo más trabajoso",
+      "sub": "Detente en el primero que lo resuelve. Haz clic en cada etapa.",
+      "nos": [
+        {
+          "icone": "x",
+          "titulo": "Nada",
+          "sub": "¿lo resuelve un papel?",
+          "detalhe": "Antes de construir, pregunta si ya lo resuelve una regla, una lista o una función que la clínica ya tiene. En Vila Serena (ficticia), el recordatorio de consulta sale desde la propia agenda: no necesita IA."
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Kit abierto",
+          "sub": "¿ya existe?",
+          "detalhe": "INEMA mantiene kits abiertos para clínica, gimnasio, fisioterapia, nutrición, restaurante y hotel. El atende-clinica hace agenda, dudas, cola para una persona y recordatorio por reglas, sin modelo de IA, y corre en el computador o en una VPS."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "No-code",
+          "sub": "flujo propio",
+          "detalhe": "Cuando el kit no sirve, un flujo en la herramienta de automatización que ya dominas, con el modelo top de tu suscripción. Construir el flujo se aprende en el curso de agentes con n8n; aquí queda solo la decisión y lo mínimo."
+        },
+        {
+          "icone": "check",
+          "titulo": "15 casos",
+          "sub": "antes de activar",
+          "forte": true,
+          "detalhe": "Sea cual sea el camino, escribe 15 casos con la respuesta esperada antes de ejecutar. Un límite violado reprueba la ronda completa, aunque todo lo demás esté bien."
+        },
+        {
+          "icone": "play",
+          "titulo": "Activa",
+          "sub": "en la fase 1",
+          "detalhe": "Solo después de que la batería pase, el asistente va a la clínica, y en la fase 1 de la clase 3: la dueña aprueba todo."
+        }
+      ],
+      "legenda": "Paquete no es \"yo construyo\": es diagnóstico + el camino más simple + acompañamiento."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Los tres caminos en la práctica",
+      "sub": "Qué mirar en cada uno antes de elegir.",
+      "passos": [
+        {
+          "titulo": "Kit abierto",
+          "sub": "atende-clinica y hermanos",
+          "texto": [
+            "Conversación por reglas, agenda, lista de dudas, cola humana, palabras de emergencia que llaman a una persona, campaña solo para quien dio su consentimiento y exportación de los datos del paciente (LGPD (la ley de protección de datos de Brasil)).",
+            "Atención: el kit conecta WhatsApp por un conector que NO es el canal oficial (imita la aplicación). No uses esa parte con clientes: prueba por el chat del sitio o por la bandeja de salida simulada, y conectar el WhatsApp de la clínica por la plataforma oficial es un trabajo aparte."
+          ]
+        },
+        {
+          "titulo": "No-code",
+          "sub": "lo mínimo",
+          "texto": [
+            "Número dedicado para el asistente, nunca el celular personal de la dueña. Registro de cada ejecución (qué entró, qué salió, versión del playbook). Copia del flujo guardada fuera de la herramienta.",
+            "Acceso solo a lo que el asistente necesita. Y el playbook sigue en el documento de la clínica, no solo dentro del flujo."
+          ]
+        },
+        {
+          "titulo": "Costos",
+          "sub": "en la cuenta del cliente",
+          "texto": [
+            "Las herramientas, los mensajes de WhatsApp y la suscripción del modelo quedan en la cuenta de la clínica, pagados por ella directamente al proveedor. Así, cuando un precio cambia, nada queda escondido en tu servicio.",
+            "No memorices valores: abre la tabla oficial de cada proveedor en la fecha y anota el enlace en la decisión. Cuánto cobrar por tu servicio es tema de Ventas con IA 4."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "La decisión en una página y la batería de 15 casos. Los casos de Vila Serena son ficticios.",
+      "blocos": [
+        {
+          "rot": "Decisión de construcción",
+          "icone": "arquivo",
+          "conteudo": "DECISIÓN · cómo construir · <asistente> · <empresa> · <fecha>\n\n1. ¿SE PUEDE NO CONSTRUIR?\n<sí/no> · por qué: <...>\n\n2. ¿SIRVE EL KIT ABIERTO?\nKit evaluado: <nombre y versión> · qué cubre: <...> · qué falta: <...>\n\n3. FLUJO NO-CODE (si 1 y 2 no sirven)\nHerramienta: <la que ya dominas> · modelo: <el top de la suscripción de la clínica>\nNúmero dedicado: <sí/no> · registro de ejecución: <dónde> · copia del flujo: <dónde>\n\nELECCIÓN: <nada | kit | no-code> · motivo en una frase: <...>\nQUÉ QUEDA FUERA: <...>\n\nCUENTAS DEL CLIENTE (pagadas por la clínica, directo al proveedor)\n- <herramienta> · titular: <clínica> · tabla de precios: <enlace> · consultada el <fecha>\n- WhatsApp · titular: <clínica> · tabla oficial: <enlace> · consultada el <fecha>"
+        },
+        {
+          "rot": "Batería de 15 casos",
+          "icone": "lista",
+          "conteudo": "BATERÍA · <asistente> · playbook v<versión> · ronda <n> · <fecha>\nRespuesta esperada escrita ANTES de ejecutar. Un límite violado reprueba la ronda.\n\n| # | Tipo     | Mensaje de prueba                    | Esperado                         | Resultado |\n|---|----------|--------------------------------------|----------------------------------|-----------|\n| 1 | común    | \"¿abren el sábado?\"                  | horario de la lista              |           |\n| 2 | común    | \"quiero agendar pilates\"             | pide nombre, día y turno         |           |\n| 3 | excepción| \"¿aceptan el convenio Alfa?\"         | \"voy a confirmar\" + PARA_PESSOA  |           |\n| 4 | persona  | \"tengo un dolor fuerte después de la sesión\"  | llama a la fisioterapeuta ya    |           |\n| 5 | prohibido| \"¿me haces un descuento del 30%?\"    | no negocia; PARA_PESSOA          |           |\n| 6 | difícil  | \"quiero hablar con la dueña y cancelar\"  | prioridad alta; PARA_PESSOA  |           |\n| ...hasta 15 (la mayoría comunes, algunos de excepción, uno o dos difíciles)\n\nResultado de la ronda: <pasó | reprobó> · ¿límite violado? <cuál>\nCambio hecho: <uno solo> → playbook v<nueva versión> → ejecutar los 15 de nuevo"
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "Video: consultoría de IA en la práctica",
+      "sub": "Cuatro minutos y medio. Fíjate en el ejemplo de la clínica: el recordatorio es automatización simple, el asistente conversa con quien quiere reprogramar, y el encaje en la agenda sigue con la recepción.",
+      "chave": "consultoria-ia-na-pratica"
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Para el asistente de la ficha de la clase 1, con el playbook de la clase 2.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Decisión escrita",
+          "min": "30 min",
+          "texto": "Completa la decisión de construcción. Abre la guía del kit abierto más cercano al nicho y anota qué cubre y qué falta.",
+          "pronto": "las tres preguntas tienen respuesta con motivo, la elección está en una frase, hay una línea \"qué queda fuera\" y cada cuenta de la clínica tiene titular y enlace de la tabla de precios con la fecha de consulta, sin valor copiado."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Batería de 15 casos",
+          "min": "45 min",
+          "texto": "Escribe los 15 casos con la respuesta esperada antes de ejecutar. Ejecútalos en el kit, en el flujo o en una prueba a mano con el playbook, y anota el resultado de cada uno.",
+          "pronto": "hay 15 casos con lo esperado escrito antes, al menos 2 que llaman a una persona y 1 pedido prohibido, el resultado de todos está anotado y la última ronda no violó ningún límite."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "Vila Serena pierde pacientes porque se les olvida la consulta. ¿Cuál es el primer camino a mirar?",
+          "opcoes": [
+            "Un asistente de IA que llama al paciente y conversa sobre la consulta.",
+            "Un flujo no-code nuevo, con el modelo más avanzado y más caro disponible hoy en el mercado.",
+            "Contratar a una segunda recepcionista solo para confirmar las citas.",
+            "El recordatorio por la agenda que la clínica ya tiene: es automatización simple."
+          ],
+          "certa": 3,
+          "ref": "diagrama",
+          "explica": "Detente en el primero que resuelve. Un recordatorio no necesita IA; el asistente entra, si entra, para conversar con quien quiere reprogramar."
+        },
+        {
+          "p": "¿El atende-clinica, en la versión 1, conecta el WhatsApp de la clínica por el canal oficial?",
+          "opcoes": [
+            "Sí, ya viene con la plataforma oficial de Meta configurada y lista para usar.",
+            "No: usa un conector no oficial; con clientes, prueba por el chat del sitio y conecta el WhatsApp oficial aparte.",
+            "Sí, y por eso se puede usar con clientes sin ningún cuidado extra.",
+            "No, porque el kit solo funciona para clínicas con más de 20 personas."
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La guía del kit deja la plataforma oficial fuera del alcance de la versión 1, y el conector que trae imita la aplicación. Eso pone en riesgo el número de la clínica y no cumple la política de WhatsApp."
+        },
+        {
+          "p": "En la batería, 14 casos pasaron y 1 caso de descuento fue negociado por el asistente. ¿Resultado?",
+          "opcoes": [
+            "La ronda se reprueba: un límite violado reprueba la ronda completa.",
+            "Pasa, porque 14 de 15 es un buen resultado para empezar la fase 1.",
+            "Pasa, siempre que la dueña apruebe los descuentos en la fase 1 después.",
+            "Se reprueba solo el caso de descuento, y los otros 14 van a la clínica."
+          ],
+          "certa": 0,
+          "ref": "codigo",
+          "explica": "El descuento es un límite. Con un límite violado, cambias una cosa en el playbook, generas una versión nueva y corres los 15 de nuevo."
+        },
+        {
+          "p": "¿Quién paga las herramientas y los mensajes de WhatsApp del asistente?",
+          "opcoes": [
+            "El consultor, incluyendo todo en el valor fijo del servicio mensual.",
+            "Nadie, porque las herramientas no-code siempre son gratuitas.",
+            "La clínica, en su propia cuenta y directo al proveedor, con el enlace de la tabla anotado.",
+            "Meta, que cubre los costos para los pequeños negocios de Brasil."
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "Una cuenta a nombre de la clínica deja el costo visible y a la clínica como dueña de las herramientas. Cuando el precio cambia, nada queda escondido en tu servicio."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "De lo simple a lo laborioso",
+          "texto": "Nada, kit abierto, flujo propio. Detente en el primero que resuelve."
+        },
+        {
+          "t": "Kit abierto",
+          "texto": "Ya hace agenda, dudas, cola para una persona y LGPD por reglas; el WhatsApp oficial es un trabajo aparte."
+        },
+        {
+          "t": "Flujo propio",
+          "texto": "Número dedicado, registro de ejecución, copia del flujo y playbook fuera de la herramienta."
+        },
+        {
+          "t": "15 casos",
+          "texto": "Respuesta esperada antes de correr; un límite violado reprueba todo."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Kit abierto Atende Clínica (guía)",
+          "href": "https://inematds.github.io/atende-clinica/guia/",
+          "icone": "pasta"
+        },
+        {
+          "t": "Kit abierto Reserva Restaurante (guía)",
+          "href": "https://inematds.github.io/reserva-restaurante/guia/",
+          "icone": "pasta"
+        },
+        {
+          "t": "Curso de agentes con n8n (construir el flujo)",
+          "href": "https://inematds.github.io/curso-agentes-n8n/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Profesional 2030 · Mentor: probar antes de conectar",
+          "href": "https://inematds.github.io/prof2030-mentor/",
+          "icone": "check"
+        },
+        {
+          "t": "Ventas con IA 4: precio de tu servicio",
+          "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/es/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

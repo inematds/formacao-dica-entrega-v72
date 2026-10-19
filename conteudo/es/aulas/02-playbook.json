@@ -1,0 +1,291 @@
+{
+  "slug": "playbook",
+  "num": 2,
+  "menu": "Playbook",
+  "titulo": "El playbook operativo: 7 partes, ejemplos resueltos y salida fija",
+  "titulo_curto": "El playbook operativo",
+  "minutos": 18,
+  "lead": "El playbook es el documento que convierte la forma de atender de la clínica en instrucciones que el asistente sigue. Sin él, cualquier herramienta responde a ciegas. Con él, la dueña lee, aprueba y corrige; y cuando el asistente se equivoque, sabes qué versión seguía.",
+  "objetivo": "escribir el playbook de la recepción en las 7 partes, con 3 ejemplos resueltos, formato de salida fijo y versión arriba.",
+  "competencias": [
+    "escrever-playbook",
+    "escrever-exemplos-resolvidos",
+    "definir-saida-estruturada",
+    "versionar-instrucoes"
+  ],
+  "aprende": [
+    {
+      "t": "Armar el esqueleto de 7 partes"
+    },
+    {
+      "t": "Escribir en orden directo, sin \"usa el sentido común\""
+    },
+    {
+      "t": "Resolver ejemplos: simple, difícil y \"llama a una persona\""
+    },
+    {
+      "t": "Fijar la salida y versionar cada cambio"
+    }
+  ],
+  "hero_alt": "Archivador abierto con hojas y pestañas; una mano hace una anotación, con el mostrador de una recepción al fondo.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Las 7 partes del playbook",
+      "sub": "Cada parte responde a una pregunta que el asistente se haría al momento de actuar. Haz clic en cada una.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Contexto",
+          "sub": "quiénes somos",
+          "detalhe": "La clínica, los servicios, el horario, el perfil de quien escribe y el tono. En la Vila Serena (ficticia): fisioterapia y estética, 9 personas, trato de \"tú\", mensajes cortos."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Objetivo",
+          "sub": "el alcance",
+          "detalhe": "Una frase de lo que hace y la lista de lo que no hace, copiada de la ficha de la clase 1. Es la parte que sostiene el alcance."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Entradas",
+          "sub": "lo que llega",
+          "detalhe": "Los tipos de mensaje que llegan y cómo suelen venir: \"¿tienen hora mañana?\", audio, foto de una orden médica, \"¿cuánto cuesta?\"."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Reglas",
+          "sub": "si pasa esto, entonces",
+          "detalhe": "Paso a paso en el formato \"si pasa esto, haz aquello\". Nada de \"usa el sentido común\": el asistente no tiene sentido común, tiene patrones."
+        },
+        {
+          "icone": "check",
+          "titulo": "Ejemplos",
+          "sub": "resueltos",
+          "forte": true,
+          "detalhe": "Pares de mensaje y respuesta correcta: al menos uno simple, uno difícil y uno en el que lo correcto es llamar a una persona. Mostrar el caso resuelto enseña más rápido que describir la regla."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Salida",
+          "sub": "formato fijo",
+          "detalhe": "Para una persona, texto corto. Para una hoja de cálculo o un sistema, campos con nombre fijo, siempre los mismos. Sin formato fijo, la conexión con la hoja se rompe."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Límites",
+          "sub": "nunca hacer",
+          "detalhe": "Lo que nunca hace y cuándo pasa a una persona: reclamo, pregunta de salud, precio fuera de la tabla, pedido de datos sensibles."
+        }
+      ],
+      "legenda": "Versión y fecha arriba, historial al pie. Cada cambio se convierte en una versión nueva."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Lenguaje que sigue el asistente",
+      "sub": "Tres cambios que hacen el comportamiento predecible.",
+      "passos": [
+        {
+          "titulo": "Orden directa",
+          "sub": "y no descripción",
+          "texto": [
+            "Cambia \"responde de forma simpática y profesional\" por instrucciones que se puedan comprobar.",
+            "Cada adverbio vago (\"rápidamente\", \"naturalmente\") se vuelve un criterio: \"en hasta 3 líneas\", \"usa el primer nombre\"."
+          ],
+          "exemplo": {
+            "rot": "Vago × directo",
+            "texto": "Vago: \"resuélvelo de la mejor manera\". Directo: \"Saluda por el nombre. Si la duda está en la lista, responde en hasta 3 líneas. Si no está, escribe 'voy a confirmar con la recepción' y márcalo para una persona.\""
+          }
+        },
+        {
+          "titulo": "Ejemplo",
+          "sub": "y no explicación",
+          "texto": [
+            "Un caso resuelto muestra tono, tamaño y formato de una vez.",
+            "Pídele a la dueña capturas de conversaciones reales y cambia el nombre y el teléfono antes de usarlas: la conversación de un paciente es un dato personal."
+          ]
+        },
+        {
+          "titulo": "Regla escrita",
+          "sub": "y no sentido común",
+          "texto": [
+            "Prohíbe en el playbook las frases \"usa el sentido común\", \"sé natural\", \"resuélvelo como puedas\" y \"adapta si hace falta\".",
+            "Cada una abre espacio para una respuesta inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Dónde vive el playbook y cómo cambia",
+      "sub": "Es de la clínica, no tuyo ni de la herramienta.",
+      "passos": [
+        {
+          "titulo": "Dónde",
+          "sub": "un documento",
+          "texto": [
+            "En un documento que la dueña abre y comenta, en la herramienta de texto que la clínica ya usa.",
+            "Nunca solo dentro de la herramienta que ejecuta el asistente, ni en PDF, ni en tu computador: la dueña queda a tu merced."
+          ]
+        },
+        {
+          "titulo": "Versión",
+          "sub": "arriba",
+          "texto": [
+            "Arriba: versión activa, fecha, autor y el cambio en una línea. Al pie: el historial completo.",
+            "Un ajuste pequeño (tono, ejemplo) suma 0.1; un cambio de comportamiento suma 1.0."
+          ]
+        },
+        {
+          "titulo": "Registro",
+          "sub": "en cada conversación",
+          "texto": [
+            "Si la herramienta lo permite, guarda junto a cada atención la versión del playbook que se usó.",
+            "Cuando la dueña diga \"esta semana respondió mal\", encuentras la regla exacta en minutos."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El esqueleto, los ejemplos y la salida. Los datos de la Clínica Vila Serena son ficticios.",
+      "blocos": [
+        {
+          "rot": "Playbook · esqueleto",
+          "icone": "arquivo",
+          "conteudo": "# PLAYBOOK — <nombre del asistente> · <empresa>\nVersión: 1.0 · Fecha: <dd/mm/aaaa> · Autores: <consultor> + <dueña>\nCambio en esta versión: versión inicial\n\n## 1. CONTEXTO\nQuiénes somos, servicios, horario, quién nos escribe, tono.\n\n## 2. OBJETIVO\nHace: <una frase>\nNo hace: <lista copiada de la ficha de la clase 1>\n\n## 3. ENTRADAS\nTipos de mensaje que llegan y cómo vienen (texto, audio, foto).\n\n## 4. REGLAS (si → entonces)\n- Si <situación>, entonces <acción>.\n- Si no sabe, entonces escribe \"voy a confirmar con la recepción\" y marca PARA_PESSOA.\n\n## 5. EJEMPLOS RESUELTOS\n(simple, difícil y uno que llama a una persona)\n\n## 6. FORMATO DE SALIDA\nTexto para el paciente + campos fijos para la planilla.\n\n## 7. LÍMITES\nNunca: <...>. Pasa a una persona cuando: <...>.\n\n## HISTORIAL\nv1.0 — <fecha> — versión inicial"
+        },
+        {
+          "rot": "Ejemplos resueltos · Vila Serena",
+          "icone": "chat",
+          "conteudo": "EJ 1 — simple (está en la lista de dudas)\nEntrada: \"¿abren los sábados?\"\nSalida: \"¡Hola! Abrimos los sábados de 8 a 12 h. ¿Quieres agendar un horario?\"\n\nEJ 2 — cita\nEntrada: \"quería agendar fisio para mi mamá\"\nSalida: \"¡Claro! Dime su nombre y el mejor día y turno. La recepción te confirma el horario hoy mismo.\"\n\nEJ 3 — difícil (fuera de la lista)\nEntrada: \"¿aceptan el seguro Alfa para drenaje?\"\nSalida: \"¡Buena pregunta! Voy a confirmar con la recepción y te respondo antes de que termine el día.\"\n[PARA_PESSOA = sim · motivo = convênio fora da lista]\n\nEJ 4 — llama a una persona (salud o reclamo)\nEntrada: \"tengo mucho dolor después de la sesión, ¿es normal?\"\nSalida: \"Lo siento. Voy a llamar ahora a la fisioterapeuta para que hable contigo. Si el dolor es fuerte, busca atención de urgencia.\"\n[PARA_PESSOA = sim · prioridade = ALTA]"
+        },
+        {
+          "rot": "Salida estructurada",
+          "icone": "lista",
+          "conteudo": "{\n  \"nome\": \"Paciente A\",\n  \"intencao\": \"marcar\",\n  \"servico\": \"fisioterapia\",\n  \"preferencia\": \"terça à tarde\",\n  \"para_pessoa\": false,\n  \"motivo_pessoa\": \"\",\n  \"versao_playbook\": \"1.0\"\n}"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Parte de la ficha de la clase 1. Si usas conversaciones reales, cambia los nombres y teléfonos antes.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Playbook v1.0 de la recepción",
+          "min": "45 min",
+          "texto": "Completa el esqueleto para el asistente que elegiste en la clase 1. Escribe las reglas en el formato \"si … entonces …\" y prohíbe las frases vagas.",
+          "pronto": "las 7 partes están completas, hay al menos 5 reglas \"si … entonces …\", los límites tienen al menos 3 ítems y arriba hay versión, fecha y autores."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Ejemplos y salida",
+          "min": "30 min",
+          "texto": "Escribe los ejemplos resueltos y la salida estructurada. Léelos con la dueña (o con quien atiende) y anota lo que ella cambiaría.",
+          "pronto": "hay al menos 3 ejemplos (uno simple, uno difícil y uno que llama a una persona), todos con la salida en los mismos campos, y la lectura con la dueña se convirtió en la versión 1.1 con el cambio registrado en el historial."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Qué instrucción hace que el comportamiento del asistente sea más predecible?",
+          "opcoes": [
+            "\"Atiende con simpatía y resuelve de la mejor manera posible para el paciente.\"",
+            "\"Si la duda está en la lista, responde en hasta 3 líneas; si no está, márcala para una persona.\"",
+            "\"Usa el sentido común y adapta la respuesta según el paciente y la situación.\"",
+            "\"Sé natural y humano, como sería nuestra recepcionista en el día a día.\""
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Una instrucción predecible se puede verificar: tiene condición y acción. La simpatía, el sentido común y la naturalidad son impresiones que cada persona lee a su manera."
+        },
+        {
+          "p": "¿Por qué el playbook necesita un ejemplo en el que lo correcto es llamar a una persona?",
+          "opcoes": [
+            "Porque la política de WhatsApp exige al menos cuatro ejemplos en el documento.",
+            "Para que el asistente parezca más humilde y menos robótico en las respuestas.",
+            "Para completar la parte 5 con el número mínimo de ejemplos acordado.",
+            "Para mostrar dónde termina el alcance y cómo pasa el caso a otra persona sin inventar."
+          ],
+          "certa": 3,
+          "ref": "diagrama",
+          "explica": "El ejemplo de \"llama a una persona\" enseña el límite. Sin él, el asistente intenta responder lo que no sabe, como una pregunta de salud."
+        },
+        {
+          "p": "¿Dónde debe vivir el playbook de Vila Serena?",
+          "opcoes": [
+            "En un documento que la dueña abre y comenta, con la versión arriba y el historial al pie.",
+            "Dentro de la herramienta que ejecuta el asistente, donde solo el consultor tiene acceso y control.",
+            "En un PDF firmado, para que nadie cambie el texto después de la entrega.",
+            "En la computadora del consultor, que es quien entiende las instrucciones."
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "El playbook es de la clínica. Si ella no puede leerlo ni pedir cambios, queda dependiendo de ti y nadie sabe qué versión está vigente."
+        },
+        {
+          "p": "La dueña pidió que el asistente deje de responder sobre convenios. ¿Qué pasa con el playbook?",
+          "opcoes": [
+            "Nada: es un cambio pequeño y no necesita registro.",
+            "Reescribes todo el documento desde cero, para que quede coherente con su pedido.",
+            "Se convierte en una versión nueva, con fecha, autor y el cambio en una línea en el historial.",
+            "La dueña lo cambia directo en la herramienta, sin pasar por el documento."
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "Todo cambio es una versión. El historial es lo que permite saber, después, por qué el asistente respondió de una forma una semana y de otra la siguiente."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "7 partes",
+          "texto": "Contexto, objetivo, entradas, reglas, ejemplos, salida y límites. Si falta una, el asistente improvisa."
+        },
+        {
+          "t": "Orden directa",
+          "texto": "Regla \"si … entonces …\", ejemplo resuelto y ninguna frase vaga."
+        },
+        {
+          "t": "Salida fija",
+          "texto": "Texto corto para una persona, campos con nombre fijo para una hoja de cálculo o un sistema."
+        },
+        {
+          "t": "Es de la clínica",
+          "texto": "Vive en un documento que la dueña abre, con la versión arriba y el historial al pie."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Gestión de IA · Agentes: el cargo digital y la constitución del agente",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/es/",
+          "icone": "robo"
+        },
+        {
+          "t": "Profesional 2030 · Auditor: datos y proveedores (LGPD (la ley de protección de datos de Brasil))",
+          "href": "https://inematds.github.io/prof2030-auditor/",
+          "icone": "escudo"
+        },
+        {
+          "t": "DICA 1 · Diagnóstico: de caso a regla",
+          "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/es/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

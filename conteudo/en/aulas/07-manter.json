@@ -1,0 +1,281 @@
+{
+  "slug": "manter",
+  "num": 7,
+  "menu": "Maintain",
+  "titulo": "Maintain and standardize: maintenance, next area and niche library",
+  "titulo_curto": "Maintain and standardize",
+  "minutos": 17,
+  "lead": "The assistant running is not the end. The model changes, the WhatsApp rule changes, the clinic changes. This lesson shows what stays after the handoff: a written maintenance scope, a 12-month map for the clinic, a library that lets the next client in the same niche start from the middle, and a checklist so nothing gets forgotten.",
+  "objetivo": "write the maintenance scope without a price, build the clinic's 12-month map and run the checklist before handing off.",
+  "competencias": [
+    "escrever-escopo-de-manutencao",
+    "planejar-doze-meses",
+    "manter-biblioteca-por-nicho",
+    "conferir-antes-de-entregar"
+  ],
+  "aprende": [
+    {
+      "t": "Customize the front, standardize the back"
+    },
+    {
+      "t": "Write down what maintenance includes and doesn't include"
+    },
+    {
+      "t": "Choose the next area at the right time"
+    },
+    {
+      "t": "Run the checklist before every handoff"
+    }
+  ],
+  "hero_alt": "A simple office shelf with sober-colored binders; a hand pulls one out.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "What stays after the handoff",
+      "sub": "Five pieces. Click each one.",
+      "nos": [
+        {
+          "icone": "pasta",
+          "titulo": "Library",
+          "sub": "by niche",
+          "detalhe": "Playbooks, \"important\" tables, manuals, test batteries, and training scripts, with no client data. The diagnosis is always unique; the behind-the-scenes work repeats across clinics."
+        },
+        {
+          "icone": "check",
+          "titulo": "Checklist",
+          "sub": "pre-delivery",
+          "forte": true,
+          "detalhe": "A list you run through on every delivery. Each failure that shows up later becomes a new item: that is how the list gets better."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Maintenance",
+          "sub": "written scope",
+          "detalhe": "What the monthly follow-up includes and what it does not, in writing, with an easy exit. Pricing is a matter for Selling with AI."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Next area",
+          "sub": "after the win",
+          "detalhe": "When the first assistant is stable and the gain has been shown in numbers, go back to the 5 areas of DICA 1 and ask which bottleneck is next."
+        },
+        {
+          "icone": "lista",
+          "titulo": "12 months",
+          "sub": "the map",
+          "detalhe": "One plan per client: delivery, phases, cadence, next area, and annual review. With a map you lead the relationship; without one, you only react."
+        }
+      ],
+      "legenda": "Customize the diagnosis, standardize the behind-the-scenes work."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The maintenance scope",
+      "sub": "Write down what is in and what is out. The price and how to sell it are covered in Selling with AI 4 and 5.",
+      "passos": [
+        {
+          "titulo": "Includes",
+          "sub": "the monthly work",
+          "texto": [
+            "Check-in on the agreed cadence, versioned playbook adjustments, updates to the manual and the list of open questions, a monthly report, and support within an agreed timeframe.",
+            "And every quarter, check whether any rule has changed for WhatsApp, the vendor, or LGPD (Brazil's data protection law) that affects the assistant."
+          ]
+        },
+        {
+          "titulo": "Does not include",
+          "sub": "in writing",
+          "texto": [
+            "A new assistant, a new area, integration with another system, social media content, a website.",
+            "A request outside the scope becomes a conversation about a new project, not a favor."
+          ]
+        },
+        {
+          "titulo": "Easy exit",
+          "sub": "no penalty",
+          "texto": [
+            "The clinic can leave with the agreed notice, with no penalty, taking the playbook, manual, and records with them, because those belong to the clinic.",
+            "A client who stays because they choose to trusts you more than a client held by a contract."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Next area and library",
+      "sub": "One area at a time; the next client in the niche starts from the middle.",
+      "passos": [
+        {
+          "titulo": "When",
+          "sub": "the next area",
+          "texto": [
+            "Only after the first one is stable and the gain has been shown against the baseline.",
+            "At the check-in, take 10 minutes: \"If I could help unblock one thing in the next two months, what hurts the most today?\" There may be no next area: that is fine."
+          ]
+        },
+        {
+          "titulo": "Library",
+          "sub": "how it grows",
+          "texto": [
+            "Save it as soon as you do it, with a version, and remove names, phone numbers, and amounts before saving.",
+            "Every quarter, retire what nobody used and promote to standard what keeps repeating."
+          ]
+        },
+        {
+          "titulo": "\"We're different\"",
+          "sub": "vocabulary",
+          "texto": [
+            "Almost always it is the word that changes, not the flow: \"patient record\" instead of \"contact\". Change the field name and keep the structure.",
+            "If the owner insists, ask for a concrete example before changing the method."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "Scope, 12-month map, and checklist. Vila Serena is fictional.",
+      "blocos": [
+        {
+          "rot": "Maintenance scope",
+          "icone": "arquivo",
+          "conteudo": "MONTHLY FOLLOW-UP · <company> · starting <date>\n\nINCLUDES\n- <weekly | biweekly | monthly> check-in on <day> at <time>\n- playbook adjustments with version and history\n- update of the manual and the list of questions\n- 1-page monthly report with the 5 indicators\n- support via <channel> with a reply within <deadline>\n- every quarter: review the rules of WhatsApp, the vendor, and LGPD\n\nDOES NOT INCLUDE\n- new assistant or new area (becomes a separate project)\n- integration with another system\n- social media content, website\n- costs of tools and messages (paid by the clinic, from its own account)\n\nEXIT\n<deadline> notice, no penalty. The clinic keeps the playbook, manual,\nlogs, and access, which belong to it.\n\nPrice and price review: <see proposal>"
+        },
+        {
+          "rot": "12-month map · Vila Serena",
+          "icone": "calendario",
+          "conteudo": "12-MONTH MAP · Clínica Vila Serena (fictional)\n\nMonth 1   · reception assistant in phase 1 · 90-min training · weekly check-in\nMonth 2   · phase 2 (if the log shows it) · weekly report\nMonth 3   · gain shown against the baseline → conversation about the next area\nMonth 4   · biweekly cadence · next area chosen? (DICA 1: the 5 areas)\nMonth 5–6 · next area in the DICA cycle: choose, playbook, phases, training\nMonth 7   · monthly cadence on the first assistant\nMonth 9   · quarterly review: WhatsApp rules, vendor, LGPD\nMonth 12  · annual review with the owner: what stayed, what goes, plan for the year\n\nCrisis (new employee, red alert) → back to weekly."
+        },
+        {
+          "rot": "Pre-delivery checklist",
+          "icone": "check",
+          "conteudo": "PRE-DELIVERY CHECKLIST · <company> · <assistant> · <date>\nMark yes / no / not applicable, with the evidence.\n\nASSISTANT\n[ ] playbook with version, history, and limits reviewed by the owner\n[ ] set of 15 test cases passed on the latest version\n[ ] way to reach a person tested (word, button, phone)\n[ ] official channel; dedicated number; no connector that imitates the app\n[ ] log of each run turned on\n[ ] copy of the flow or kit stored outside the tool\n[ ] access only to what is needed; passwords kept out of documents\n[ ] shutdown plan written and tested\n\nDATA (LGPD)\n[ ] what each piece of data is used for and how long it is kept, in writing\n[ ] reminders and campaigns only for those who consented, with an easy way out\n[ ] how to handle a patient who asks for their own data\n\nCLINIC\n[ ] champion with a name and a signed roles sheet\n[ ] 90-min training done; 1-page manual at the front desk\n[ ] list of questions open\n[ ] baseline of the 5 indicators measured\n[ ] board of the 3 phases and \"important\" table approved\n[ ] first check-in scheduled\n[ ] tool accounts in the clinic's name\n\nEvery failure that shows up after delivery becomes a new item here."
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "Video: from builder to consultant",
+      "sub": "Five minutes. The part about following up with the client month by month is the idea of this lesson: an AI project does not end at delivery.",
+      "chave": "consultor-ia-2027"
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "For Vila Serena (fictional) or the business you serve.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Scope and 12-month map",
+          "min": "40 min",
+          "texto": "Write the maintenance scope and the clinic's 12-month map from what you did in lessons 1 to 6.",
+          "pronto": "the scope has at least 5 items under \"includes\", 4 under \"does not include\", an exit with no penalty, and no price in reais; the map covers all 12 months, only opens the next area after the month the gain is shown, and includes the review of WhatsApp rules and LGPD."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Checklist and first library folder",
+          "min": "30 min",
+          "texto": "Run the pre-delivery checklist on the clinic's assistant and store in the library, in a niche folder, the playbook and the \"important\" table without client data.",
+          "pronto": "every checklist item has yes, no, or not applicable with evidence, each \"no\" has an action and a date, and the niche folder exists with a playbook and a table without any client name, phone, or price."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The owner asks, as part of maintenance, for you to build the clinic's new website. What do you say?",
+          "opcoes": [
+            "That you will, because a satisfied client deserves a favor now and then.",
+            "That you will, at no charge now, and make up for it in the next price adjustment.",
+            "That a website is under \"does not include\" in the scope; if she wants it, it becomes another conversation, with someone who builds sites.",
+            "That maintenance covers any request from the clinic during the contract."
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "A written scope protects both sides. Anything outside it becomes a separate project or a referral to someone who does it; accepting everything turns you into a jack-of-all-trades."
+        },
+        {
+          "p": "When should you open the conversation about the next area with the owner?",
+          "opcoes": [
+            "When the first assistant is stable and the gain has been shown against the baseline.",
+            "On delivery day, while the owner is still excited about the first one.",
+            "Only at the end of the first year, in the annual review with the owner.",
+            "When a new tool shows up that does something different."
+          ],
+          "certa": 0,
+          "ref": "diagrama",
+          "explica": "Without the first gain shown, the next proposal sounds like pushing. With it, you are continuing the same method on the area that hurts most."
+        },
+        {
+          "p": "What goes into the library by niche?",
+          "opcoes": [
+            "The patients' real conversations, to serve as examples without rework.",
+            "Playbook, \"important\" table, manual, and test set, with no client data.",
+            "Only each clinic's diagnosis, which is the most valuable and most laborious part of the service.",
+            "The passwords for each client's tools, to speed up support."
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "The diagnosis is unique to each client. What repeats is the behind-the-scenes work, stored without names, phones, prices, or passwords."
+        },
+        {
+          "p": "An error showed up two weeks after delivery: the way to reach the front desk did not work outside business hours. What changes in your method?",
+          "opcoes": [
+            "Nothing: it was an isolated case and was already fixed at the clinic itself.",
+            "You only deliver to clinics that operate 24 hours a day.",
+            "The clinic has to redo the 90-minute training with the champion.",
+            "The checklist gets a new item: test the way to reach a person outside business hours."
+          ],
+          "certa": 3,
+          "ref": "codigo",
+          "explica": "Every failure after delivery becomes a checklist item. That is how the list improves and the error does not repeat at the next clinic."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Front and behind the scenes",
+          "texto": "Unique diagnosis per client; standardized playbooks and scripts in the library."
+        },
+        {
+          "t": "Written scope",
+          "texto": "What maintenance includes, what it does not include, and the exit with no penalty. No price here."
+        },
+        {
+          "t": "One area at a time",
+          "texto": "Next area only after the gain is shown, in the 12-month map."
+        },
+        {
+          "t": "A checklist that grows",
+          "texto": "Every failure after delivery becomes a new item."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Selling with AI 4: price and the 30-day plan",
+          "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/en/",
+          "icone": "seta"
+        },
+        {
+          "t": "Selling with AI 5: selling the follow-up (lessons 7 and 8)",
+          "href": "https://inematds.github.io/formacao-vendas-ia-masterclass-v72/en/",
+          "icone": "seta"
+        },
+        {
+          "t": "DICA 1 · Diagnosis: the 5 areas of the business",
+          "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/en/",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}

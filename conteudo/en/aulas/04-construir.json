@@ -1,0 +1,255 @@
+{
+  "slug": "construir",
+  "num": 4,
+  "menu": "Build",
+  "titulo": "Build without becoming a factory: open kit, no-code, or nothing",
+  "titulo_curto": "Open kit, no-code, or nothing",
+  "minutos": 18,
+  "lead": "Building got easy; what the owner is buying is knowing that what was built works. That's why this lesson doesn't teach a tool: it teaches how to decide. Sometimes nothing needs to be built, sometimes an open kit does the job, and sometimes a custom flow is worth it. In every case, 15 cases tested before you turn it on.",
+  "objetivo": "decide between an open kit, a no-code flow, or nothing for the chosen assistant, and test 15 cases before turning it on.",
+  "competencias": [
+    "decidir-como-construir",
+    "avaliar-kit-aberto",
+    "montar-bateria-de-testes",
+    "separar-custos-do-cliente"
+  ],
+  "aprende": [
+    {
+      "t": "First ask whether you can skip building"
+    },
+    {
+      "t": "See if an INEMA open kit already does the job"
+    },
+    {
+      "t": "The minimum for a custom flow that doesn't lock you in"
+    },
+    {
+      "t": "Test 15 cases before turning it on"
+    }
+  ],
+  "hero_alt": "A consultant and a clinic owner standing in front of a wall of sticky notes in three columns; he points at one of them.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The decision, from simplest to most work",
+      "sub": "Stop at the first one that works. Tap each step.",
+      "nos": [
+        {
+          "icone": "x",
+          "titulo": "Nothing",
+          "sub": "does paper solve it?",
+          "detalhe": "Before you build, ask whether a rule, a list, or a function the clinic already has will do the job. At Vila Serena (fictional), the appointment reminder goes out through the clinic's own scheduling system: no AI needed."
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Open kit",
+          "sub": "does it already exist?",
+          "detalhe": "INEMA maintains open kits for clinics, gyms, physical therapy, nutrition, restaurants, and hotels. The atende-clinica kit handles scheduling, questions, a queue for a person, and reminders by rules, with no AI model, and it runs on a computer or on a VPS."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "No-code",
+          "sub": "your own flow",
+          "detalhe": "When the kit doesn't fit, build a flow in the automation tool you already know, using the top model in your subscription. You learn how to build the flow in the agents course with n8n; here we only cover the decision and the bare minimum."
+        },
+        {
+          "icone": "check",
+          "titulo": "15 cases",
+          "sub": "before turning it on",
+          "forte": true,
+          "detalhe": "Whichever path you take, write 15 cases with the expected answer before you run anything. One broken limit fails the whole round, even if everything else is right."
+        },
+        {
+          "icone": "play",
+          "titulo": "Go live",
+          "sub": "in phase 1",
+          "detalhe": "Only after the test set passes does the assistant go to the clinic, and in phase 1 of lesson 3: the owner approves everything."
+        }
+      ],
+      "legenda": "A package is not \"I build it\": it is a diagnosis + the simplest path + follow-up."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The three paths in practice",
+      "sub": "What to look at in each one before you choose.",
+      "passos": [
+        {
+          "titulo": "Open kit",
+          "sub": "atende-clinica and its siblings",
+          "texto": [
+            "Rule-based conversation, scheduling, a list of common questions, a human queue, emergency words that call a person, campaigns only for people who gave consent, and export of patient data (LGPD (Brazil's data protection law)).",
+            "Heads up: the kit connects WhatsApp through a connector that is NOT the official channel (it imitates the app). Don't use that part with customers: test through the website chat or the simulated outbox, and connecting the clinic's WhatsApp through the official platform is separate work."
+          ]
+        },
+        {
+          "titulo": "No-code",
+          "sub": "the bare minimum",
+          "texto": [
+            "A dedicated number for the assistant, never the owner's personal phone. A log of every run (what came in, what went out, playbook version). A copy of the flow kept outside the tool.",
+            "Access only to what the assistant needs. And the playbook stays in the clinic's document, not just inside the flow."
+          ]
+        },
+        {
+          "titulo": "Costs",
+          "sub": "on the client's account",
+          "texto": [
+            "Tools, WhatsApp messages, and the model subscription stay on the clinic's account, paid by the clinic directly to the vendor. That way, when a price changes, nothing is hidden inside your service.",
+            "Don't memorize prices: open each vendor's official table on the day and note the link in the decision. How much to charge for your service is a topic for Selling with AI 4."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The decision on one page and the 15-case test set. Vila Serena cases are fictional.",
+      "blocos": [
+        {
+          "rot": "Build decision",
+          "icone": "arquivo",
+          "conteudo": "DECISION · how to build · <assistant> · <company> · <date>\n\n1. CAN WE AVOID BUILDING?\n<yes/no> · why: <...>\n\n2. DOES AN OPEN KIT FIT?\nKit reviewed: <name and version> · what it covers: <...> · what is missing: <...>\n\n3. NO-CODE FLOW (if 1 and 2 don't fit)\nTool: <the one you already know> · model: <the top one in the clinic's subscription>\nDedicated number: <yes/no> · run log: <where> · flow copy: <where>\n\nCHOICE: <nothing | kit | no-code> · reason in one sentence: <...>\nWHAT STAYS OUT: <...>\n\nCLIENT ACCOUNTS (paid by the clinic, directly to the vendor)\n- <tool> · account holder: <clinic> · price table: <link> · checked on <date>\n- WhatsApp · account holder: <clinic> · official table: <link> · checked on <date>"
+        },
+        {
+          "rot": "15-case test set",
+          "icone": "lista",
+          "conteudo": "TEST SET · <assistant> · playbook v<version> · round <n> · <date>\nExpected answer written BEFORE running. One broken limit fails the round.\n\n| # | Type     | Test message                         | Expected                         | Result    |\n|---|----------|--------------------------------------|----------------------------------|-----------|\n| 1 | common   | \"are you open on saturday?\"                  | hours from the list              |           |\n| 2 | common   | \"i want to book pilates\"               | asks for name, day, and shift    |           |\n| 3 | exception| \"do you take the Alfa plan?\"            | \"I'll confirm\" + PARA_PESSOA     |           |\n| 4 | person   | \"strong pain after the session\"     | calls the physical therapist now |           |\n| 5 | forbidden| \"can you give me 30% off?\"           | does not negotiate; PARA_PESSOA  |           |\n| 6 | hard     | \"I want the owner, I'm cancelling\"  | high priority; PARA_PESSOA       |           |\n| ...up to 15 (mostly common, a few exceptions, one or two hard)\n\nRound result: <passed | failed> · broken limit? <which one>\nChange made: <just one> → playbook v<new version> → run the 15 again"
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "Video: AI consulting in practice",
+      "sub": "Four and a half minutes. Notice the clinic example: a reminder is simple automation, the assistant talks with the person who wants to reschedule, and fitting them into the schedule stays with the front desk.",
+      "chave": "consultoria-ia-na-pratica"
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "For the assistant on the lesson 1 worksheet, with the playbook from lesson 2.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Written decision",
+          "min": "30 min",
+          "texto": "Fill in the build decision. Open the guide for the open kit closest to the niche and note what it covers and what is missing.",
+          "pronto": "the three questions each have an answer with a reason, the choice is in one sentence, there is a \"what stays out\" line, and each clinic account has an account holder and a link to the price table with the date checked, with no copied price."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · 15-case test set",
+          "min": "45 min",
+          "texto": "Write the 15 cases with the expected answer before you run anything. Run them on the kit, on the flow, or in a hand test with the playbook, and note the result of each one.",
+          "pronto": "there are 15 cases with the expected answer written first, at least 2 that call a person and 1 forbidden request, the result of every case is noted, and the last round did not break any limit."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "Vila Serena loses patients because they forget their appointment. What is the first path to look at?",
+          "opcoes": [
+            "An AI assistant that calls each patient the day before and talks with them about the appointment.",
+            "A new no-code flow, with the most advanced model on the market.",
+            "Hiring a second receptionist just to confirm appointments.",
+            "A reminder through the scheduling system the clinic already has: that's simple automation."
+          ],
+          "certa": 3,
+          "ref": "diagrama",
+          "explica": "Stop at the first one that solves it. A reminder doesn't need AI; the assistant comes in, if it comes in at all, to talk with people who want to reschedule."
+        },
+        {
+          "p": "In version 1, does atende-clinica connect the clinic's WhatsApp through the official channel?",
+          "opcoes": [
+            "Yes, it comes with Meta's official platform already set up and ready to use.",
+            "No: it uses an unofficial connector; with customers, test through the website chat and connect the official WhatsApp separately.",
+            "Yes, and that's why it can be used with customers with no extra care.",
+            "No, because the kit only works for clinics with more than 20 people."
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The kit's guide lists the official platform as out of scope for version 1, and the connector it includes imitates the app. That puts the clinic's number at risk and does not follow WhatsApp's policy."
+        },
+        {
+          "p": "In the test battery, 14 cases passed and 1 discount case was negotiated by the assistant. Result?",
+          "opcoes": [
+            "The round fails: one violated limit fails the whole round.",
+            "It passes, because 14 out of 15 is a good result to start phase 1.",
+            "It passes, as long as the owner approves the discounts in phase 1 later.",
+            "Only the discount case fails, and the other 14 go to the clinic."
+          ],
+          "certa": 0,
+          "ref": "codigo",
+          "explica": "A discount is a limit. With one limit violated, you change one thing in the playbook, create a new version, and run all 15 again."
+        },
+        {
+          "p": "Who pays for the tools and the assistant's WhatsApp messages?",
+          "opcoes": [
+            "The consultant, building everything into the fixed price of the monthly service.",
+            "No one, because no-code tools are always free.",
+            "The clinic, on its own account and directly to the vendor, with the link to the price table noted down.",
+            "Meta, which covers the costs for small businesses in Brazil."
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "An account in the clinic's name keeps the cost visible and the clinic as the owner of the tools. When the price changes, nothing is hidden in your service."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "From simple to labor-intensive",
+          "texto": "Nothing, open kit, your own flow. Stop at the first one that solves it."
+        },
+        {
+          "t": "Open kit",
+          "texto": "It already handles scheduling, questions, the queue for a person, and LGPD through rules; the official WhatsApp is separate work."
+        },
+        {
+          "t": "Your own flow",
+          "texto": "Dedicated number, execution log, a copy of the flow, and the playbook kept outside the tool."
+        },
+        {
+          "t": "15 cases",
+          "texto": "Expected answer defined before running; one violated limit fails everything."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Atende Clínica open kit (guide)",
+          "href": "https://inematds.github.io/atende-clinica/guia/",
+          "icone": "pasta"
+        },
+        {
+          "t": "Reserva Restaurante open kit (guide)",
+          "href": "https://inematds.github.io/reserva-restaurante/guia/",
+          "icone": "pasta"
+        },
+        {
+          "t": "Agents course with n8n (building the flow)",
+          "href": "https://inematds.github.io/curso-agentes-n8n/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Professional 2030 · Mentor: test before you connect",
+          "href": "https://inematds.github.io/prof2030-mentor/",
+          "icone": "check"
+        },
+        {
+          "t": "Selling with AI 4: pricing your service",
+          "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/en/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

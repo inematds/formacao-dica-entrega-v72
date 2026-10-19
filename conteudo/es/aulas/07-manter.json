@@ -1,0 +1,281 @@
+{
+  "slug": "manter",
+  "num": 7,
+  "menu": "Mantener",
+  "titulo": "Mantener y estandarizar: mantenimiento, próxima área y biblioteca por nicho",
+  "titulo_curto": "Mantener y estandarizar",
+  "minutos": 17,
+  "lead": "El asistente funcionando no es el final. El modelo cambia, la regla de WhatsApp cambia, la clínica cambia. Esta clase muestra lo que queda después de la entrega: un alcance de mantenimiento escrito, un mapa de 12 meses para la clínica, una biblioteca que hace que el próximo cliente del mismo nicho empiece desde la mitad, y un checklist para no olvidar nada.",
+  "objetivo": "escribir el alcance de mantenimiento sin precio, armar el mapa de 12 meses de la clínica y pasar el checklist antes de entregar.",
+  "competencias": [
+    "escrever-escopo-de-manutencao",
+    "planejar-doze-meses",
+    "manter-biblioteca-por-nicho",
+    "conferir-antes-de-entregar"
+  ],
+  "aprende": [
+    {
+      "t": "Personalizar el frente, estandarizar el trasfondo"
+    },
+    {
+      "t": "Escribir qué incluye y qué no incluye el mantenimiento"
+    },
+    {
+      "t": "Elegir la próxima área en el momento justo"
+    },
+    {
+      "t": "Pasar el checklist antes de cada entrega"
+    }
+  ],
+  "hero_alt": "Estante simple de oficina con fichas de colores sobrios; una mano saca una de ellas.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Lo que queda después de la entrega",
+      "sub": "Cinco piezas. Haz clic en cada una.",
+      "nos": [
+        {
+          "icone": "pasta",
+          "titulo": "Biblioteca",
+          "sub": "por nicho",
+          "detalhe": "Playbooks, tablas de lo importante, manuales, baterías de prueba y guiones de entrenamiento, sin datos de clientes. El diagnóstico siempre es único; el trasfondo se repite entre clínicas."
+        },
+        {
+          "icone": "check",
+          "titulo": "Checklist",
+          "sub": "antes de la entrega",
+          "forte": true,
+          "detalhe": "Una lista que pasas en cada entrega. Cada falla que aparezca después se convierte en un ítem nuevo: así es como la lista mejora."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Mantenimiento",
+          "sub": "alcance escrito",
+          "detalhe": "Lo que incluye el acompañamiento mensual y lo que no incluye, por escrito, con salida fácil. El precio es tema de Ventas con IA."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Próxima área",
+          "sub": "después del logro",
+          "detalhe": "Cuando el primer asistente está estable y el logro se mostró en números, vuelve a las 5 áreas del DICA 1 y pregunta cuál es el próximo cuello de botella."
+        },
+        {
+          "icone": "lista",
+          "titulo": "12 meses",
+          "sub": "el mapa",
+          "detalhe": "Un plan por cliente: entrega, fases, cadencia, próxima área y revisión anual. Con mapa, tú conduces la relación; sin mapa, solo reaccionas."
+        }
+      ],
+      "legenda": "Personaliza el diagnóstico, estandariza el trasfondo."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "El alcance del mantenimiento",
+      "sub": "Escribe lo que está dentro y lo que está fuera. El valor y cómo venderlo están en Ventas con IA 4 y 5.",
+      "passos": [
+        {
+          "titulo": "Incluye",
+          "sub": "lo de todos los meses",
+          "texto": [
+            "Check-in con la cadencia acordada, ajustes de playbook con versión, actualización del manual y de la lista de dudas, informe mensual y soporte en un plazo acordado.",
+            "Y verificar, cada trimestre, si cambió alguna regla de WhatsApp, del proveedor o de la LGPD (la ley de protección de datos de Brasil) que afecte al asistente."
+          ]
+        },
+        {
+          "titulo": "No incluye",
+          "sub": "escrito",
+          "texto": [
+            "Asistente nuevo, área nueva, integración con otro sistema, contenido de redes, sitio web.",
+            "Un pedido fuera del alcance se convierte en una conversación de proyecto nuevo, no en un favor."
+          ]
+        },
+        {
+          "titulo": "Salida fácil",
+          "sub": "sin multa",
+          "texto": [
+            "La clínica puede salir con el aviso acordado, sin multa, llevándose el playbook, el manual y los registros, que son suyos.",
+            "Un cliente que se queda porque elige confía más que un cliente atado por contrato."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Próxima área y biblioteca",
+      "sub": "Una área a la vez; el próximo cliente del nicho empieza por la mitad.",
+      "passos": [
+        {
+          "titulo": "Cuándo",
+          "sub": "la próxima área",
+          "texto": [
+            "Solo después de que el primero esté estable y con el logro mostrado frente a la línea base.",
+            "En el check-in, abre 10 minutos: \"si pudiera ayudarte a destrabar una cosa en los próximos dos meses, ¿qué es lo que más te duele hoy?\" Puede que no haya próxima área: está bien."
+          ]
+        },
+        {
+          "titulo": "Biblioteca",
+          "sub": "cómo crece",
+          "texto": [
+            "Guárdalo en el momento en que lo hagas, con versión, y quita nombre, teléfono y valores antes de guardar.",
+            "Cada trimestre, retira lo que nadie usó y promueve a estándar lo que se repitió."
+          ]
+        },
+        {
+          "titulo": "\"Somos diferentes\"",
+          "sub": "vocabulario",
+          "texto": [
+            "Casi siempre cambia la palabra, no el flujo: \"ficha del paciente\" en lugar de \"contacto\". Cambia el nombre del campo y mantén la estructura.",
+            "Si la dueña insiste, pide un ejemplo concreto antes de cambiar el método."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Alcance, mapa de 12 meses y checklist. Vila Serena es ficticia.",
+      "blocos": [
+        {
+          "rot": "Alcance de mantenimiento",
+          "icone": "arquivo",
+          "conteudo": "SEGUIMIENTO MENSUAL · <empresa> · a partir del <fecha>\n\nINCLUYE\n- check-in <semanal | quincenal | mensual> el día <día> a las <hora>\n- ajustes del playbook con versión e historial\n- actualización del manual y de la lista de dudas\n- informe mensual de 1 página con los 5 indicadores\n- soporte por <canal> con respuesta en hasta <plazo>\n- cada trimestre: revisar las reglas de WhatsApp, del proveedor y LGPD\n\nNO INCLUYE\n- asistente nuevo o área nueva (se vuelve un proyecto aparte)\n- integración con otro sistema\n- contenido de redes sociales, sitio web\n- costos de herramientas y mensajes (los paga la clínica, en su cuenta)\n\nSALIDA\nAviso de <plazo> sin multa. La clínica se lleva el playbook, el manual,\nlos registros y los accesos, que son suyos.\n\nValor y revisión del valor: <ver propuesta>"
+        },
+        {
+          "rot": "Mapa de 12 meses · Vila Serena",
+          "icone": "calendario",
+          "conteudo": "MAPA DE 12 MESES · Clínica Vila Serena (ficticia)\n\nMes 1   · asistente de la recepción en la fase 1 · entrenamiento de 90 min · check-in semanal\nMes 2   · fase 2 (si el registro lo muestra) · informe semanal\nMes 3   · ganancia mostrada contra la línea base → conversación sobre la próxima área\nMes 4   · cadencia quincenal · ¿próxima área elegida? (DICA 1: las 5 áreas)\nMes 5–6 · próxima área en el ciclo DICA: elegir, playbook, fases, entrenamiento\nMes 7   · cadencia mensual en el primer asistente\nMes 9   · revisión del trimestre: reglas de WhatsApp, proveedor, LGPD\nMes 12  · revisión anual con la dueña: qué quedó, qué sale, plan del año\n\nCrisis (empleado nuevo, alerta roja) → vuelve a semanal."
+        },
+        {
+          "rot": "Checklist previo a la entrega",
+          "icone": "check",
+          "conteudo": "CHECKLIST PREVIO A LA ENTREGA · <empresa> · <asistente> · <fecha>\nMarca sí / no / no aplica, con la evidencia.\n\nASISTENTE\n[ ] playbook con versión, historial y límites revisados por la dueña\n[ ] batería de 15 casos pasó en la última versión\n[ ] camino hacia una persona probado (palabra, botón, teléfono)\n[ ] canal oficial; número dedicado; nada de conector que imite la app\n[ ] registro de cada ejecución activado\n[ ] copia del flujo o del kit guardada fuera de la herramienta\n[ ] accesos solo a lo necesario; contraseñas fuera de los documentos\n[ ] plan de apagado escrito y probado\n\nDATOS (LGPD)\n[ ] para qué se usa cada dato y por cuánto tiempo se guarda, por escrito\n[ ] recordatorio y campaña solo para quien dio su consentimiento, con salida fácil\n[ ] cómo atender al paciente que pide sus propios datos\n\nCLÍNICA\n[ ] campeona con nombre y hoja de roles firmada\n[ ] entrenamiento de 90 min hecho; manual de 1 página en el mostrador\n[ ] registro de dudas abierto\n[ ] línea base de los 5 indicadores medida\n[ ] cuadro de las 3 fases y tabla de lo importante aprobados\n[ ] primer check-in agendado\n[ ] cuentas de las herramientas a nombre de la clínica\n\nCada falla que aparezca después de la entrega se vuelve un ítem nuevo aquí."
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "Video: de constructor a consultor",
+      "sub": "Cinco minutos. El tramo sobre acompañar al cliente mes a mes es la idea de esta clase: un proyecto de IA no termina con la entrega.",
+      "chave": "consultor-ia-2027"
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Para la Vila Serena (ficticia) o el negocio que tú atiendes.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Alcance y mapa de 12 meses",
+          "min": "40 min",
+          "texto": "Escribe el alcance de mantenimiento y el mapa de 12 meses de la clínica a partir de lo que hiciste en las clases 1 a 6.",
+          "pronto": "el alcance tiene por lo menos 5 ítems en \"incluye\", 4 en \"no incluye\", salida sin multa y ningún valor en reales; el mapa cubre los 12 meses, solo abre la próxima área después del mes de la ganancia mostrada y tiene la revisión de reglas de WhatsApp y LGPD."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Checklist y primera carpeta de la biblioteca",
+          "min": "30 min",
+          "texto": "Pasa el checklist previo a la entrega por el asistente de la clínica y guarda en la biblioteca, en una carpeta del nicho, el playbook y la tabla de lo importante sin datos de clientes.",
+          "pronto": "todos los ítems del checklist tienen sí, no o no aplica con evidencia, cada \"no\" tiene acción y fecha, y la carpeta del nicho existe con playbook y tabla sin nombre, teléfono ni valor de cliente."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "La dueña te pide, dentro del mantenimiento, que armes el sitio nuevo de la clínica. ¿Qué respondes?",
+          "opcoes": [
+            "Que lo haces, porque un cliente satisfecho merece un favor de vez en cuando.",
+            "Que lo haces sin cobrar ahora y lo compensas en el próximo reajuste del mes.",
+            "Que el sitio web está en el \"no incluye\" del alcance; si ella quiere, se vuelve otra conversación, con quien lo hace.",
+            "Que el mantenimiento cubre cualquier pedido de la clínica durante el contrato."
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "Un alcance escrito protege a ambos lados. Lo que queda fuera del alcance se vuelve un proyecto aparte o una recomendación de quien lo haga; aceptar todo te convierte en un comodín."
+        },
+        {
+          "p": "¿Cuándo abrir la conversación sobre la próxima área con la dueña?",
+          "opcoes": [
+            "Cuando el primer asistente está estable y la ganancia se mostró contra la línea base.",
+            "El mismo día de la entrega, mientras la dueña todavía está entusiasmada con el primero.",
+            "Solo al final del primer año, en la revisión anual con la dueña.",
+            "Cuando aparezca una herramienta nueva que haga algo diferente."
+          ],
+          "certa": 0,
+          "ref": "diagrama",
+          "explica": "Sin la ganancia del primero mostrada, la próxima propuesta suena a empujar. Con ella, es seguir con el mismo método en el área que más duele."
+        },
+        {
+          "p": "¿Qué entra en la biblioteca por nicho?",
+          "opcoes": [
+            "Las conversaciones reales de los pacientes, para servir de ejemplo sin retrabajo.",
+            "Playbook, tabla de lo importante, manual y batería de pruebas, sin datos de clientes.",
+            "Solo el diagnóstico de cada clínica, que es la parte más valiosa y más trabajosa del servicio.",
+            "Las contraseñas de las herramientas de cada cliente, para agilizar el soporte."
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "El diagnóstico es único de cada cliente. Lo que se repite es el trasfondo, guardado sin nombre, teléfono, valores ni contraseñas."
+        },
+        {
+          "p": "Apareció un error dos semanas después de la entrega: el camino hacia la recepción no funcionaba fuera del horario. ¿Qué cambia en tu método?",
+          "opcoes": [
+            "Nada: fue un caso aislado y ya se corrigió en la propia clínica.",
+            "Pasas a entregar solo a clínicas que atienden las 24 horas del día.",
+            "La clínica tiene que rehacer el entrenamiento de 90 minutos con la campeona.",
+            "El checklist gana un ítem nuevo: probar el camino hacia una persona fuera del horario."
+          ],
+          "certa": 3,
+          "ref": "codigo",
+          "explica": "Cada falla posterior a la entrega se vuelve un ítem del checklist. Así mejora la lista y el error no se repite en la próxima clínica."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Frente y trastienda",
+          "texto": "Diagnóstico único por cliente; playbooks y guiones estandarizados en la biblioteca."
+        },
+        {
+          "t": "Alcance escrito",
+          "texto": "Lo que el mantenimiento incluye, lo que no incluye y la salida sin multa. Sin precio aquí."
+        },
+        {
+          "t": "Un área a la vez",
+          "texto": "Próxima área solo después de la ganancia mostrada, en el mapa de 12 meses."
+        },
+        {
+          "t": "Checklist que crece",
+          "texto": "Toda falla después de la entrega se convierte en un ítem nuevo."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Ventas con IA 4: precio y el plan de 30 días",
+          "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/es/",
+          "icone": "seta"
+        },
+        {
+          "t": "Ventas con IA 5: vender el acompañamiento (clases 7 y 8)",
+          "href": "https://inematds.github.io/formacao-vendas-ia-masterclass-v72/es/",
+          "icone": "seta"
+        },
+        {
+          "t": "DICA 1 · Diagnóstico: las 5 áreas del negocio",
+          "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/es/",
+          "icone": "lupa"
+        }
+      ]
+    }
+  ]
+}

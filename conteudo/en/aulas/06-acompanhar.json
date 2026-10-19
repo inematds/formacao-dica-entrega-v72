@@ -1,0 +1,344 @@
+{
+  "slug": "acompanhar",
+  "num": 6,
+  "menu": "Follow up",
+  "titulo": "Follow up: 20-minute check-in, 5 indicators, 3 alerts",
+  "titulo_curto": "Follow up every week",
+  "minutos": 17,
+  "lead": "Without numbers, in a bad week the owner's impression becomes \"it's not working.\" With numbers, you show what has changed since the baseline. Follow-up is a short, fixed ritual: 20 minutes at the same time, five numbers, one adjustment, and a one-page report. And three signals that call for a visit, not a discount.",
+  "objetivo": "run the 20-minute check-in, measure 5 indicators against the baseline, and react to the 3 alerts.",
+  "competencias": [
+    "conduzir-check-in",
+    "medir-contra-linha-de-base",
+    "escrever-relatorio-semanal",
+    "detectar-cliente-em-risco"
+  ],
+  "aprende": [
+    {
+      "t": "The fixed 20-minute agenda"
+    },
+    {
+      "t": "Five indicators with the before number"
+    },
+    {
+      "t": "The one-page report, always the same"
+    },
+    {
+      "t": "The 3 alerts and the cadence that tapers off"
+    }
+  ],
+  "hero_alt": "A short meeting at a small clinic table: three people look at a sheet with a simple bar chart.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The weekly cycle",
+      "sub": "Same time, same agenda, every week. Click each step.",
+      "nos": [
+        {
+          "icone": "caneta",
+          "titulo": "Log",
+          "sub": "the week",
+          "detalhe": "The champion's log of questions and the assistant's log (what came in, what went out, what was edited). It's the raw material for the check-in."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "5 numbers",
+          "sub": "and the one from before",
+          "detalhe": "Five indicators, always next to the baseline measured before you turned it on. The trend matters more than the number for the week."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Check-in",
+          "sub": "20 minutes",
+          "forte": true,
+          "detalhe": "5 minutes of numbers, 10 for questions and adjustments made on the spot, 5 to plan the following week. Fixed day and time: \"whenever we can\" turns into never."
+        },
+        {
+          "icone": "check",
+          "titulo": "1 adjustment",
+          "sub": "per week",
+          "detalhe": "One change at a time to the playbook or the manual, with a new version. Make two changes together and nobody knows which one worked."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Report",
+          "sub": "1 page",
+          "detalhe": "Same format every week, sent to the owner even if she doesn't read it at first. Added up, the pages tell the story of the project."
+        }
+      ],
+      "volta": "The following week, the cycle starts again on the same day and time.",
+      "legenda": "A short, fixed ritual holds the clinic together better than a long meeting when something breaks."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The 5 reception indicators",
+      "sub": "Five, not thirty. Collected in a few minutes by the champion, checked by you. No ready-made target: the comparison is with the number from before.",
+      "passos": [
+        {
+          "titulo": "Replies",
+          "sub": "per day",
+          "texto": [
+            "How many messages the assistant prepared or answered. It shows whether it's being used.",
+            "On its own it misleads: lots of volume with lots of editing is not a gain."
+          ]
+        },
+        {
+          "titulo": "Time",
+          "sub": "to reply",
+          "texto": [
+            "Time between the patient's message and the first reply, during service hours.",
+            "In phase 1 it includes approval time: that's what shows whether the queue is weighing things down."
+          ]
+        },
+        {
+          "titulo": "No reply",
+          "sub": "at the end of the day",
+          "texto": [
+            "Contacts that ended the day with no reply at all. It's the metric from the lesson 1 sheet at Vila Serena (fictional).",
+            "It's the number that shows patients lost to delay."
+          ]
+        },
+        {
+          "titulo": "Bookings",
+          "sub": "from the assistant",
+          "texto": [
+            "Appointments booked that started in a conversation with the assistant, checked against the schedule.",
+            "It shows whether the conversation turns into an appointment, not just a reply."
+          ]
+        },
+        {
+          "titulo": "Hours",
+          "sub": "of reception",
+          "texto": [
+            "The champion's estimate of how much reception time was freed up during the week, stated as an estimate.",
+            "It's the number the owner feels; that's why it goes with how it was counted written down."
+          ],
+          "exemplo": {
+            "rot": "Baseline",
+            "texto": "Each indicator needs the value from before, measured the same way and in the same kind of week. Without it, the report shows movement, not results. For a deep dive on measuring 30/60/90: Professional 2030 · Consultant, lesson 6."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The 3 red flags",
+      "sub": "Any one of them calls for a visit, a consultant's rule of thumb: in person if possible, within two days, free of charge.",
+      "passos": [
+        {
+          "titulo": "Champion disappeared",
+          "sub": "no reply",
+          "texto": [
+            "Canceled two check-ins in a row, stopped filling in the log, or doesn't answer messages, even while saying everything is fine.",
+            "Often it's overload or an exit in sight: go back to the sheet of roles."
+          ]
+        },
+        {
+          "titulo": "Number dropped",
+          "sub": "with no explanation",
+          "texto": [
+            "An indicator plunged to near or below the baseline for no reason (holiday, vacation, schedule change).",
+            "Usage quietly dropping often comes before quitting."
+          ]
+        },
+        {
+          "titulo": "\"I'll think about it\"",
+          "sub": "from the owner",
+          "texto": [
+            "\"I'm deciding whether to continue,\" \"it's weighing on our cash,\" \"I'll check with the team.\"",
+            "When this phrase shows up, the conversation needs to happen face to face, and soon."
+          ],
+          "exemplo": {
+            "rot": "Response",
+            "texto": "Listen before defending the system, ask directly \"is something bothering you that I'm not seeing?\" and leave with a two-week plan. A discount right away doesn't fix the reason."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The cadence that shrinks",
+      "sub": "Follow-up loosens as the clinic matures. Timeframes are a rule of thumb, adjusted case by case.",
+      "passos": [
+        {
+          "titulo": "Start",
+          "sub": "weekly",
+          "texto": [
+            "In the first weeks, a check-in every week: the clinic is still unsure and the playbook is still changing."
+          ]
+        },
+        {
+          "titulo": "Routine",
+          "sub": "every two weeks",
+          "texto": [
+            "With phase 2 stable and few new questions, every two weeks, with a short message in the week without a meeting."
+          ]
+        },
+        {
+          "titulo": "Stable",
+          "sub": "monthly",
+          "texto": [
+            "Stable phase and a confident champion: one conversation a month and a monthly report in place of the weekly one. This is where follow-up turns into maintenance (lesson 7)."
+          ]
+        },
+        {
+          "titulo": "Crisis",
+          "sub": "back to weekly",
+          "texto": [
+            "New employee, change of service, red alert: back to weekly until things stabilize again."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "Agenda, spreadsheet and report. The tab next to this one shows 4 simulated weeks for Vila Serena, with made-up numbers for the exercise.",
+      "blocos": [
+        {
+          "rot": "20-minute check-in agenda",
+          "icone": "relogio",
+          "conteudo": "CHECK-IN · <company> · <day> at <time> (fixed) · week <n>\n\n0–5 · NUMBERS\nThe 5 indicators next to the baseline. I read them, the champion confirms.\n\n5–15 · QUESTIONS AND ADJUSTMENTS\nLog of the week's questions. Adjustment made on the spot, with the screen open.\nPlaybook change: v<from> → v<to> · reason: <...>\n\n15–20 · NEXT WEEK\n1 proposed improvement: <...>\n1 risk to watch: <...>\nRed alert? <no | which one and response>\nNext check-in: <date and time>\n\nAfter: 3-line summary for the owner."
+        },
+        {
+          "rot": "Spreadsheet of the 5 indicators",
+          "icone": "grafico",
+          "conteudo": "INDICATORS · <company>\nBaseline measured in <period>, by <who>, like this: <how it was counted>\n\n| Indicator                      | Before | Wk 1 | Wk 2 | Wk 3 | Wk 4 | How to measure        |\n|--------------------------------|--------|------|------|------|------|-----------------------|\n| Replies per day (average)      |        |      |      |      |      | assistant log         |\n| Time to 1st reply (min)        |        |      |      |      |      | assistant log         |\n| Contacts unanswered same day   |        |      |      |      |      | champion's count      |\n| Bookings from the assistant    |        |      |      |      |      | calendar + log        |\n| Front-desk hours freed         |        |      |      |      |      | champion's estimate   |"
+        },
+        {
+          "rot": "1-page weekly report",
+          "icone": "arquivo",
+          "conteudo": "WEEKLY REPORT · <company> · week <n> · <date>\n\nNUMBERS (before → this week)\n- Replies per day: <a> → <b>\n- Time to 1st reply: <a> → <b> min\n- Contacts unanswered same day: <a> → <b>\n- Bookings from the assistant: <b>\n- Front-desk hours freed (estimate): <b>\n\nDONE THIS WEEK\n- <adjustment> (playbook v<n>)\n\nNEXT WEEK\n- <1 improvement> · <1 risk to watch>\n\nPHASE: <1 | 2 | 3> · red alert: <no | which one>"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Vila Serena · 4 weeks (fictional)",
+            "html": "<pre>Made-up numbers for the exercise.\n\n                            Before  W1   W2   W3   W4\nUnanswered contacts/day       12     9    7    8    5\nTime to 1st reply (min)       95    60   40   45   30\nBookings from the assistant    -     6   11    9   14\n\nMath shown (W4 vs. the baseline):\nunanswered: 12 − 5 = 7 fewer per day\ntime: 95 − 30 = 65 min faster\n\nW3: went up from 7 to 8 unanswered → seen at\nthe check-in: local holiday missing from the\nquestions list → adjustment in playbook v1.3.\nNot an alert: it has an explanation and went\nback down in W4.</pre>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Use the made-up Vila Serena numbers or those of the business you serve.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Agenda and baseline",
+          "min": "30 min",
+          "texto": "Adapt the 20-minute agenda and fill in the \"Before\" column of the spreadsheet with the 5 indicators and how to measure each one.",
+          "pronto": "the agenda has the 3 blocks with minutes and a fixed day and time, and the 5 indicators each have a before value, who measures it and how it's measured."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Four simulated reports",
+          "min": "40 min",
+          "texto": "Write 4 one-page weekly reports, one for each simulated week. In one of the weeks, include one of the 3 alerts and write the response.",
+          "pronto": "the 4 reports have the same format, the 5 numbers next to the baseline, 1 thing done and 1 next; in the week with an alert, the response is written out (visit, listening, 2-week plan) and no report offers a discount."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "Why does each indicator need a before value?",
+          "opcoes": [
+            "Because the assistant's tool doesn't work without a starting value.",
+            "Because, without it, the report shows movement and not results.",
+            "Because LGPD (Brazil's data protection law) requires recording the business's previous numbers.",
+            "Because the owner only accepts numbers she measured herself beforehand."
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Baseline is the number from before, measured the same way. It's what you compare against to say whether the assistant changed anything."
+        },
+        {
+          "p": "The champion canceled the last two check-ins, but says everything is fine. What do you do?",
+          "opcoes": [
+            "Wait one more week, since she said everything is fine.",
+            "Send the report by email and stop scheduling meetings.",
+            "Offer a discount on the next monthly fee to keep the clinic.",
+            "Treat it as a red alert and schedule a visit to listen."
+          ],
+          "certa": 3,
+          "ref": "passos",
+          "explica": "A champion who goes quiet is one of the 3 alerts, even with \"everything is fine.\" The response is to go there and listen; a discount doesn't fix the reason."
+        },
+        {
+          "p": "In week 3, the contacts with no reply went up from 7 to 8. Is that a red alert?",
+          "opcoes": [
+            "Yes: any rise in any indicator calls for an immediate visit.",
+            "Yes, and the assistant should go back to phase 1 immediately.",
+            "No, if it has an explanation and does much better than the baseline; it becomes an adjustment at the check-in.",
+            "No, because one week's numbers never matter in follow-up."
+          ],
+          "certa": 2,
+          "ref": "codigo",
+          "explica": "An alert is a sharp drop with no explanation. A small swing with a cause found (the holiday missing from the list) becomes an adjustment to the playbook."
+        },
+        {
+          "p": "The clinic has been stable for months and the champion feels confident. What's the cadence?",
+          "opcoes": [
+            "Monthly, with a monthly report in place of the weekly one.",
+            "Weekly forever, so the clinic never loses the habit of meeting.",
+            "None: the project ended with the handoff.",
+            "Daily, to catch any error the same day."
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "The cadence shrinks as things mature: weekly, every two weeks, monthly. If a crisis comes, go back to weekly."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Fixed ritual",
+          "texto": "20 minutes, same day and time: numbers, questions and adjustments, next week."
+        },
+        {
+          "t": "5 numbers",
+          "texto": "Always next to the baseline; the trend matters more than the week's number."
+        },
+        {
+          "t": "3 alerts",
+          "texto": "Champion goes quiet, a number falling with no explanation, and \"I'll think about it\": visit and listen, no discount."
+        },
+        {
+          "t": "Cadence",
+          "texto": "Weekly, every two weeks, monthly; in a crisis, back to weekly."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Professional 2030 · Consultant: measuring for real at 30, 60 and 90 days",
+          "href": "https://inematds.github.io/prof2030-consultor/",
+          "icone": "grafico"
+        },
+        {
+          "t": "AI Management · Governance: the agent's indicators",
+          "href": "https://inematds.github.io/gestao-ia-governanca-v72/en/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Selling with AI 4: deliver, follow up and the 30-day plan",
+          "href": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/en/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "slug": "capacitar",
+  "num": 5,
+  "menu": "Capacitar",
+  "titulo": "Capacitar: la dueña, el campeón interno y el entrenamiento de 90 minutos",
+  "titulo_curto": "Capacitar al equipo",
+  "minutos": 17,
+  "lead": "Un asistente sin alguien de adentro que lo cuide queda huérfano: todo montado, nada que lo sostenga. En el pequeño negocio ese alguien es la dueña o una persona de confianza. Elegir a esa persona es parte de la entrega, y el entrenamiento de 90 minutos, el manual de una página y el registro de dudas son lo que permite que la clínica ande sin ti.",
+  "objetivo": "elegir al campeón interno, conducir el entrenamiento de 90 minutos y dejar funcionando el manual de 1 página y el registro de dudas.",
+  "competencias": [
+    "escolher-campeao-interno",
+    "conduzir-treino-pratico",
+    "escrever-manual-de-uma-pagina",
+    "manter-registro-de-duvidas"
+  ],
+  "aprende": [
+    {
+      "t": "Elegir al campeón con 3 preguntas"
+    },
+    {
+      "t": "Dividir los roles en una hoja"
+    },
+    {
+      "t": "Dar el entrenamiento de 90 minutos con las manos en los bolsillos"
+    },
+    {
+      "t": "Mantener vivos el manual y el registro de dudas"
+    }
+  ],
+  "hero_alt": "La recepcionista usa la computadora del mostrador mientras un consultor observa con las manos en los bolsillos.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "De la elección del campeón al registro de dudas",
+      "sub": "Cinco piezas, en este orden. Haz clic en cada una.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Campeón",
+          "sub": "con nombre",
+          "detalhe": "La persona que abre la cola todos los días, ajusta una respuesta y lleva al check-in lo raro que vio. En un negocio de hasta unas tres personas, casi siempre es la propia dueña. Un nombre propio, no un cargo."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Roles",
+          "sub": "por escrito",
+          "detalhe": "Una hoja con cuatro líneas: dueña, campeón, consultor y equipo, cada uno con lo que hace y en cuánto tiempo responde. Sin eso, todo problema se vuelve \"pensé que eras tú\"."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Entrenamiento",
+          "sub": "90 minutos",
+          "forte": true,
+          "detalhe": "Tres tercios: tú muestras, ella lo hace mientras tú miras sin tocar el mouse, y el final queda para dudas, ajustes y la fecha del primer check-in."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Manual",
+          "sub": "1 página",
+          "detalhe": "Una hoja en el mostrador: de 4 a 6 pasos del día, el contacto para emergencias y las dudas más comunes. Un manual de 20 páginas nadie lo abre."
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Dudas",
+          "sub": "registro vivo",
+          "detalhe": "Toda duda y todo error raro van a un registro simple. El check-in de la clase 6 trabaja a partir de él."
+        }
+      ],
+      "legenda": "Capacitar es parte de la entrega. Sin campeón, el asistente queda huérfano en el primer cambio de empleado."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "El campeón correcto",
+      "sub": "Regla práctica del consultor, sacada de la experiencia del material anterior de DICA.",
+      "passos": [
+        {
+          "titulo": "3 preguntas",
+          "sub": "antes de entregar",
+          "texto": [
+            "\"¿Quién va a cuidar del asistente todos los días, con nombre y apellido?\" \"¿Qué probabilidad hay de que esa persona siga aquí el próximo año?\" \"¿Sabe que va a ser responsable y aceptó?\"",
+            "Si alguna respuesta es débil, la dueña es la campeona hasta que aparezca alguien mejor."
+          ]
+        },
+        {
+          "titulo": "Correcto",
+          "sub": "e incorrecto",
+          "texto": [
+            "Correcto: una persona fija, con la confianza de la dueña para cambiar una respuesta y con tiempo reservado en la agenda para eso.",
+            "Incorrecto: quien acaba de llegar, quien ya acumula demasiadas funciones, quien fue asignado sin ser consultado, quien teme ser reemplazado."
+          ]
+        },
+        {
+          "titulo": "Caso ilustrativo",
+          "sub": "la recepcionista que se fue",
+          "texto": [
+            "Una clínica eligió como campeona a una recepcionista recién llegada. Ella lo usó bien las primeras semanas, avisó que se iba y nadie capacitó a su reemplazo.",
+            "Sin nadie que lo cuidara, las respuestas quedaron viejas y la clínica concluyó que \"la IA no funcionó\". El problema era el campeón, no el asistente."
+          ],
+          "exemplo": {
+            "rot": "Protección",
+            "texto": "La hoja de roles dice qué pasa cuando el campeón se va: un nuevo entrenamiento de 90 minutos con quien entra, antes de que la persona se vaya."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "El entrenamiento de 90 minutos",
+      "sub": "De preferencia presencial, en la computadora y el celular de la propia clínica.",
+      "passos": [
+        {
+          "titulo": "0 a 30",
+          "sub": "tú muestras",
+          "texto": [
+            "Abre la cola y explica cada parte con las palabras de la clínica, sin jerga.",
+            "Muestra un caso completo: llega el mensaje, el asistente lo prepara, alguien lo aprueba, la respuesta sale y queda en el registro."
+          ]
+        },
+        {
+          "titulo": "30 a 60",
+          "sub": "ella lo hace",
+          "texto": [
+            "La campeona lo hace todo sola. Tú miras con las manos en los bolsillos, incluso cuando se equivoca.",
+            "Anota las dudas reales que vayan apareciendo: ellas abren el registro de dudas."
+          ]
+        },
+        {
+          "titulo": "60 a 90",
+          "sub": "dudas y fecha",
+          "texto": [
+            "Respuestas, un ajuste delante de ella y el manual en mano.",
+            "El entrenamiento solo termina con el primer check-in agendado, con día y hora fijos."
+          ],
+          "exemplo": {
+            "rot": "Señal de buen entrenamiento",
+            "texto": "Ella hizo todo sola en el segundo tercio y salió con dos o tres dudas de verdad. \"Todo bien\" sin ninguna pregunta es señal de que no aprendió."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "El material que queda",
+      "sub": "Poco, visible y actualizado.",
+      "passos": [
+        {
+          "titulo": "Manual",
+          "sub": "hoja en el mostrador",
+          "texto": [
+            "Una página impresa cerca de quien atiende vale más que un archivo perdido en la computadora.",
+            "Actualízala cuando la pantalla o la forma de aprobar cambie."
+          ]
+        },
+        {
+          "titulo": "Registro",
+          "sub": "4 columnas",
+          "texto": [
+            "Fecha, qué pasó, contexto y qué se hizo. Una hoja de cálculo simple o una conversación fija en el celular.",
+            "Sin nombre ni teléfono de paciente: describe el caso, no a la persona."
+          ]
+        },
+        {
+          "titulo": "3 iguales",
+          "sub": "se vuelven ajuste",
+          "texto": [
+            "Cuando la misma duda aparece tres veces, se vuelve un ajuste en el playbook o en el manual, no solo una respuesta suelta.",
+            "Si atiendes a más de una clínica del mismo nicho, pasa a ser una pieza de tu biblioteca (clase 7)."
+          ]
+        },
+        {
+          "titulo": "Grabar",
+          "sub": "solo con autorización",
+          "texto": [
+            "Grabar la pantalla o guardar capturas de conversaciones reales para entrenar a otras personas solo con autorización escrita de la dueña y con nombre, teléfono y marca ocultos.",
+            "La conversación de un paciente es un dato personal y, en la clínica, puede ser un dato de salud (LGPD (la ley de protección de datos de Brasil))."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Hoja de roles, guion del entrenamiento, manual y registro. Los de Vila Serena son ficticios.",
+      "blocos": [
+        {
+          "rot": "Hoja de roles",
+          "icone": "usuario",
+          "conteudo": "ROLES DEL ASISTENTE · <empresa> · <fecha>\n\n| Rol        | Nombre   | Qué hace                               | Responde en |\n|------------|----------|----------------------------------------|-------------|\n| Dueña      | <nombre> | decide alcance, fase y lo importante   | <plazo>     |\n| Campeona   | <nombre> | abre la cola, aprueba, anota dudas     | <plazo>     |\n| Consultor  | <nombre> | ajusta el playbook, resuelve fallas técnicas | <plazo> |\n| Equipo     | <nombres>| usa según el manual                    | <plazo>     |\n\nSi la campeona se va: entrenamiento de 90 min con quien entra, antes de su salida.\nRevisión de esta hoja: en el check-in de cada mes.\nFirmado (vale como compromiso, no como contrato): <dueña> · <campeona> · <consultor>"
+        },
+        {
+          "rot": "Guion del entrenamiento de 90 min",
+          "icone": "relogio",
+          "conteudo": "ENTRENAMIENTO · <empresa> · <fecha> · lugar: <presencial, en el mostrador>\n\n0–30 · YO MUESTRO\n- abrir la cola; qué es cada botón, con las palabras de la clínica\n- un caso completo: <mensaje de ejemplo> → aprobar → sale → registro\n\n30–60 · ELLA HACE (manos en los bolsillos)\n- tarea 1: aprobar 3 mensajes de la cola\n- tarea 2: editar 1 respuesta y verla en el registro\n- tarea 3: llamar a una persona en un caso de reclamo\n- dudas que aparecieron: <...>\n\n60–90 · DUDAS Y FECHA\n- respuestas y 1 ajuste en vivo\n- entregar el manual de 1 página\n- primer check-in: <día de la semana> a las <hora>, todas las semanas"
+        },
+        {
+          "rot": "Manual de 1 página · Vila Serena",
+          "icone": "arquivo",
+          "conteudo": "CÓMO USAR EL ASISTENTE · Clínica Vila Serena (ficticia)\n\n1. Al abrir la recepción, abre la cola del asistente.\n2. Lee los mensajes de la noche y aprueba (✓) o ajusta (✎).\n3. Precio, reclamo o pregunta de salud: responde tú.\n4. Anota cualquier duda en el registro (fecha, qué pasó).\n5. Check-in todos los <día> a las <hora>.\n\nPARAR TODO: <cómo apagarlo y volver a responder desde el celular>\nEMERGENCIA: <nombre del consultor> · <contacto>\n\nDUDAS COMUNES\n- \"Respondió algo raro.\" → no lo borres: anótalo y ajusta.\n- \"El paciente pidió hablar con una persona.\" → responde tú de inmediato.\n- \"La cola está vacía.\" → revisa si el celular está conectado."
+        },
+        {
+          "rot": "Registro de dudas",
+          "icone": "caneta",
+          "conteudo": "FECHA | QUÉ PASÓ                           | CONTEXTO        | QUÉ SE HIZO\n<dd/mm> | <ej.: respondió mal el horario de feriado> | <feriado local> | <ajuste en el playbook v1.2>\n<dd/mm> | <ej.: paciente preguntó por Pix>            | <pago>          | <entró en la lista de dudas>\n<dd/mm> | <ej.: la campeona no encontró el botón de editar> | <pantalla nueva> | <manual actualizado>\n\nSin nombre ni teléfono de paciente. Misma duda 3 veces → se vuelve ajuste."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Para Vila Serena (ficticia) o para el negocio que tú atiendes.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Campeón, roles y guion del entrenamiento",
+          "min": "40 min",
+          "texto": "Responde las 3 preguntas del campeón, completa la hoja de roles y adapta el guion del entrenamiento de 90 minutos al asistente de tu clínica.",
+          "pronto": "la campeona tiene nombre y las 3 preguntas tienen respuesta, la hoja tiene las 4 líneas con plazo y lo que pasa si la campeona se va, y el guion tiene los 3 tercios con al menos 3 tareas que ella hace sola."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Manual y registro de dudas",
+          "min": "30 min",
+          "texto": "Escribe el manual de una página y abre el registro de dudas con las dudas que aparecieron en el entrenamiento (o 3 dudas probables).",
+          "pronto": "el manual cabe en una página, tiene de 4 a 6 pasos, cómo parar todo, el contacto de emergencia y al menos 3 dudas comunes; el registro tiene las 4 columnas y 3 líneas sin nombre ni teléfono de paciente."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "La dueña de Vila Serena sugiere como campeona a la practicante que llegó el mes pasado, \"porque ella entiende de celulares\". ¿Qué haces?",
+          "opcoes": [
+            "Acepta: quien entiende de tecnología aprende más rápido el asistente.",
+            "Acepta, pero le pide a la practicante que grabe todos los entrenamientos en video.",
+            "Hace las 3 preguntas y, si la probabilidad de que se quede es baja, propone a la dueña como campeona por ahora.",
+            "Rechaza la entrega hasta que la clínica contrate a alguien solo para el asistente."
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "Entender de celular no es el criterio: el campeón tiene que quedarse, contar con la confianza de la dueña y estar dispuesto. Si hay duda, la dueña guarda el cargo hasta que aparezca alguien mejor."
+        },
+        {
+          "p": "En el segundo tercio del entrenamiento, la campeona tarda en encontrar el botón de editar. ¿Qué haces?",
+          "opcoes": [
+            "Esperas con las manos en los bolsillos y anotas la duda para el registro.",
+            "Tomas el mouse y se lo muestras rápido, para no perder tiempo del entrenamiento.",
+            "Saltas la tarea y sigues con la siguiente, que es más fácil.",
+            "Terminas el entrenamiento y agendas otro para cuando ella esté lista."
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "Si tomas el mouse, ella aprende a mirarte hacer. Su duda es materia prima: va al registro y, si se repite, al manual."
+        },
+        {
+          "p": "La misma duda apareció tres veces en el registro. ¿Qué pasa?",
+          "opcoes": [
+            "Respondes de nuevo, de la misma forma, para no confundir al equipo.",
+            "Nada: tres veces todavía es poco para cambiar lo que se entregó.",
+            "Se le avisa a la dueña que la campeona necesita repetir un nuevo entrenamiento completo.",
+            "Se vuelve un ajuste en el playbook o en el manual, y no solo una respuesta suelta."
+          ],
+          "certa": 3,
+          "ref": "passos",
+          "explica": "Es la regla de los 3 iguales: la duda repetida muestra una falla del material o del playbook. Corregirlo ahí evita la cuarta vez."
+        },
+        {
+          "p": "Quieres guardar capturas de conversaciones reales de la Vila Serena para entrenar a la próxima clínica. ¿Qué necesitas?",
+          "opcoes": [
+            "Nada, porque las capturas son de uso interno del consultor.",
+            "Autorización escrita de la dueña y nombre, teléfono y marca ocultos.",
+            "Solo ocultar el nombre del paciente; el teléfono puede quedar.",
+            "Pedir autorización verbal a la campeona durante el check-in de la semana siguiente."
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La conversación de un paciente es un dato personal y puede ser un dato de salud. Sin autorización escrita y sin anonimizar, no la uses."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Campeón con nombre",
+          "texto": "En la pequeña empresa, la dueña o una persona que se queda, tiene confianza y aceptó."
+        },
+        {
+          "t": "Roles en el papel",
+          "texto": "Cuatro líneas, con plazo y qué pasa si la campeona se va."
+        },
+        {
+          "t": "Manos en los bolsillos",
+          "texto": "90 minutos: tú muestras, ella hace, y el final marca el primer check-in."
+        },
+        {
+          "t": "Material vivo",
+          "texto": "Manual de una página, registro de dudas y la regla de los 3 iguales."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Profesional 2030 · Entrenador: campeones internos y grupos más grandes (clase 7)",
+          "href": "https://inematds.github.io/prof2030-treinador/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Profesional 2030 · Auditor: datos y proveedores (LGPD (la ley de protección de datos de Brasil))",
+          "href": "https://inematds.github.io/prof2030-auditor/",
+          "icone": "escudo"
+        },
+        {
+          "t": "ANPD: reglas para agentes de pequeño porte (Resolução CD/ANPD nº 2/2022)",
+          "href": "https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/regulamentacoes-da-anpd/resolucao-cd-anpd-no-2-de-27-de-janeiro-de-2022",
+          "icone": "arquivo"
+        }
+      ]
+    }
+  ]
+}

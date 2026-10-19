@@ -1,0 +1,408 @@
+{
+  "slug": "tres-fases",
+  "num": 3,
+  "menu": "Phases",
+  "titulo": "3-phase approval in a small business",
+  "titulo_curto": "3-phase approval",
+  "minutos": 20,
+  "lead": "In a small business, the assistant doesn't just start sending messages on its own. It climbs a ladder: first the owner approves everything, then only the important things, and finally only the exceptions. Each step takes control away from the owner only where the record shows it's safe, and always with a way back.",
+  "objetivo": "turn the assistant on in phase 1, write down with the owner what counts as \"important,\" and agree in writing on when to move up and when to go back a phase.",
+  "competencias": [
+    "ligar-em-fases",
+    "classificar-risco",
+    "combinar-criterio-de-fase",
+    "conduzir-conversa-de-mudanca"
+  ],
+  "aprende": [
+    {
+      "t": "What changes in each of the 3 phases"
+    },
+    {
+      "t": "Write the \"important\" table with the owner"
+    },
+    {
+      "t": "Classify each action as low, medium or high risk"
+    },
+    {
+      "t": "Practice the conversation where the owner wants to skip steps"
+    }
+  ],
+  "hero_alt": "A reception counter with three trays of documents on steps; a hand places a sheet in the middle tray.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The approval ladder",
+      "sub": "Climb one step at a time, with the record in hand. Tap each phase.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "cadeado",
+          "titulo": "Phase 1",
+          "sub": "approve everything",
+          "detalhe": "The assistant prepares the reply, and nothing goes out until the owner (or the front desk) approves it. It seems like a lot of work, but this is where trust is born and where you build the record that will justify moving up."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Phase 2",
+          "sub": "the important things",
+          "forte": true,
+          "detalhe": "Greetings, questions from the list and booking requests go out directly. What is in the \"important\" table (price, complaint, health, someone who asked to talk to the owner) keeps going to the approval queue."
+        },
+        {
+          "icone": "fila",
+          "titulo": "Phase 3",
+          "sub": "exceptions only",
+          "detalhe": "The assistant runs on its own, and the owner is called only for exceptions: what is out of scope, what it didn't understand twice, what is high risk. The rest becomes a record to review at the check-in."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "High risk",
+          "sub": "always phase 1",
+          "detalhe": "What touches money, contracts or health, and complaints, never leaves phase 1, not even after a year without errors. At Vila Serena (fictional): package price, discount, rescheduling with a fee, complaint and questions about pain."
+        }
+      ],
+      "volta": "Serious error, or the owner feels unsure? Go back one phase the same day, no blame.",
+      "legenda": "The owner decides when to move up. You bring the record and make the proposal."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "What counts as \"important\" belongs to the clinic",
+      "sub": "There is no universal list. Build it with the owner before turning on phase 2.",
+      "passos": [
+        {
+          "titulo": "Show",
+          "sub": "20 real messages",
+          "texto": [
+            "Pick about 20 recent messages from the phase 1 record, with no names or phone numbers.",
+            "Ask the owner to mark each one: \"I wanted to see it\" or \"it could have gone out on its own.\""
+          ]
+        },
+        {
+          "titulo": "Find the pattern",
+          "sub": "words and cases",
+          "texto": [
+            "Look at what the ones marked \"I wanted to see it\" have in common: a word (\"discount\", \"cancel\"), a type of patient, a time of day, a long voice message.",
+            "Each pattern becomes a row in the table."
+          ]
+        },
+        {
+          "titulo": "Write it together",
+          "sub": "and she approves",
+          "texto": [
+            "The table goes into the playbook, in the limits section, with the date.",
+            "The owner approves in writing: a message saying \"agreed\" is enough as a record."
+          ]
+        },
+        {
+          "titulo": "Review",
+          "sub": "at each phase",
+          "texto": [
+            "At each phase change and, as a rule of thumb, every month, look at what went to the queue without needing to and what went straight through and shouldn't have.",
+            "If almost everything becomes \"important,\" the owner never gets to rest; if almost nothing does, she loses control."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Three risk levels",
+      "sub": "Every action the assistant takes gets a label in the playbook. More levels than that turns into theory.",
+      "passos": [
+        {
+          "titulo": "Low",
+          "sub": "a mistake costs minutes",
+          "texto": [
+            "Greeting, a question from the list, business hours, an out-of-hours notice.",
+            "Can reach phase 3."
+          ]
+        },
+        {
+          "titulo": "Medium",
+          "sub": "a mistake costs hours",
+          "texto": [
+            "Booking request, confirmation of an appointment already booked, rescheduling at no cost.",
+            "Moves up to phase 2 or 3 with a weekly look at a sample."
+          ]
+        },
+        {
+          "titulo": "High",
+          "sub": "money, health, complaint",
+          "texto": [
+            "Package price, discount, cancellation with a fee, complaint, question about pain or medication.",
+            "Always stays in phase 1: a person approves before it goes out."
+          ],
+          "exemplo": {
+            "rot": "Connection to agent management",
+            "texto": "It's the same idea as the green, yellow, and red authority levels in the AI Management · Agents course, in a front-desk version."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The criterion for moving up is an agreed rule, not a statistic: the numbers stay blank until you and the owner decide.",
+      "blocos": [
+        {
+          "rot": "Chart of the 3 phases",
+          "icone": "camadas",
+          "conteudo": "ASSISTANT PHASES · <company> · agreed on <date>\n\nPHASE 1 · approves everything\nStarted on: <date> · who approves: <name> · where: <queue on a single screen>\n\nPHASE 2 · approves only the important\nGoes out directly: <greeting, question from the list, booking request>\nGoes to the queue: see the \"important\" table\n\nPHASE 3 · exceptions only\nCalls a person when: <out of scope, didn't understand 2 times, high risk>\n\nNEVER LEAVES PHASE 1 (high risk): <price, discount, health, cancellation with a fee>\n\nCONSULTANT'S RULE (agreed, not a statistic)\nMoves up a phase when: in <agreed number> messages in a row the owner approved\n  without editing at least <agreed number> AND there was no serious error in <n> days\n  AND the owner says she wants to move up.\nGoes back a phase when: <serious error> OR <patient complaint> OR the owner asks.\nWho decides: <owner's name>. Goes back on: <the same day>."
+        },
+        {
+          "rot": "\"Important\" table · Vila Serena",
+          "icone": "lista",
+          "conteudo": "\"IMPORTANT\" TABLE · Clínica Vila Serena (fictional) · v1 · <date>\n\n| Rule                                              | Goes to the queue? |\n|---------------------------------------------------|--------------------|\n| mentions price, package, discount or installments | yes                |\n| complaint, \"cancel\", \"refund\", \"lawyer\"           | yes (priority)     |\n| question about pain, medication or results        | yes (a person now) |\n| patient asked to talk to the owner                | yes                |\n| long voice message or photo of a medical order    | yes                |\n| out-of-hours message with the word \"urgent\"       | yes                |\n| question from the list, hours, address, parking   | no                 |\n| booking request with no money involved            | no                 |\n\nApproved by the owner on <date> (message \"agreed\")."
+        },
+        {
+          "rot": "Script for the phase-change conversation",
+          "icone": "chat",
+          "conteudo": "PHASE-CHANGE CONVERSATION · 30 min · <date>\n\n1. RECORD (10 min)\n\"In the last <n> weeks, <n> messages came in. You approved <n> without changing\n anything and edited <n>. The edited ones were about <pattern>.\"\n\n2. PROPOSAL (5 min)\n\"I suggest moving to phase 2. What changes: <what goes out directly>.\n Stays with you: <\"important\" table>.\"\n\n3. WAY BACK (5 min)\n\"If after a week you're not comfortable, we go back to phase 1\n the same day, with nothing to renegotiate.\"\n\n4. AGREEMENT (10 min)\n\"I'll turn on phase 2 on <day> at <time> and let you know when it's on.\"\nRecord: the owner replied \"agreed\" on <date>."
+        }
+      ]
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Simulated conversation: the owner wants to jump to phase 3",
+      "sub": "A fictional conversation for practice, in week 2 of phase 1. Choose the answer you would give; the comment appears right after.",
+      "personagem": {
+        "nome": "Owner of Clínica Vila Serena",
+        "papel": "fictional character · decides alone"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Look, the assistant is great, I approve almost everything without changing it. Shall we just let it go? I want it to answer on its own, even package quotes.",
+          "opcoes": [
+            {
+              "t": "Deal! I'll turn it on this afternoon so it answers everything on its own.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "You skipped phase 2 and also let price go out on its own, which is high risk and never leaves phase 1. The first wrong answer about cost will burn the trust that took two weeks to build."
+            },
+            {
+              "t": "Great! First, shall we look together at what you approved and what you edited over these two weeks?",
+              "vai": "dados",
+              "nota": 2,
+              "comenta": "Good: you brought the conversation back to the record. The decision is still hers, but with data on the table instead of a hunch."
+            },
+            {
+              "t": "Better not. Leave it in phase 1 until I think it's safe.",
+              "vai": "dados",
+              "nota": 1,
+              "comenta": "Being careful is right, but the criterion stayed in your head. The owner doesn't know what's missing to move up, and phase 1 becomes an endless burden."
+            }
+          ]
+        },
+        "dados": {
+          "cliente": "Look at the log: about 140 messages came in, I approved most without changes and edited only a few, almost all about package prices. There was also a patient complaining about the schedule.",
+          "opcoes": [
+            {
+              "t": "Great, almost everything approved. We can go straight to phase 3.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "The log says the opposite: what you edited is exactly pricing and complaints. Jumping to phase 3 releases exactly what needs you."
+            },
+            {
+              "t": "So greetings, questions about the list, and booking requests can go out directly. Pricing and complaints stay with you. That's phase 2.",
+              "vai": "importante",
+              "nota": 2,
+              "comenta": "You read the log with her and proposed just one step, removing control only where she didn't need to change anything."
+            },
+            {
+              "t": "Let's wait a few more weeks, to be sure.",
+              "vai": "fim-espera",
+              "nota": 1,
+              "comenta": "Waiting without saying what you're waiting for doesn't create safety: it just postpones. The log already showed what can move up and what can't."
+            }
+          ]
+        },
+        "importante": {
+          "cliente": "Makes sense. But how will it know what's important to me?",
+          "opcoes": [
+            {
+              "t": "The assistant itself learns over time what's important to you.",
+              "vai": "fim-pressa",
+              "nota": 0,
+              "comenta": "That's a promise nobody controls. The \"important\" has to be written down, approved by her, and in the playbook, otherwise the assistant gets the usual cases right and gets wrong exactly the case that hurts."
+            },
+            {
+              "t": "I have a standard list of words that I use with all clinics.",
+              "vai": "volta",
+              "nota": 1,
+              "comenta": "A starter list helps, but what's important belongs to her clinic. Without going through the messages with the owner, you'll miss the cases only she knows."
+            },
+            {
+              "t": "Your choice: I'll show you about 20 real messages, you mark what you'd want to see, and we'll write the table together.",
+              "vai": "volta",
+              "nota": 2,
+              "comenta": "The table comes from her messages and her markings. She's the one who approves it, in writing, and that's what makes phase 2 safe."
+            }
+          ]
+        },
+        "volta": {
+          "cliente": "And what if it goes wrong in phase 2? By then I've already let go, right?",
+          "opcoes": [
+            {
+              "t": "No. If you're not comfortable after one week, we go back to phase 1 the same day. And pricing and complaints never leave your hands.",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "A way back stated with a deadline, plus the reminder of what never moves up. Someone who knows they can go back agrees to move forward."
+            },
+            {
+              "t": "It won't go wrong: the numbers are great.",
+              "vai": "fim-promessa",
+              "nota": 0,
+              "comenta": "Nobody can promise that. The owner hears the promise and, at the first mistake, loses trust in you and in the assistant."
+            },
+            {
+              "t": "If it goes wrong, we'll see right then what to do.",
+              "vai": "fim-vago",
+              "nota": 1,
+              "comenta": "She wanted a path, and you gave her a maybe. Say how it goes back, how quickly, and who decides."
+            }
+          ]
+        },
+        "fim-pressa": {
+          "fim": true,
+          "titulo": "Autonomy without a ladder",
+          "texto": "The assistant started answering on its own things that still needed the owner. The ladder exists for this: each step only takes away control where the log shows it can, and high-risk stuff never moves up. Start over: go up one step at a time and write down what stays with the owner."
+        },
+        "fim-espera": {
+          "fim": true,
+          "titulo": "Stalled with no criterion",
+          "texto": "The clinic spent more weeks approving everything, without knowing what was missing. The owner gets tired of the queue and starts approving without reading, which is worse than moving up a phase carefully. Say what needs to happen to move up."
+        },
+        "fim-promessa": {
+          "fim": true,
+          "titulo": "A promise instead of a way back",
+          "texto": "Phase 2 was turned on, but the owner was left with a guarantee you don't control. When the first mistake shows up, the conversation turns into blame. Replace the promise with the way back."
+        },
+        "fim-vago": {
+          "fim": true,
+          "titulo": "Almost there",
+          "texto": "Phase 2 was turned on with the log on the table, but the way back was left hanging. Write on the phases board how and when it goes back, and who decides."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "One step, with a way back",
+          "texto": "Phase 2 was turned on with the log on the table and the way back agreed with a deadline. Price and complaints stay with her. If the \"important\" table came from the owner's own messages and bookings, trust grows without a scare."
+        }
+      },
+      "licao": "A phase moves up with the log and with the owner deciding; high risk never leaves phase 1; and the way back, with a deadline, is what makes her agree to move up."
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Use the assistant and the playbook from lessons 1 and 2.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Board of the 3 phases and risk labels",
+          "min": "30 min",
+          "texto": "Fill in the phase board and label each assistant action as low, medium, or high risk in the playbook.",
+          "pronto": "the board has the 3 phases with what goes out directly in each one, every playbook action has a risk label, and the high-risk actions are in the \"never leaves phase 1\" row."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · \"Important\" table and phase rule",
+          "min": "30 min",
+          "texto": "Build the \"important\" table from messages (real ones with names removed, or the Vila Serena ones) and write the rule for moving up and moving back a phase, with the numbers you and the owner agree on.",
+          "pronto": "the table has at least 6 rows with \"goes to the queue: yes/no\", the phase rule is marked as \"consultant's rule, agreed\" and has the condition for going back and who decides."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "At Vila Serena, which phase does the answer about package pricing sit in, after six months with no mistakes?",
+          "opcoes": [
+            "In phase 1: high risk never leaves human approval, even with no mistakes.",
+            "In phase 3, because the assistant has already proven it gets pricing right for a long time.",
+            "In phase 2, because six months without a mistake is enough time to let go.",
+            "It depends on how many messages the clinic receives per month."
+          ],
+          "certa": 0,
+          "ref": "diagrama",
+          "explica": "Anything that touches money, contracts, or health stays in phase 1 for good. Time without mistakes doesn't change how much damage a mistake can do."
+        },
+        {
+          "p": "Who decides what is \"important\" in the phase 2 table?",
+          "opcoes": [
+            "The consultant, using the standard list of words they use with every clinic they serve.",
+            "The assistant itself, learning from the messages in the log.",
+            "The owner, by marking real messages and approving the table in writing.",
+            "The receptionist, because she's the one who reads the messages every day."
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "A starter list helps, but what counts as important belongs to the clinic. The owner marks the messages, you find the pattern together, and she approves it."
+        },
+        {
+          "p": "The board says \"moves up when the owner approved [agreed number] messages in a row without editing.\" Why is the number left blank in the template?",
+          "opcoes": [
+            "Because each tool counts approved messages in a different way.",
+            "Because it's a rule agreed between you and the owner, not a statistic that applies to everyone.",
+            "Because WhatsApp policy sets this number for each country.",
+            "Because the number only shows up after phase 3 is turned on."
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "No study gives the right number for every clinic. The criterion is stated as the consultant's rule and agreed in writing: the value is in the agreement, not in the number."
+        },
+        {
+          "p": "In phase 2, the assistant gave a wrong answer to a patient with a complaint. What should you do?",
+          "opcoes": [
+            "Shut the assistant down for good and go back to answering everything by hand.",
+            "Stay in phase 2 and wait to see whether the same mistake happens again over the whole following week.",
+            "Move up to phase 3, because the exception would reach the owner anyway.",
+            "Go back to phase 1 the same day, check the log to see which rule failed, and fix the playbook."
+          ],
+          "certa": 3,
+          "ref": "diagrama",
+          "explica": "Going back a phase is part of the method, not a defeat. The log shows the rule that failed; the fix becomes a new version of the playbook."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Start in phase 1",
+          "texto": "Everything goes through the owner until the log shows where she doesn't need to step in."
+        },
+        {
+          "t": "\"Important\" is hers to define",
+          "texto": "A table built from real messages, marked and approved by the owner."
+        },
+        {
+          "t": "High risk stays put",
+          "texto": "Money, contracts, and health never leave human approval."
+        },
+        {
+          "t": "Agreed in writing",
+          "texto": "The criteria for moving up and going back, written as the consultant's rule, with a way back the same day."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "AI Management · Agents: authority (lesson 4) and progressive trust (lesson 5)",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/en/",
+          "icone": "portao"
+        },
+        {
+          "t": "AI Management · Governance: promote and roll back",
+          "href": "https://inematds.github.io/gestao-ia-governanca-v72/en/",
+          "icone": "escudo"
+        }
+      ]
+    }
+  ]
+}

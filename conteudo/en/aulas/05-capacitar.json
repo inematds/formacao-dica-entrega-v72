@@ -1,0 +1,327 @@
+{
+  "slug": "capacitar",
+  "num": 5,
+  "menu": "Train",
+  "titulo": "Train: the owner, the internal champion, and the 90-minute training",
+  "titulo_curto": "Train the team",
+  "minutos": 17,
+  "lead": "An assistant with no one inside looking after it becomes an orphan: everything built, nothing sustaining it. In a small business, that someone is the owner or a trusted person. Choosing that person is part of the delivery, and the 90-minute training, the one-page manual, and the question log are what let the clinic get along without you.",
+  "objetivo": "choose the internal champion, lead the 90-minute training, and get the 1-page manual and the question log up and running.",
+  "competencias": [
+    "escolher-campeao-interno",
+    "conduzir-treino-pratico",
+    "escrever-manual-de-uma-pagina",
+    "manter-registro-de-duvidas"
+  ],
+  "aprende": [
+    {
+      "t": "Choose the champion with 3 questions"
+    },
+    {
+      "t": "Split the roles on one sheet"
+    },
+    {
+      "t": "Give the 90-minute training hands-off"
+    },
+    {
+      "t": "Keep the manual and the question log alive"
+    }
+  ],
+  "hero_alt": "A receptionist uses the front desk computer while a consultant watches with hands in pockets.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From choosing the champion to the question log",
+      "sub": "Five pieces, in this order. Tap each one.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Champion",
+          "sub": "by name",
+          "detalhe": "The person who opens the queue every day, adjusts an answer and brings to the check-in whatever looked strange. In a business of up to about three people, it's almost always the owner. A real name, not a job title."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Roles",
+          "sub": "in writing",
+          "detalhe": "A sheet with four lines: owner, champion, consultant and team, each with what they do and how fast they respond. Without it, every problem becomes \"I thought that was you.\""
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Training",
+          "sub": "90 minutes",
+          "forte": true,
+          "detalhe": "Three thirds: you show, she does while you watch without touching the mouse, and the end is for questions, adjustments and the date of the first check-in."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Manual",
+          "sub": "1 page",
+          "detalhe": "One sheet at the front desk: 4 to 6 steps for the day, the emergency contact and the most common questions. Nobody opens a 20-page manual."
+        },
+        {
+          "icone": "caneta",
+          "titulo": "Questions",
+          "sub": "living log",
+          "detalhe": "Every question and every strange error goes into a simple log. The check-in in lesson 6 works from it."
+        }
+      ],
+      "legenda": "Training is part of the delivery. Without a champion, the assistant is orphaned the first time an employee changes."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The right champion",
+      "sub": "A consultant's rule of thumb, drawn from experience with the earlier DICA material.",
+      "passos": [
+        {
+          "titulo": "3 questions",
+          "sub": "before you hand it over",
+          "texto": [
+            "\"Who will look after the assistant every day, by name?\" \"What are the odds this person is still here next year?\" \"Do they know they'll be responsible, and did they agree?\"",
+            "If any answer is weak, the owner is the champion until someone better comes along."
+          ]
+        },
+        {
+          "titulo": "Right",
+          "sub": "and wrong",
+          "texto": [
+            "Right: a permanent person, trusted by the owner to change an answer, with time set aside in their schedule for it.",
+            "Wrong: someone who just arrived, someone who already juggles too many roles, someone assigned without being asked, someone afraid of being replaced."
+          ]
+        },
+        {
+          "titulo": "Illustrative case",
+          "sub": "the receptionist who left",
+          "texto": [
+            "A clinic chose a newly hired receptionist as its champion. She used it well for the first few weeks, then said she was leaving, and nobody trained her replacement.",
+            "With no one looking after it, the answers went stale, and the clinic concluded that \"the AI didn't work.\" The problem was the champion, not the assistant."
+          ],
+          "exemplo": {
+            "rot": "Safeguard",
+            "texto": "The roles sheet says what happens when the champion leaves: a new 90-minute training with whoever steps in, before the person walks out the door."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The 90-minute training",
+      "sub": "Preferably in person, on the clinic's own computer and phone.",
+      "passos": [
+        {
+          "titulo": "0 to 30",
+          "sub": "you show",
+          "texto": [
+            "Open the queue and explain each part in the clinic's own words, no jargon.",
+            "Show one whole case: the message arrives, the assistant prepares a reply, someone approves, the reply goes out, it lands in the log."
+          ]
+        },
+        {
+          "titulo": "30 to 60",
+          "sub": "she does",
+          "texto": [
+            "The champion does everything on her own. You watch with your hands in your pockets, even when she makes mistakes.",
+            "Write down the real questions that come up: they start the question log."
+          ]
+        },
+        {
+          "titulo": "60 to 90",
+          "sub": "questions and date",
+          "texto": [
+            "Answers, one adjustment made in front of her, and the manual in hand.",
+            "The training only ends with the first check-in booked, with a fixed day and time."
+          ],
+          "exemplo": {
+            "rot": "Sign of good training",
+            "texto": "She did everything on her own in the second third and left with two or three real questions. \"Everything's fine\" with no questions at all is a sign she didn't learn."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The material that stays",
+      "sub": "Little, visible, and up to date.",
+      "passos": [
+        {
+          "titulo": "Manual",
+          "sub": "sheet at the counter",
+          "texto": [
+            "A printed page near whoever answers customers is worth more than a file lost on the computer.",
+            "Update it when the screen or the way of approving changes."
+          ]
+        },
+        {
+          "titulo": "Log",
+          "sub": "4 columns",
+          "texto": [
+            "Date, what happened, context, and what was done. A simple spreadsheet or a pinned chat on your phone.",
+            "No patient names or phone numbers: describe the case, not the person."
+          ]
+        },
+        {
+          "titulo": "3 of the same",
+          "sub": "become an adjustment",
+          "texto": [
+            "When the same question comes up three times, it becomes an adjustment to the playbook or the manual, not just a one-off answer.",
+            "If you serve more than one clinic in the same niche, it becomes a piece of your library (lesson 7)."
+          ]
+        },
+        {
+          "titulo": "Recording",
+          "sub": "only with permission",
+          "texto": [
+            "Record the screen or keep screenshots of real conversations to train other people only with the owner's written permission and with names, phone numbers, and brand hidden.",
+            "A patient's conversation is personal data and, at a clinic, it can be health data (LGPD (Brazil's data protection law))."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "Roles sheet, training script, manual, and log. The Vila Serena ones are fictional.",
+      "blocos": [
+        {
+          "rot": "Roles sheet",
+          "icone": "usuario",
+          "conteudo": "ASSISTANT ROLES · <company> · <date>\n\n| Role       | Name     | What they do                           | Responds within |\n|------------|----------|----------------------------------------|-----------------|\n| Owner      | <name>   | decides scope, phase, and what is important | <deadline> |\n| Champion   | <name>   | opens the queue, approves, notes questions | <deadline>   |\n| Consultant | <name>   | adjusts playbook, fixes technical failures | <deadline>   |\n| Team       | <names>  | uses it following the manual           | <deadline>      |\n\nIf the champion leaves: 90-minute training with the new person, before the departure.\nReview of this sheet: at each month's check-in.\nSigned (counts as a commitment, not a contract): <owner> · <champion> · <consultant>"
+        },
+        {
+          "rot": "90-minute training script",
+          "icone": "relogio",
+          "conteudo": "TRAINING · <company> · <date> · place: <in person, at the counter>\n\n0–30 · I SHOW\n- open the queue; what each button is, in the clinic's own words\n- one full case: <example message> → approve → sent → log\n\n30–60 · SHE DOES (hands in pockets)\n- task 1: approve 3 messages from the queue\n- task 2: edit 1 reply and see it in the log\n- task 3: hand a complaint case over to a person\n- questions that came up: <...>\n\n60–90 · QUESTIONS AND DATE\n- answers and 1 live adjustment\n- hand over the 1-page manual\n- first check-in: <day of the week> at <time>, every week"
+        },
+        {
+          "rot": "1-page manual · Vila Serena",
+          "icone": "arquivo",
+          "conteudo": "HOW TO USE THE ASSISTANT · Clínica Vila Serena (fictional)\n\n1. When you open the front desk, open the assistant's queue.\n2. Read the overnight messages and approve (✓) or adjust (✎).\n3. Price, complaint, or health question: you answer.\n4. Note any question in the log (date, what happened).\n5. Check-in every <day> at <time>.\n\nSTOP EVERYTHING: <how to turn it off and go back to answering from your phone>\nEMERGENCY: <consultant's name> · <contact>\n\nCOMMON QUESTIONS\n- \"It answered something strange.\" → don't delete it: note it and adjust.\n- \"A patient asked to talk to a person.\" → you answer right away.\n- \"The queue is empty.\" → check that the phone is connected."
+        },
+        {
+          "rot": "Question log",
+          "icone": "caneta",
+          "conteudo": "DATE  | WHAT HAPPENED                      | CONTEXT         | WHAT WAS DONE\n<dd/mm> | <e.g.: gave the wrong holiday hours> | <local holiday> | <adjustment in playbook v1.2>\n<dd/mm> | <e.g.: patient asked about Pix>         | <payment>     | <added to the questions list>\n<dd/mm> | <e.g.: champion couldn't find the edit button>   | <new screen>     | <manual updated>\n\nNo patient names or phone numbers. Same question 3 times → becomes an adjustment."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "For Vila Serena (fictional) or for the business you serve.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Champion, roles, and training script",
+          "min": "40 min",
+          "texto": "Answer the champion's 3 questions, fill in the roles sheet, and adapt the 90-minute training script to your clinic's assistant.",
+          "pronto": "the champion has a name and the 3 questions have answers, the sheet has the 4 rows with deadlines and what happens if the champion leaves, and the script has the 3 thirds with at least 3 tasks she does on her own."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Manual and question log",
+          "min": "30 min",
+          "texto": "Write the one-page manual and open the question log with the questions that came up in training (or 3 likely questions).",
+          "pronto": "the manual fits on one page, has 4 to 6 steps, how to stop everything, the emergency contact, and at least 3 common questions; the log has the 4 columns and 3 rows with no patient names or phone numbers."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The owner of Vila Serena suggests the intern who started last month as champion, \"because she understands phones.\" What do you do?",
+          "opcoes": [
+            "Accept: someone who understands technology learns the assistant faster.",
+            "Accept, but ask the intern to record every training session on video.",
+            "Ask the 3 questions and, if the chance of her staying is low, suggest the owner as champion for now.",
+            "Refuse the delivery until the clinic hires someone just for the assistant."
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "Knowing phones is not the criterion: the champion has to stay, have the owner's trust, and be willing. When in doubt, the owner holds the role until someone better shows up."
+        },
+        {
+          "p": "In the second third of the training, the champion takes a while to find the edit button. What do you do?",
+          "opcoes": [
+            "Wait with your hands in your pockets and note the question for the log.",
+            "Grab the mouse and show her quickly, so you don't waste any of the training time.",
+            "Skip the task and move on to the next one, which is easier.",
+            "End the training and schedule another for when she is ready."
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "If you grab the mouse, she learns to watch you do it. Her question is raw material: it goes in the log and, if it repeats, into the manual."
+        },
+        {
+          "p": "The same question has shown up three times in the log. What happens?",
+          "opcoes": [
+            "You answer again, the same way, so you don't confuse the team.",
+            "Nothing: three times is still too few to justify changing anything that was delivered.",
+            "The owner is told that the champion needs a whole new training.",
+            "It becomes a fix to the playbook or the manual, not just a one-off answer."
+          ],
+          "certa": 3,
+          "ref": "passos",
+          "explica": "That's the rule of 3 identical ones: a repeated question points to a gap in the material or the playbook. Fixing it there prevents a fourth time."
+        },
+        {
+          "p": "You want to keep screenshots of real Vila Serena conversations to train for the next clinic. What do you need?",
+          "opcoes": [
+            "Nothing, because the screenshots are for the consultant's internal use.",
+            "Written authorization from the owner, and the name, phone number, and brand hidden.",
+            "Just hide the patient's name; the phone number can stay.",
+            "Ask the champion for verbal authorization during next week's check-in."
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A patient's conversation is personal data and may be health data. Without written authorization and without anonymizing it, don't use it."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "A champion with a name",
+          "texto": "In a small business, the owner or a person who stays, is trusted, and agreed to do it."
+        },
+        {
+          "t": "Roles on paper",
+          "texto": "Four lines, with a deadline and what happens if the champion leaves."
+        },
+        {
+          "t": "Hands in your pockets",
+          "texto": "90 minutes: you show, she does, and the end marks the first check-in."
+        },
+        {
+          "t": "Living material",
+          "texto": "A one-page manual, a question log, and the rule of 3 identical ones."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Professional 2030 · Trainer: internal champions and larger groups (lesson 7)",
+          "href": "https://inematds.github.io/prof2030-treinador/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Professional 2030 · Auditor: data and vendors (LGPD (Brazil's data protection law))",
+          "href": "https://inematds.github.io/prof2030-auditor/",
+          "icone": "escudo"
+        },
+        {
+          "t": "ANPD: rules for small-scale agents (Resolução CD/ANPD nº 2/2022)",
+          "href": "https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/regulamentacoes-da-anpd/resolucao-cd-anpd-no-2-de-27-de-janeiro-de-2022",
+          "icone": "arquivo"
+        }
+      ]
+    }
+  ]
+}

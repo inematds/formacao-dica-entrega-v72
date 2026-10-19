@@ -1,0 +1,291 @@
+{
+  "slug": "playbook",
+  "num": 2,
+  "menu": "Playbook",
+  "titulo": "The operational playbook: 7 parts, worked examples, and a fixed output",
+  "titulo_curto": "The operational playbook",
+  "minutos": 18,
+  "lead": "The playbook is the document that turns the clinic's way of serving people into instructions the assistant follows. Without it, any tool answers by guesswork. With it, the owner reads, approves, and corrects; and when the assistant gets something wrong, you know which version it was following.",
+  "objetivo": "write the front-desk playbook in the 7 parts, with 3 worked examples, a fixed output format, and the version at the top.",
+  "competencias": [
+    "escrever-playbook",
+    "escrever-exemplos-resolvidos",
+    "definir-saida-estruturada",
+    "versionar-instrucoes"
+  ],
+  "aprende": [
+    {
+      "t": "Build the 7-part skeleton"
+    },
+    {
+      "t": "Write in a direct order, with no \"use good judgment\""
+    },
+    {
+      "t": "Work examples: simple, hard, and \"call a person\""
+    },
+    {
+      "t": "Fix the output and version every change"
+    }
+  ],
+  "hero_alt": "An open binder with sheets and tabs; a hand makes a note, with a reception desk in the background.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The 7 parts of the playbook",
+      "sub": "Each part answers a question the assistant would ask when it's time to act. Click each one.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Context",
+          "sub": "who we are",
+          "detalhe": "The clinic, the services, the hours, who writes in, and the tone. At Vila Serena (fictional): physical therapy and aesthetics, 9 people, addressing patients as \"you\", short messages."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Goal",
+          "sub": "the scope",
+          "detalhe": "One sentence on what it does and the list of what it doesn't do, copied from the lesson 1 sheet. This is the part that holds the scope."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Inputs",
+          "sub": "what comes in",
+          "detalhe": "The kinds of messages that come in and how they usually arrive: \"do you have an opening tomorrow?\", a voice message, a photo of a doctor's order, \"how much does it cost?\"."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Rules",
+          "sub": "if, then",
+          "detalhe": "Step by step in the format \"if this happens, do that.\" No \"use good judgment\": the assistant has no judgment, it has patterns."
+        },
+        {
+          "icone": "check",
+          "titulo": "Examples",
+          "sub": "worked out",
+          "forte": true,
+          "detalhe": "Pairs of a message and the right reply: at least one simple, one hard, and one where the right move is to call a person. Showing the solved case teaches faster than describing a rule."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "Output",
+          "sub": "fixed format",
+          "detalhe": "For a person, short text. For a spreadsheet or system, fields with fixed names, always the same ones. Without a fixed format, the link to the spreadsheet breaks."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Limits",
+          "sub": "never do",
+          "detalhe": "What it never does and when it hands off to a person: a complaint, a health question, a price outside the price list, a request for sensitive data."
+        }
+      ],
+      "legenda": "Version and date at the top, history at the bottom. Every change becomes a new version."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Language the assistant follows",
+      "sub": "Three swaps that make the behavior predictable.",
+      "passos": [
+        {
+          "titulo": "Direct order",
+          "sub": "not description",
+          "texto": [
+            "Swap \"reply in a friendly, professional way\" for instructions you can check.",
+            "Turn each vague adverb (\"quickly\", \"naturally\") into a criterion: \"in up to 3 lines\", \"use the first name\"."
+          ],
+          "exemplo": {
+            "rot": "Vague vs. direct",
+            "texto": "Vague: \"handle it the best way.\" Direct: \"Greet them by name. If the question is on the list, answer in up to 3 lines. If it isn't, write 'I'll confirm with the front desk' and flag it for a person.\""
+          }
+        },
+        {
+          "titulo": "Example",
+          "sub": "not explanation",
+          "texto": [
+            "One solved case shows tone, length, and format all at once.",
+            "Ask the owner for screenshots of real conversations and swap the name and phone number before using them: a patient's conversation is personal data."
+          ]
+        },
+        {
+          "titulo": "Written rule",
+          "sub": "not good judgment",
+          "texto": [
+            "Ban the phrases \"use good judgment\", \"be natural\", \"handle it however you can\", and \"adapt if needed\" from the playbook.",
+            "Each one leaves room for a made-up answer."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Where the playbook lives and how it changes",
+      "sub": "It belongs to the clinic, not to you or the tool.",
+      "passos": [
+        {
+          "titulo": "Where",
+          "sub": "one document",
+          "texto": [
+            "In a document the owner opens and comments on, in the text tool the clinic already uses.",
+            "Never only inside the tool that runs the assistant, nor in a PDF, nor on your computer: the owner becomes dependent on you."
+          ]
+        },
+        {
+          "titulo": "Version",
+          "sub": "at the top",
+          "texto": [
+            "Top: active version, date, author, and the change in one line. Bottom: the full history.",
+            "A small tweak (tone, example) adds 0.1; a change in behavior adds 1.0."
+          ]
+        },
+        {
+          "titulo": "Log",
+          "sub": "in every conversation",
+          "texto": [
+            "If the tool allows it, record the playbook version used alongside each customer interaction.",
+            "When the owner says \"this week it answered wrong,\" you find the exact rule in minutes."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The skeleton, the examples, and the output. Clínica Vila Serena data is fictional.",
+      "blocos": [
+        {
+          "rot": "Playbook · skeleton",
+          "icone": "arquivo",
+          "conteudo": "# PLAYBOOK — <assistant name> · <company>\nVersion: 1.0 · Date: <dd/mm/yyyy> · Authors: <consultant> + <owner>\nChange in this version: initial version\n\n## 1. CONTEXT\nWho we are, services, hours, who writes to us, tone.\n\n## 2. GOAL\nDoes: <one sentence>\nDoes not do: <list copied from the lesson 1 sheet>\n\n## 3. INPUTS\nTypes of messages that arrive and how they come in (text, audio, photo).\n\n## 4. RULES (if → then)\n- If <situation>, then <action>.\n- If you don't know, then write \"I'll check with the front desk\" and mark PARA_PESSOA.\n\n## 5. WORKED EXAMPLES\n(simple, hard, and one that calls a person)\n\n## 6. OUTPUT FORMAT\nText for the patient + fixed fields for the spreadsheet.\n\n## 7. LIMITS\nNever: <...>. Hands off to a person when: <...>.\n\n## HISTORY\nv1.0 — <date> — initial version"
+        },
+        {
+          "rot": "Worked examples · Vila Serena",
+          "icone": "chat",
+          "conteudo": "EX 1 — simple (it's on the list of questions)\nInput: \"are you open on saturday?\"\nOutput: \"Hi! We're open on Saturdays from 8 a.m. to noon. Would you like to book a time?\"\n\nEX 2 — booking\nInput: \"i'd like to book physio for my mom\"\nOutput: \"Sure! Tell me her name and the best day and time of day. The front desk will confirm the time with you today.\"\n\nEX 3 — hard (not on the list)\nInput: \"do you take the Alfa health plan for lymphatic drainage?\"\nOutput: \"Good question! I'll check with the front desk and get back to you by the end of the day.\"\n[PARA_PESSOA = sim · motivo = convênio fora da lista]\n\nEX 4 — calls a person (health or complaint)\nInput: \"i'm in a lot of pain after the session, is that normal?\"\nOutput: \"I'm sorry. I'm calling the physical therapist to talk to you right now. If the pain is severe, seek urgent care.\"\n[PARA_PESSOA = sim · prioridade = ALTA]"
+        },
+        {
+          "rot": "Structured output",
+          "icone": "lista",
+          "conteudo": "{\n  \"nome\": \"Paciente A\",\n  \"intencao\": \"marcar\",\n  \"servico\": \"fisioterapia\",\n  \"preferencia\": \"terça à tarde\",\n  \"para_pessoa\": false,\n  \"motivo_pessoa\": \"\",\n  \"versao_playbook\": \"1.0\"\n}"
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Start from the lesson 1 sheet. If you use real conversations, swap out names and phone numbers first.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Playbook v1.0 for the front desk",
+          "min": "45 min",
+          "texto": "Fill in the skeleton for the assistant you chose in lesson 1. Write the rules in \"if … then …\" format and ban vague phrases.",
+          "pronto": "all 7 parts are filled in, there are at least 5 \"if … then …\" rules, the limits have at least 3 items, and the top has version, date, and authors."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Examples and output",
+          "min": "30 min",
+          "texto": "Write the worked examples and the structured output. Read it with the owner (or with whoever handles customers) and note what they would change.",
+          "pronto": "there are at least 3 examples (one simple, one hard, and one that calls a person), all with the output in the same fields, and the read-through with the owner became version 1.1 with the change recorded in the history."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "Which instruction makes the assistant's behavior more predictable?",
+          "opcoes": [
+            "\"Be friendly and solve it in the best way possible for the patient.\"",
+            "\"If the question is on the list, answer in up to 3 lines; if it isn't, flag it for a person.\"",
+            "\"Use good judgment and adapt the answer to the patient and the situation.\"",
+            "\"Be natural and human, the way our receptionist would be day to day.\""
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A predictable instruction can be checked: it has a condition and an action. Friendliness, good judgment, and naturalness are impressions that each person reads differently."
+        },
+        {
+          "p": "Why does the playbook need an example where the right move is to call a person?",
+          "opcoes": [
+            "Because the WhatsApp policy requires at least four examples in the document.",
+            "So the assistant sounds more humble and less robotic in its answers.",
+            "To fill part 5 with the minimum number of examples agreed on.",
+            "To show where the scope ends and how it hands off without making things up."
+          ],
+          "certa": 3,
+          "ref": "diagrama",
+          "explica": "The \"call a person\" example teaches the limit. Without it, the assistant tries to answer what it doesn't know, like a health question."
+        },
+        {
+          "p": "Where should the Vila Serena playbook live?",
+          "opcoes": [
+            "In a document the owner opens and comments on, with the version at the top and the history at the bottom.",
+            "Inside the tool that runs the assistant, where only the consultant has access and control.",
+            "In a signed PDF, so nobody changes the text after delivery.",
+            "On the consultant's computer, since they're the one who understands the instructions."
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "The playbook belongs to the clinic. If the clinic can't read it and ask for changes, it becomes dependent on you and nobody knows which version is in force."
+        },
+        {
+          "p": "The owner asked the assistant to stop answering about insurance plans. What happens to the playbook?",
+          "opcoes": [
+            "Nothing: it's a small change and doesn't need to be logged.",
+            "You rewrite the whole document from scratch, so everything stays consistent with her new request.",
+            "It becomes a new version, with the date, author, and the change in one line in the history.",
+            "The owner changes it directly in the tool, without going through the document."
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "Every change is a version. The history is what lets you know, later, why the assistant answered one way one week and another way the next."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "7 parts",
+          "texto": "Context, goal, inputs, rules, examples, output and limits. If one is missing, the assistant improvises."
+        },
+        {
+          "t": "Direct order",
+          "texto": "An \"if … then …\" rule, a worked example and no vague sentences."
+        },
+        {
+          "t": "Fixed output",
+          "texto": "Short text for a person, fields with fixed names for a spreadsheet or system."
+        },
+        {
+          "t": "It belongs to the clinic",
+          "texto": "It lives in a document the owner opens, with the version at the top and the history at the bottom."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "AI Management · Agents: the digital role and the agent's constitution",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/en/",
+          "icone": "robo"
+        },
+        {
+          "t": "Professional 2030 · Auditor: data and vendors (LGPD (Brazil's data protection law))",
+          "href": "https://inematds.github.io/prof2030-auditor/",
+          "icone": "escudo"
+        },
+        {
+          "t": "DICA 1 · Diagnosis: from case to rule",
+          "href": "https://inematds.github.io/formacao-dica-diagnostico-v72/en/",
+          "icone": "seta"
+        }
+      ]
+    }
+  ]
+}

@@ -142,8 +142,8 @@
           "titulo": "Cobrança",
           "sub": "por mensagem",
           "texto": [
-            "A Meta cobra por mensagem entregue, com tarifa por categoria (marketing, utilidade, autenticação e serviço) e por país. Marketing passou a ser cobrado por mensagem em 01/07/2025.",
-            "Desde 01/10/2026 cada número tem 1.000 mensagens de serviço grátis por mês; a partir da 1.001ª a Meta cobra. O curso não dá preço: abra a tabela oficial na data."
+            "Desde 01/07/2025 a Meta cobra por mensagem entregue (antes era por conversa), com tarifa por categoria (marketing, utilidade, autenticação e serviço) e por país.",
+            "Desde 01/10/2026 cada número tem 1.000 mensagens de serviço grátis por mês; a partir da 1.001ª a Meta cobra, e sem forma de pagamento cadastrada ela para de entregar. O curso não dá preço: abra a tabela oficial na data."
           ]
         },
         {
@@ -164,7 +164,7 @@
         {
           "rot": "Matriz de escolha",
           "icone": "grafico",
-          "conteudo": "MATRIZ DO PRIMEIRO ASSISTENTE · <empresa> · <data>\nNotas de 1 a 5. Pontos = Dor + Prontidão − Risco (regra prática do consultor).\n\n| Candidata | Dor | Risco | Prontidão | Pontos | Passa nos 3 nãos? |\n|-----------|-----|-------|-----------|--------|-------------------|\n| <candidata 1> |   |   |   |   | <sim/não e por quê> |\n| <candidata 2> |   |   |   |   | |\n| <candidata 3> |   |   |   |   | |\n| <candidata 4> |   |   |   |   | |\n| <candidata 5> |   |   |   |   | |\n\nEscolhida: <a de mais pontos com Prontidão >= 3 e Risco <= 3>\nMotivo em uma frase: <...>"
+          "conteudo": "MATRIZ DO PRIMEIRO ASSISTENTE · <empresa> · <data>\nNotas de 1 a 5. Pontos = Dor + Prontidão − Risco (regra prática do consultor).\n\n| Candidata | Dor | Risco | Prontidão | Pontos | Escopo numa frase? | Precisa de IA? | 3 nãos? |\n|-----------|-----|-------|-----------|--------|--------------------|----------------|---------|\n| <candidata 1> |  |  |  |  | <sim/não> | <sim/não> | <passa?> |\n| <candidata 2> |  |  |  |  |  |  |  |\n| <candidata 3> |  |  |  |  |  |  |  |\n| <candidata 4> |  |  |  |  |  |  |  |\n| <candidata 5> |  |  |  |  |  |  |  |\n\nEscolhida: <a de mais pontos com Prontidão >= 3, Risco <= 3, escopo numa frase e que precisa de IA>\nO que não precisa de IA vira automação simples, à parte.\nMotivo em uma frase: <...>"
         },
         {
           "rot": "Ficha do primeiro assistente",
@@ -177,7 +177,7 @@
         "abas": [
           {
             "rot": "Matriz da Vila Serena (fictícia)",
-            "html": "<pre>| Candidata                      | Dor | Risco | Prontidão | Pontos |\n| Dúvidas e pedido de marcação   |  5  |   2   |     4     |   7    |\n| Lembrete de consulta           |  4  |   1   |     5     |   8 *  |\n| Orçamento de pacote estética   |  3  |   2   |     3     |   4    |\n| Cobrança de atrasados          |  4  |   5   |     2     |   1    |\n| Posts da semana                |  2  |   2   |     4     |   4    |\n\n* O lembrete tem mais pontos, mas o mapa do DICA 1 já disse:\n  é automação simples, não precisa de IA. Liga-se à parte.\nEscolhida para IA: dúvidas e pedido de marcação.\nCobrança: falha no baixo risco (mexe em dinheiro).</pre>"
+            "html": "<pre>| Candidata                    | Dor | Risco | Pront. | Pts | Frase? | IA? |\n| Dúvidas e pedido de marcação |  5  |   2   |   4    |  7  |  sim   | sim |\n| Lembrete de consulta         |  4  |   1   |   5    |  8  |  sim   | não |\n| Orçamento de pacote estética |  3  |   2   |   3    |  4  |  não   | sim |\n| Cobrança de atrasados        |  4  |   5   |   2    |  1  |  sim   | não |\n| Posts da semana              |  2  |   2   |   4    |  4  |  sim   | sim |\n\nO lembrete tem mais pontos, mas não precisa de IA:\nsai pela agenda, à parte (o mapa do DICA 1 já dizia).\nCobrança: falha no baixo risco (mexe em dinheiro).\nEscolhida para IA: dúvidas e pedido de marcação.</pre>"
           },
           {
             "rot": "Ficha (trecho)",
@@ -196,7 +196,7 @@
           "titulo": "1 · Matriz das candidatas",
           "min": "20 min",
           "texto": "Liste 5 candidatas a primeiro assistente (do mapa do DICA 1 ou das dores que a dona cita) e preencha a matriz com as três notas. Passe a mais pontuada pela regra dos 3 nãos.",
-          "pronto": "as 5 candidatas têm as três notas e os pontos, e a escolhida tem escrito por que passa nos 3 nãos; a que mexe em dinheiro, se houver, está marcada como \"depois\"."
+          "pronto": "as 5 candidatas têm as três notas, os pontos e as colunas \"escopo numa frase?\" e \"precisa de IA?\", e a escolhida tem escrito por que passa nos 3 nãos; a que mexe em dinheiro, se houver, está marcada como \"depois\"."
         },
         {
           "id": "e2",
